@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://oxlyn.cn/2016/04/21/hexo-usage/</loc>
+    <loc>http://oxlyn.cn/2016/04/21/gf/</loc>
     
-    <lastmod>2016-04-21T12:19:50.000Z</lastmod>
+    <lastmod>2016-04-21T12:43:22.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://oxlyn.cn/2016/04/21/hello-world/</loc>
     
-    <lastmod>2016-04-21T12:19:07.000Z</lastmod>
+    <lastmod>2016-04-21T12:25:47.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://oxlyn.cn/2016/04/21/hexo-usage/</loc>
+    
+    <lastmod>2016-04-21T12:25:41.000Z</lastmod>
     
   </url>
   
