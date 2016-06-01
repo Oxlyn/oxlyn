@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://oxlyn.cn/"/>
-  <updated>2016-06-01T15:25:18.000Z</updated>
+  <updated>2016-06-01T15:33:13.000Z</updated>
   <id>http://oxlyn.cn/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>Java Notes (一)</title>
-    <link href="http://oxlyn.cn/2016/04/21/java-notes-01/"/>
-    <id>http://oxlyn.cn/2016/04/21/java-notes-01/</id>
-    <published>2016-04-21T12:33:23.000Z</published>
-    <updated>2016-06-01T15:25:18.000Z</updated>
+    <link href="http://oxlyn.cn/2016/06/01/java-notes-01/"/>
+    <id>http://oxlyn.cn/2016/06/01/java-notes-01/</id>
+    <published>2016-06-01T12:33:23.000Z</published>
+    <updated>2016-06-01T15:33:13.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;1-HelloWorld&quot;&gt;&lt;a href=&quot;#1-HelloWorld&quot; class=&quot;headerlink&quot; title=&quot;1. HelloWorld&quot;&gt;&lt;/a&gt;1. HelloWorld&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;文件名必须和public修饰的类名一致；如果定义的类不是public的，则文件名和类名可以不同。&lt;/li&gt;
@@ -59,6 +59,13 @@
 &lt;p&gt;自动类型转换: byte -&amp;gt; short -&amp;gt; int -&amp;gt; long -&amp;gt; float -&amp;gt; double&lt;br&gt;强制转换：int a = (int)3.14;&lt;br&gt;默认浮点类型为double，float类型的后缀为f/F。&lt;br&gt;long类型的后缀为l/L。&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;byte a = 1;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;byte b = 1;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;a = a + b  // Compile Error&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;a += b     // Success&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;p&gt;引用数据类型&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;类&lt;/li&gt;
+&lt;li&gt;接口&lt;/li&gt;
+&lt;li&gt;数组&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 </content>
     
@@ -86,6 +93,8 @@
     
     </summary>
     
+    
+      <category term="java" scheme="http://oxlyn.cn/tags/java/"/>
     
   </entry>
   
