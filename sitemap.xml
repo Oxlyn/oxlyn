@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://oxlyn.cn/2016/06/03/java-notes-02/</loc>
+    
+    <lastmod>2016-06-04T00:26:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://oxlyn.cn/2016/06/01/java-notes-01/</loc>
     
-    <lastmod>2016-06-01T15:33:13.000Z</lastmod>
+    <lastmod>2016-06-01T16:06:16.000Z</lastmod>
     
   </url>
   
