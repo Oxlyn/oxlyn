@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://oxlyn.cn/2016/06/10/linux-commands/</loc>
-    
-    <lastmod>2016-06-09T17:34:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://oxlyn.cn/2016/06/03/java-notes-02/</loc>
     
-    <lastmod>2016-06-09T17:18:56.000Z</lastmod>
+    <lastmod>2016-06-09T17:49:16.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://oxlyn.cn/2016/06/01/java-notes-01/</loc>
     
-    <lastmod>2016-06-01T16:06:16.000Z</lastmod>
+    <lastmod>2016-06-09T17:40:31.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://oxlyn.cn/2016/06/10/linux-commands/</loc>
+    
+    <lastmod>2016-06-09T17:34:17.000Z</lastmod>
     
   </url>
   

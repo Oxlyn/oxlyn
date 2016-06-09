@@ -101,103 +101,69 @@
     <link href="http://oxlyn.cn/2016/06/03/java-notes-02/"/>
     <id>http://oxlyn.cn/2016/06/03/java-notes-02/</id>
     <published>2016-06-03T12:33:23.000Z</published>
-    <updated>2016-06-09T17:18:56.000Z</updated>
+    <updated>2016-06-09T17:49:16.000Z</updated>
     
-    <content type="html">&lt;h3 id=&quot;4-Java注释&quot;&gt;&lt;a href=&quot;#4-Java注释&quot; class=&quot;headerlink&quot; title=&quot;4. Java注释&quot;&gt;&lt;/a&gt;4. Java注释&lt;/h3&gt;&lt;ol&gt;
+    <content type="html">&lt;h3 id=&quot;4-Java注释&quot;&gt;&lt;a href=&quot;#4-Java注释&quot; class=&quot;headerlink&quot; title=&quot;4. Java注释&quot;&gt;&lt;/a&gt;4. Java注释&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Java中的注释使用&lt;ul&gt;
-&lt;li&gt;单行注释 //&lt;/li&gt;
-&lt;li&gt;多行注释 /&lt;em&gt; … &lt;/em&gt;/&lt;/li&gt;
-&lt;li&gt;文档注释 /&lt;em&gt;* … &lt;/em&gt;/&lt;/li&gt;
+&lt;li&gt;单行注释 &lt;code&gt;//&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;多行注释 &lt;code&gt;/* ... */&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;文档注释 &lt;code&gt;/** ... */&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 &lt;h3 id=&quot;5-标识符及关键字&quot;&gt;&lt;a href=&quot;#5-标识符及关键字&quot; class=&quot;headerlink&quot; title=&quot;5. 标识符及关键字&quot;&gt;&lt;/a&gt;5. 标识符及关键字&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;标识符&lt;/p&gt;
-&lt;ul&gt;
+&lt;li&gt;标识符&lt;ul&gt;
 &lt;li&gt;标识符由数字、字母、下划线和$组成，不能以数字开头&lt;/li&gt;
 &lt;li&gt;大小写敏感&lt;/li&gt;
-&lt;li&gt;不能使用java中的关键字和保留字&lt;/li&gt;
+&lt;li&gt;不能使用Java中的关键字和保留字&lt;/li&gt;
 &lt;li&gt;包名所有字母小写&lt;/li&gt;
 &lt;li&gt;类名每个单词首字母大写&lt;/li&gt;
 &lt;li&gt;变量和方法：第一个单词小写，其他单词首字母大写&lt;/li&gt;
 &lt;li&gt;常量所有字母大写，单词之间用“_”连接。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;常用的转义字符&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;\b 退格&lt;/li&gt;
-&lt;li&gt;\f 换页&lt;/li&gt;
-&lt;li&gt;\n 回车&lt;/li&gt;
-&lt;li&gt;\r 换行&lt;/li&gt;
-&lt;li&gt;\t 制表符Tab&lt;/li&gt;
-&lt;li&gt;\’ 单引号&lt;/li&gt;
-&lt;li&gt;\” 双引号&lt;/li&gt;
-&lt;li&gt;\ 反斜杠&lt;/li&gt;
+&lt;li&gt;常用的转义字符&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;\b&lt;/code&gt; 退格&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\f&lt;/code&gt; 换页&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\n&lt;/code&gt; 回车&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\r&lt;/code&gt; 换行&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\t&lt;/code&gt; 制表符&lt;code&gt;Tab&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\&amp;#39;&lt;/code&gt; 单引号&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\&amp;quot;&lt;/code&gt; 双引号&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;\\&lt;/code&gt; 反斜杠&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&quot;6-Java的运算符&quot;&gt;&lt;a href=&quot;#6-Java的运算符&quot; class=&quot;headerlink&quot; title=&quot;6. Java的运算符&quot;&gt;&lt;/a&gt;6. Java的运算符&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;算符运算符&lt;ul&gt;
-&lt;li&gt;&lt;ul&gt;
-&lt;li&gt;&lt;ul&gt;
-&lt;li&gt;++ –&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;ul&gt;
-&lt;li&gt;&lt;ul&gt;
-&lt;li&gt;&lt;ul&gt;
-&lt;li&gt;/ %&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;a &amp;gt; b ? “true” : “false”&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;+ - ++ --&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;+ - * / %&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;a &amp;gt; b ? &amp;quot;true&amp;quot; : &amp;quot;false&amp;quot;&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;关系运算&lt;ul&gt;
-&lt;li&gt;== != &amp;gt; &amp;lt; &amp;gt;= &amp;lt;=&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;== != &amp;gt; &amp;lt; &amp;gt;= &amp;lt;=&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;位运算&amp;amp;逻辑运算&lt;ul&gt;
-&lt;li&gt;位运算: &amp;amp;() |() ~() ^()&lt;/li&gt;
-&lt;li&gt;逻辑运算: &amp;amp;&amp;amp;() ||() !()&lt;/li&gt;
+&lt;li&gt;位运算: &lt;code&gt;&amp;amp;&lt;/code&gt;(与) &lt;code&gt;|&lt;/code&gt;(或) &lt;code&gt;~&lt;/code&gt;(非) &lt;code&gt;^&lt;/code&gt;(异或)&lt;/li&gt;
+&lt;li&gt;逻辑运算: &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt;(与) &lt;code&gt;||&lt;/code&gt;(或) &lt;code&gt;!&lt;/code&gt;(非)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;赋值运算符&lt;ul&gt;
-&lt;li&gt;= += -= *= /= %= &amp;amp;= |= ^= &amp;lt;&amp;lt;= &amp;gt;&amp;gt;= &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;= += -= *= /= %= &amp;amp;= |= ^= &amp;lt;&amp;lt;= &amp;gt;&amp;gt;=&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;instanceOf运算符&lt;/li&gt;
-&lt;li&gt;&amp;amp;和&amp;amp;&amp;amp;的区别&lt;/li&gt;
+&lt;li&gt;&amp;amp;和&amp;amp;&amp;amp;的区别&lt;br&gt;&lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt;为短路与，前半部分为false不再进行后半部分的判断。&lt;br&gt;&lt;code&gt;||&lt;/code&gt;为短路或。&lt;/li&gt;
 &lt;/ol&gt;
 </content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;4-Java注释&quot;&gt;&lt;a href=&quot;#4-Java注释&quot; class=&quot;headerlink&quot; title=&quot;4. Java注释&quot;&gt;&lt;/a&gt;4. Java注释&lt;/h3&gt;&lt;ol&gt;
+      &lt;h3 id=&quot;4-Java注释&quot;&gt;&lt;a href=&quot;#4-Java注释&quot; class=&quot;headerlink&quot; title=&quot;4. Java注释&quot;&gt;&lt;/a&gt;4. Java注释&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Java中的注释使用&lt;ul&gt;
-&lt;li&gt;单行注释 //&lt;/li&gt;
-&lt;li&gt;多行注释 /&lt;em&gt; … &lt;/em&gt;/&lt;/li&gt;
-&lt;li&gt;文档注释 /&lt;em&gt;* … &lt;/em&gt;/&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&quot;5-标识符及关键字&quot;&gt;&lt;a href=&quot;#5-标识符及关键字&quot; class=&quot;headerlink&quot; title=&quot;5. 标识符及关键字&quot;&gt;&lt;/a&gt;5. 标识符及关键字&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;标识符&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;标识符由数字、字母、下划线和$组成，不能以数字开头&lt;/li&gt;
-&lt;li&gt;大小写敏感&lt;/li&gt;
-&lt;li&gt;不能使用java中的关键字和保留字&lt;/li&gt;
-&lt;li&gt;包名所有字母小写&lt;/li&gt;
-&lt;li&gt;类名每个单词首字母大写&lt;/li&gt;
-&lt;li&gt;变量和方法：第一个单词小写，其他单词首字母大写&lt;/li&gt;
-&lt;li&gt;常量所有字母大写，单词之间用“_”连接。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;单行注释 &lt;code&gt;//&lt;/code
     
     </summary>
     
@@ -211,33 +177,30 @@
     <link href="http://oxlyn.cn/2016/06/01/java-notes-01/"/>
     <id>http://oxlyn.cn/2016/06/01/java-notes-01/</id>
     <published>2016-06-01T12:33:23.000Z</published>
-    <updated>2016-06-01T16:06:16.000Z</updated>
+    <updated>2016-06-09T17:40:31.000Z</updated>
     
-    <content type="html">&lt;h4 id=&quot;1-HelloWorld&quot;&gt;&lt;a href=&quot;#1-HelloWorld&quot; class=&quot;headerlink&quot; title=&quot;1. HelloWorld&quot;&gt;&lt;/a&gt;1. HelloWorld&lt;/h4&gt;&lt;ul&gt;
+    <content type="html">&lt;h3 id=&quot;1-HelloWorld&quot;&gt;&lt;a href=&quot;#1-HelloWorld&quot; class=&quot;headerlink&quot; title=&quot;1. HelloWorld&quot;&gt;&lt;/a&gt;1. HelloWorld&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;文件名必须和public修饰的类名一致；如果定义的类不是public的，则文件名和类名可以不同。&lt;/li&gt;
 &lt;li&gt;一个java文件中可以有多个class，但是只能有一个public修饰的类。&lt;/li&gt;
 &lt;li&gt;java源代码编译后，一个类对应生成一个class文件。&lt;/li&gt;
 &lt;li&gt;一个java应用程序应该包含一个main()方法，且其签名是固定的，是程序的入口。可以定义在任意类中，不一定非得是public修饰的类。&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;javac -d . HelloWorld.java&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;java mypack.HelloWorld&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&quot;2-面向对象的特性&quot;&gt;&lt;a href=&quot;#2-面向对象的特性&quot; class=&quot;headerlink&quot; title=&quot;2.  面向对象的特性&quot;&gt;&lt;/a&gt;2.  面向对象的特性&lt;/h4&gt;&lt;ul&gt;
+&lt;h3 id=&quot;2-面向对象的特性&quot;&gt;&lt;a href=&quot;#2-面向对象的特性&quot; class=&quot;headerlink&quot; title=&quot;2.  面向对象的特性&quot;&gt;&lt;/a&gt;2.  面向对象的特性&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;抽象&lt;/li&gt;
 &lt;li&gt;封装&lt;/li&gt;
 &lt;li&gt;继承&lt;/li&gt;
 &lt;li&gt;多态&lt;/li&gt;
 &lt;/ul&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h4 id=&quot;3-Java的数据类型&quot;&gt;&lt;a href=&quot;#3-Java的数据类型&quot; class=&quot;headerlink&quot; title=&quot;3. Java的数据类型&quot;&gt;&lt;/a&gt;3. Java的数据类型&lt;/h4&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;整型&lt;/p&gt;
-&lt;ul&gt;
+&lt;h3 id=&quot;3-Java的数据类型&quot;&gt;&lt;a href=&quot;#3-Java的数据类型&quot; class=&quot;headerlink&quot; title=&quot;3. Java的数据类型&quot;&gt;&lt;/a&gt;3. Java的数据类型&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;整型&lt;ul&gt;
 &lt;li&gt;byte  1B 8位  -128 ~ 127&lt;/li&gt;
 &lt;li&gt;short 2B 16位 -2^15 ~ (2^15)-1&lt;/li&gt;
 &lt;li&gt;int   4B 32位 -2^31 ~ (2^31)-1&lt;/li&gt;
 &lt;li&gt;long  8B 64位 -2^63 ~ (2^63)-1&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;浮点型&lt;/p&gt;
-&lt;ul&gt;
+&lt;li&gt;浮点型&lt;ul&gt;
 &lt;li&gt;float  4B 32位&lt;/li&gt;
 &lt;li&gt;double 8B 64位&lt;/li&gt;
 &lt;/ul&gt;
@@ -253,36 +216,23 @@
 &lt;p&gt;自动类型转换: byte -&amp;gt; short -&amp;gt; int -&amp;gt; long -&amp;gt; float -&amp;gt; double&lt;br&gt;强制转换：int a = (int)3.14;&lt;br&gt;默认浮点类型为double，float类型的后缀为f/F。&lt;br&gt;long类型的后缀为l/L。&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;byte a = 1;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;byte b = 1;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;a = a + b  // Compile Error&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;a += b     // Success&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;引用数据类型&lt;/p&gt;
-&lt;ul&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;5-引用数据类型&quot;&gt;&lt;a href=&quot;#5-引用数据类型&quot; class=&quot;headerlink&quot; title=&quot;5. 引用数据类型&quot;&gt;&lt;/a&gt;5. 引用数据类型&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;类&lt;/li&gt;
 &lt;li&gt;接口&lt;/li&gt;
 &lt;li&gt;数组&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 </content>
     
     <summary type="html">
     
-      &lt;h4 id=&quot;1-HelloWorld&quot;&gt;&lt;a href=&quot;#1-HelloWorld&quot; class=&quot;headerlink&quot; title=&quot;1. HelloWorld&quot;&gt;&lt;/a&gt;1. HelloWorld&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;文件名必须和public修饰的类名一致；如果定义的类不是public的，则文件名和类名可以不同。&lt;/li&gt;
-&lt;li&gt;一个java文件中可以有多个class，但是只能有一个public修饰的类。&lt;/li&gt;
-&lt;li&gt;java源代码编译后，一个类对应生成一个class文件。&lt;/li&gt;
-&lt;li&gt;一个java应用程序应该包含一个main()方法，且其签名是固定的，是程序的入口。可以定义在任意类中，不一定非得是public修饰的类。&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;javac -d . HelloWorld.java&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;java mypack.HelloWorld&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&quot;2-面向对象的特性&quot;&gt;&lt;a href=&quot;#2-面向对象的特性&quot; class=&quot;headerlink&quot; title=&quot;2.  面向对象的特性&quot;&gt;&lt;/a&gt;2.  面向对象的特性&lt;/h4&gt;&lt;ul&gt;
-&lt;li&gt;抽象&lt;/li&gt;
-&lt;li&gt;封装&lt;/li&gt;
-&lt;li&gt;继承&lt;/li&gt;
-&lt;li&gt;多态&lt;/li&gt;
-&lt;/ul&gt;
+      &lt;h3 id=&quot;1-HelloWorld&quot;&gt;&lt;a href=&quot;#1-HelloWorld&quot; class=&quot;headerlink&quot; title=&quot;1. HelloWorld&quot;&gt;&lt;/a&gt;1. HelloWorld&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;文件名必须和public修饰的类名一致；如果
     
     </summary>
     
     
-      <category term="java" scheme="http://oxlyn.cn/tags/java/"/>
+      <category term="Java" scheme="http://oxlyn.cn/tags/Java/"/>
     
   </entry>
   
