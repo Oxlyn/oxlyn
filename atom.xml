@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://oxlyn.cn/"/>
-  <updated>2016-06-04T00:26:33.000Z</updated>
+  <updated>2016-06-09T17:02:55.000Z</updated>
   <id>http://oxlyn.cn/</id>
   
   <author>
@@ -14,6 +14,87 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Linux常用命令</title>
+    <link href="http://oxlyn.cn/2016/06/10/linux-commands/"/>
+    <id>http://oxlyn.cn/2016/06/10/linux-commands/</id>
+    <published>2016-06-09T16:30:18.000Z</published>
+    <updated>2016-06-09T17:02:55.000Z</updated>
+    
+    <content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;查看命令所在位置&lt;br&gt;[Linux]&lt;br&gt;&lt;code&gt;# whereis ruby&lt;/code&gt;&lt;br&gt;[Windows]&lt;br&gt;&lt;code&gt;&amp;gt; where ipconfig&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;查看zip压缩文档的内容&lt;br&gt;&lt;code&gt;# zcat file_name.zip&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;压缩解压&lt;br&gt;&lt;code&gt;# tar -cvf jpg.tar *.jpg&lt;/code&gt;       # 压缩tar&lt;br&gt;&lt;code&gt;# tar -czf jpg.tar.gz *.jpg&lt;/code&gt;    # 压缩tar.gz&lt;br&gt;&lt;code&gt;# tar -xvf file.tar&lt;/code&gt;            # 解压tar&lt;br&gt;&lt;code&gt;# tar -xzvf file.tar.gz&lt;/code&gt;        # 解压tar.gz&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;清空文件内容&lt;br&gt;&lt;code&gt;# echo |&amp;gt; /var/log/cinder/api.log&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;VIM/VI常用命令&lt;br&gt;&lt;code&gt;:%d&lt;/code&gt;                                  # 删除所有内容&lt;br&gt;&lt;code&gt;:%s/10.12.10.151/10.11.0.179/g&lt;/code&gt;       # 全局替换&lt;br&gt;&lt;code&gt;:set num&lt;/code&gt;                             # 显示行号&lt;br&gt;&lt;code&gt;:set ff?&lt;/code&gt;                             # 显示文件格式&lt;br&gt;&lt;code&gt;:set ff=unix / :set fileformat=unix&lt;/code&gt;  # 更改文件格式&lt;br&gt;&lt;code&gt;:set ff=dos / :set fileformat=do&lt;/code&gt;     # 更改文件格式&lt;br&gt;&lt;code&gt;:set paste&lt;/code&gt;                           # 防止粘贴时候缩进混乱&lt;br&gt;&lt;code&gt;:set nopaste&lt;/code&gt;                         # 退出paste模式&lt;br&gt;&lt;code&gt;/search_str&lt;/code&gt;                          # 查找: n -&amp;gt; next; N -&amp;gt; previous&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;挂载NFS&lt;br&gt;&lt;code&gt;# mount -t nfs 193.168.249.194:/data/sdb2/nfs_share /mnt&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;CentOS7设置hostname&lt;br&gt;&lt;code&gt;# hostnamectl set-hostname kilo-ror-keystone1&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;ls查看目录及子目录的内容&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# ls -lhRa /cpf/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/cpf/:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;total 4.0K&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwxr-xr-x.  4 root   root     33 Mar  1 07:17 .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;dr-xr-xr-x. 18 root   root   4.0K Nov 10 02:35 ..&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------.  3 apache apache   16 Mar  1 07:17 var&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/cpf/var:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;total 0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 3 apache apache 16 Mar  1 07:17 .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwxr-xr-x. 4 root   root   33 Mar  1 07:17 ..&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 4 apache apache 33 Mar  1 07:17 &lt;span class=&quot;built_in&quot;&gt;log&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/cpf/var/&lt;span class=&quot;built_in&quot;&gt;log&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;total 0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 4 apache apache 33 Mar  1 07:17 .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 3 apache apache 16 Mar  1 07:17 ..&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 2 apache apache  6 Mar  1 07:17 httpd&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 2 apache apache  6 Mar  1 07:17 keystone&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Chrome发送HTTP请求的插件&lt;br&gt;&lt;a href=&quot;http://chromecj.com/web-development/2014-09/60.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Postman&lt;/a&gt;: &lt;code&gt;http://chromecj.com/web-development/2014-09/60.html&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Grep文本搜索&lt;br&gt;&lt;code&gt;# findstr /s /i /n /c:&amp;quot;search_str&amp;quot; *.*&lt;/code&gt;                   # Window全文搜索&lt;br&gt;&lt;code&gt;# grep &amp;#39;search_str&amp;#39; -r /&lt;/code&gt;                                 # 全局搜索&lt;br&gt;&lt;code&gt;# egrep &amp;#39;search_str&amp;#39; -r /&lt;/code&gt;                                # 全局搜索&lt;br&gt;&lt;code&gt;# grep -E &amp;#39;abc|def&amp;#39;&lt;/code&gt;                                      # 正则搜索&lt;br&gt;&lt;code&gt;# egrep &amp;#39;abc|def&amp;#39;&lt;/code&gt;                                        # 正则搜索&lt;br&gt;&lt;code&gt;# cat /etc/nova/nova.conf | grep -v &amp;#39;#&amp;#39; | grep -v ^$&lt;/code&gt;     # 去除空行和注释&lt;br&gt;&lt;code&gt;# grep -A 10 &amp;#39;search_str&amp;#39;&lt;/code&gt;                                # 显示结果及之后10行&lt;br&gt;&lt;code&gt;# grep -B 10 &amp;#39;search_str&amp;#39;&lt;/code&gt;                                # 显示结果及之前10行&lt;br&gt;&lt;code&gt;# grep -C 10 &amp;#39;search_str&amp;#39;&lt;/code&gt;                                # 显示结果及前后各10行&lt;br&gt;参考: &lt;a href=&quot;http://www.cnblogs.com/end/archive/2012/02/21/2360965.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.cnblogs.com/end/archive/2012/02/21/2360965.html&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Scp文件拷贝&lt;br&gt;&lt;code&gt;# scp /home/a.tar.tz root@192.168.0.2:/home/tmp/&lt;/code&gt;         # 本地文件拷贝到远程服务器上&lt;br&gt;&lt;code&gt;# scp root@192.168.0.2:/home/a.tar.tz ./&lt;/code&gt;                 # 从远程机器拷贝到本机&lt;br&gt;&lt;code&gt;# scp -r root@192.168.0.2：/home/* ./&lt;/code&gt;                    # 拷贝目录中的所有文件&lt;br&gt;&lt;code&gt;# sshpass -p &amp;#39;oss!GSMC12341234&amp;#39; scp -rp ossuser@host:/var/lib/libvirt/images/dir/ /var&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;SSH无密码登陆&lt;br&gt;&lt;code&gt;# ssh-copy-id user@host&lt;/code&gt;&lt;br&gt;&lt;code&gt;# ssh -vvv user@host&lt;/code&gt;                                     # 显示详细信息&lt;br&gt;&lt;code&gt;# sshpass -p &amp;#39;oss!GSMC12341234&amp;#39; ssh ossuser@10.8.0.13 sudo ls -lhR /var/ice_vm_backup_*&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;数字证书原理&lt;br&gt;参考: &lt;a href=&quot;http://blog.sina.com.cn/s/blog_44ee37cd01016r1h.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.sina.com.cn/s/blog_44ee37cd01016r1h.html&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;文件查找&lt;br&gt;&lt;code&gt;# find / -name live_migrate.py&lt;/code&gt;                           # 文件查找&lt;br&gt;&lt;code&gt;# find / -name live_migrate*&lt;/code&gt;                            # 模糊查找```&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;CentOS7/RHEL7 Service&lt;br&gt;&lt;code&gt;Dir: usr/lib/systemd/&lt;/code&gt;&lt;br&gt;&lt;code&gt;# systemctl {start|stop|status|restart..} &amp;lt;httpd.service&amp;gt;&lt;/code&gt;&lt;br&gt;&lt;code&gt;# systemctl stop firewalld&lt;/code&gt;                               # 禁用防火墙&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;SELinux&lt;br&gt;&lt;code&gt;# sestatus -v&lt;/code&gt;                   # 查看状态&lt;br&gt;&lt;code&gt;# getenforce&lt;/code&gt;                    # 查看状态&lt;br&gt;&lt;code&gt;# setenforce 0&lt;/code&gt;                  # 设置SELinux 成为permissive模式&lt;br&gt;&lt;code&gt;# setenforce 1&lt;/code&gt;                  # 设置SELinux 成为enforcing模式&lt;br&gt;&lt;code&gt;# vi /etc/selinux/config&lt;/code&gt;        # 修改配置文件并reboot, 关闭SELinux&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Window CMD显示时间&lt;br&gt;&lt;code&gt;&amp;gt; prompt $P$G$T$G&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;统计目录下文件的大小&lt;br&gt;&lt;code&gt;# du -sh *&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;统计CPU的核心数目&lt;br&gt;&lt;code&gt;# grep &amp;#39;model name&amp;#39; /proc/cpuinfo | wc -l&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;查看负载状态&lt;br&gt;&lt;code&gt;# cat /proc/loadavg&lt;/code&gt;&lt;br&gt;&lt;code&gt;# top&lt;/code&gt;&lt;br&gt;&lt;code&gt;# netstat -n | awk &amp;#39;/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}&amp;#39;&lt;/code&gt;  # 网络负载&lt;br&gt;&lt;code&gt;# netstat -anp | grep -E &amp;quot;23461|23462&amp;quot; | grep -vE &amp;#39;LISTEN|&amp;lt;ELB_IP&amp;gt;&amp;#39; | wc -l&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Yum常用命令&lt;br&gt;&lt;code&gt;# yum provides libnetsnmp* --showduplicates | grep -w libnetsnmp&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;监视文件变化&lt;br&gt;&lt;code&gt;# tail -f /var/log/nova-api.log&lt;/code&gt;&lt;br&gt;&lt;code&gt;# tail -F /var/log/nova-api.log&lt;/code&gt;         # 文件重新建立后,可以继续跟踪&lt;br&gt;&lt;code&gt;# tail -n 20 filename&lt;/code&gt;                   # 显示文件末尾20行的内容&lt;br&gt;&lt;code&gt;# cat -n filename&lt;/code&gt;                       # 显示行号&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Virsh常用命令&lt;br&gt;&lt;code&gt;# virsh list --all&lt;/code&gt;&lt;br&gt;&lt;code&gt;# virsh define&lt;/code&gt;&lt;br&gt;&lt;code&gt;# virsh console&lt;/code&gt;&lt;br&gt;&lt;code&gt;# virsh start|shutdown|reboot|destroy&lt;/code&gt;&lt;br&gt;&lt;code&gt;# virsh dumpxml&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;查看命令所在位置&lt;br&gt;[Linux]&lt;br&gt;&lt;code&gt;# whereis ruby&lt;/code&gt;&lt;br&gt;[Windows]&lt;br&gt;&lt;code&gt;&amp;gt; where ipconfig&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;查看zip压缩文档的内容&lt;br&gt;&lt;code&gt;# zcat file_name.zip&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;压缩解压&lt;br&gt;&lt;code&gt;# tar -cvf jpg.tar *.jpg&lt;/code&gt;       # 压缩tar&lt;br&gt;&lt;code&gt;# tar -czf jpg.tar.gz *.jpg&lt;/code&gt;    # 压缩tar.gz&lt;br&gt;&lt;code&gt;# tar -xvf file.tar&lt;/code&gt;            # 解压tar&lt;br&gt;&lt;code&gt;# tar -xzvf file.tar.gz&lt;/code&gt;        # 解压tar.gz&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;清空文件内容&lt;br&gt;&lt;code&gt;# echo |&amp;gt; /var/log/cinder/api.log&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="Linux" scheme="http://oxlyn.cn/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>Java Notes (二)</title>
