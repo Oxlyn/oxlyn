@@ -10,7 +10,7 @@
 </ul>
 <a id="more"></a>
 <ul>
-<li><p>VIM/VI常用命令<br><code>:%d</code>                                  # 删除所有内容<br><code>:%s/10.12.10.151/10.11.0.179/g</code>       # 全局替换<br><code>:set num</code>                             # 显示行号<br><code>:set ff?</code>                             # 显示文件格式<br><code>:set ff=unix / :set fileformat=unix</code>  # 更改文件格式<br><code>:set ff=dos / :set fileformat=do</code>     # 更改文件格式<br><code>:set paste</code>                           # 防止粘贴时候缩进混乱<br><code>:set nopaste</code>                         # 退出paste模式<br><code>/search_str</code>                          # 查找: n -&gt; next; N -&gt; previous</p>
+<li><p>VIM/VI常用命令<br><code>:%d</code>                                  # 删除所有内容<br><code>:%s/10.12.10.151/10.11.0.179/g</code>       # 全局替换<br><code>:set num</code>                             # 显示行号<br><code>:set ff?</code>                             # 显示文件格式<br><code>:set ff=unix / :set fileformat=unix</code>  # 更改文件格式<br><code>:set ff=dos / :set fileformat=dos</code>    # 更改文件格式<br><code>:set paste</code>                           # 防止粘贴时候缩进混乱<br><code>:set nopaste</code>                         # 退出paste模式<br><code>/search_str</code>                          # 查找: n -&gt; next; N -&gt; previous</p>
 </li>
 <li><p>挂载NFS<br><code># mount -t nfs 193.168.249.194:/data/sdb2/nfs_share /mnt</code></p>
 </li>
@@ -29,11 +29,11 @@
 </li>
 <li><p>数字证书原理<br>参考: <a href="http://blog.sina.com.cn/s/blog_44ee37cd01016r1h.html" target="_blank" rel="external">http://blog.sina.com.cn/s/blog_44ee37cd01016r1h.html</a></p>
 </li>
-<li><p>文件查找<br><code># find / -name live_migrate.py</code>                           # 文件查找<br><code># find / -name live_migrate*</code>                            # 模糊查找```</p>
+<li><p>文件查找<br><code># find / -name live_migrate.py</code>                           # 文件查找<br><code># find / -name live_migrate*</code>                            # 模糊查找</p>
 </li>
 <li><p>CentOS7/RHEL7 Service<br><code>Dir: usr/lib/systemd/</code><br><code># systemctl {start|stop|status|restart..} &lt;httpd.service&gt;</code><br><code># systemctl stop firewalld</code>                               # 禁用防火墙</p>
 </li>
-<li><p>SELinux<br><code># sestatus -v</code>                   # 查看状态<br><code># getenforce</code>                    # 查看状态<br><code># setenforce 0</code>                  # 设置SELinux 成为permissive模式<br><code># setenforce 1</code>                  # 设置SELinux 成为enforcing模式<br><code># vi /etc/selinux/config</code>        # 修改配置文件并reboot, 关闭SELinux</p>
+<li><p>SELinux<br><code># sestatus -v</code>                   &nbsp;&nbsp;&nbsp;&nbsp;# 查看状态<br><code># getenforce</code>                    # 查看状态<br><code># setenforce 0</code>                  # 设置SELinux 成为permissive模式<br><code># setenforce 1</code>                  # 设置SELinux 成为enforcing模式<br><code># vi /etc/selinux/config</code>        # 修改配置文件并reboot, 关闭SELinux</p>
 </li>
 <li><p>Window CMD显示时间<br><code>&gt; prompt $P$G$T$G</code></p>
 </li>
@@ -50,4 +50,4 @@
 <li><p>Virsh常用命令<br><code># virsh list --all</code><br><code># virsh define</code><br><code># virsh console</code><br><code># virsh start|shutdown|reboot|destroy</code><br><code># virsh dumpxml</code></p>
 </li>
 </ul>
-</div></article></div></section><footer><div class="paginator"><a href="/2016/06/03/java-notes-02/" class="next">下一篇</a></div><div class="copyright"><p>© 2016 <a href="http://oxlyn.cn">Oxlyn</a>, unless otherwise noted.</p></div></footer></div><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script></body></html>
+</div></article></div></section><footer><div class="paginator"><a href="/2016/06/03/java-notes-02/" class="next">NEXT</a></div><div class="copyright"><p>© 2016 <a href="http://oxlyn.cn">Oxlyn</a>, unless otherwise noted.</p></div></footer></div><script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script></body></html>

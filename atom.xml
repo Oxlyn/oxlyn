@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://oxlyn.cn/"/>
-  <updated>2016-06-09T17:02:55.000Z</updated>
+  <updated>2016-06-09T17:32:00.000Z</updated>
   <id>http://oxlyn.cn/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://oxlyn.cn/2016/06/10/linux-commands/"/>
     <id>http://oxlyn.cn/2016/06/10/linux-commands/</id>
     <published>2016-06-09T16:30:18.000Z</published>
-    <updated>2016-06-09T17:02:55.000Z</updated>
+    <updated>2016-06-09T17:32:00.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;查看命令所在位置&lt;br&gt;[Linux]&lt;br&gt;&lt;code&gt;# whereis ruby&lt;/code&gt;&lt;br&gt;[Windows]&lt;br&gt;&lt;code&gt;&amp;gt; where ipconfig&lt;/code&gt;&lt;/p&gt;
@@ -34,7 +34,7 @@
 &lt;/ul&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;VIM/VI常用命令&lt;br&gt;&lt;code&gt;:%d&lt;/code&gt;                                  # 删除所有内容&lt;br&gt;&lt;code&gt;:%s/10.12.10.151/10.11.0.179/g&lt;/code&gt;       # 全局替换&lt;br&gt;&lt;code&gt;:set num&lt;/code&gt;                             # 显示行号&lt;br&gt;&lt;code&gt;:set ff?&lt;/code&gt;                             # 显示文件格式&lt;br&gt;&lt;code&gt;:set ff=unix / :set fileformat=unix&lt;/code&gt;  # 更改文件格式&lt;br&gt;&lt;code&gt;:set ff=dos / :set fileformat=do&lt;/code&gt;     # 更改文件格式&lt;br&gt;&lt;code&gt;:set paste&lt;/code&gt;                           # 防止粘贴时候缩进混乱&lt;br&gt;&lt;code&gt;:set nopaste&lt;/code&gt;                         # 退出paste模式&lt;br&gt;&lt;code&gt;/search_str&lt;/code&gt;                          # 查找: n -&amp;gt; next; N -&amp;gt; previous&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;VIM/VI常用命令&lt;br&gt;&lt;code&gt;:%d&lt;/code&gt;                                  # 删除所有内容&lt;br&gt;&lt;code&gt;:%s/10.12.10.151/10.11.0.179/g&lt;/code&gt;       # 全局替换&lt;br&gt;&lt;code&gt;:set num&lt;/code&gt;                             # 显示行号&lt;br&gt;&lt;code&gt;:set ff?&lt;/code&gt;                             # 显示文件格式&lt;br&gt;&lt;code&gt;:set ff=unix / :set fileformat=unix&lt;/code&gt;  # 更改文件格式&lt;br&gt;&lt;code&gt;:set ff=dos / :set fileformat=dos&lt;/code&gt;    # 更改文件格式&lt;br&gt;&lt;code&gt;:set paste&lt;/code&gt;                           # 防止粘贴时候缩进混乱&lt;br&gt;&lt;code&gt;:set nopaste&lt;/code&gt;                         # 退出paste模式&lt;br&gt;&lt;code&gt;/search_str&lt;/code&gt;                          # 查找: n -&amp;gt; next; N -&amp;gt; previous&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;挂载NFS&lt;br&gt;&lt;code&gt;# mount -t nfs 193.168.249.194:/data/sdb2/nfs_share /mnt&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -53,11 +53,11 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;数字证书原理&lt;br&gt;参考: &lt;a href=&quot;http://blog.sina.com.cn/s/blog_44ee37cd01016r1h.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.sina.com.cn/s/blog_44ee37cd01016r1h.html&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;文件查找&lt;br&gt;&lt;code&gt;# find / -name live_migrate.py&lt;/code&gt;                           # 文件查找&lt;br&gt;&lt;code&gt;# find / -name live_migrate*&lt;/code&gt;                            # 模糊查找```&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;文件查找&lt;br&gt;&lt;code&gt;# find / -name live_migrate.py&lt;/code&gt;                           # 文件查找&lt;br&gt;&lt;code&gt;# find / -name live_migrate*&lt;/code&gt;                            # 模糊查找&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;CentOS7/RHEL7 Service&lt;br&gt;&lt;code&gt;Dir: usr/lib/systemd/&lt;/code&gt;&lt;br&gt;&lt;code&gt;# systemctl {start|stop|status|restart..} &amp;lt;httpd.service&amp;gt;&lt;/code&gt;&lt;br&gt;&lt;code&gt;# systemctl stop firewalld&lt;/code&gt;                               # 禁用防火墙&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;SELinux&lt;br&gt;&lt;code&gt;# sestatus -v&lt;/code&gt;                   # 查看状态&lt;br&gt;&lt;code&gt;# getenforce&lt;/code&gt;                    # 查看状态&lt;br&gt;&lt;code&gt;# setenforce 0&lt;/code&gt;                  # 设置SELinux 成为permissive模式&lt;br&gt;&lt;code&gt;# setenforce 1&lt;/code&gt;                  # 设置SELinux 成为enforcing模式&lt;br&gt;&lt;code&gt;# vi /etc/selinux/config&lt;/code&gt;        # 修改配置文件并reboot, 关闭SELinux&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;SELinux&lt;br&gt;&lt;code&gt;# sestatus -v&lt;/code&gt;                   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;# 查看状态&lt;br&gt;&lt;code&gt;# getenforce&lt;/code&gt;                    # 查看状态&lt;br&gt;&lt;code&gt;# setenforce 0&lt;/code&gt;                  # 设置SELinux 成为permissive模式&lt;br&gt;&lt;code&gt;# setenforce 1&lt;/code&gt;                  # 设置SELinux 成为enforcing模式&lt;br&gt;&lt;code&gt;# vi /etc/selinux/config&lt;/code&gt;        # 修改配置文件并reboot, 关闭SELinux&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Window CMD显示时间&lt;br&gt;&lt;code&gt;&amp;gt; prompt $P$G$T$G&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -101,7 +101,7 @@
     <link href="http://oxlyn.cn/2016/06/03/java-notes-02/"/>
     <id>http://oxlyn.cn/2016/06/03/java-notes-02/</id>
     <published>2016-06-03T12:33:23.000Z</published>
-    <updated>2016-06-04T00:26:33.000Z</updated>
+    <updated>2016-06-09T17:18:56.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;4-Java注释&quot;&gt;&lt;a href=&quot;#4-Java注释&quot; class=&quot;headerlink&quot; title=&quot;4. Java注释&quot;&gt;&lt;/a&gt;4. Java注释&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;Java中的注释使用&lt;ul&gt;
