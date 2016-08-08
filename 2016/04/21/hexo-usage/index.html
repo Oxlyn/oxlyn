@@ -85,31 +85,31 @@ Install Hexo$ npm install hexo-cli -g">
 <h4 id="部署到coding和github"><a href="#部署到coding和github" class="headerlink" title="部署到coding和github"></a>部署到coding和github</h4><hr>
 <ol>
 <li><p>初始化</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init &lt;your_blog&gt;</span><br><span class="line">$ <span class="built_in">cd</span> &lt;your_blog&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init &lt;your_blog&gt;</span><br><span class="line">$ <span class="built_in">cd</span> &lt;your_blog&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>设置<a href="https://hexo.io/docs/configuration.html" target="_blank" rel="external">_config.yml</a><br>在github和coding上创建项目oxlyn，并开启Pages服务。_config.yml中deploy部分配置如下：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: </span><br><span class="line">    github: git@github.com:oxlyn/oxlyn.git,gh-pages</span><br><span class="line">    coding: git@git.coding.net:oxlyn/oxlyn.git,coding-pages</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: </span><br><span class="line">    github: git@github.com:oxlyn/oxlyn.git,gh-pages</span><br><span class="line">    coding: git@git.coding.net:oxlyn/oxlyn.git,coding-pages</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>设置git</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">'&lt;your_name&gt;'</span></span><br><span class="line">$ git config --global user.email <span class="string">'&lt;your_email&gt;'</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">'&lt;your_name&gt;'</span></span><br><span class="line">$ git config --global user.email <span class="string">'&lt;your_email&gt;'</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>Deploy<br>先上传公钥到github和coding，然后deploy。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
 <h4 id="将源码提交到github"><a href="#将源码提交到github" class="headerlink" title="将源码提交到github"></a>将源码提交到github</h4><hr>
 <ol>
 <li>设置origin<br><code>git origin</code></li>
-<li>提交<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ git init .</span><br><span class="line">$ git add .</span><br><span class="line">$ git commit -m &apos;&lt;commit_msg&gt;&apos;</span><br><span class="line">$ git push origin master</span><br></pre></td></tr></table></figure>
+<li>提交<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git init .</span><br><span class="line">$ git add .</span><br><span class="line">$ git commit -m &apos;&lt;commit_msg&gt;&apos;</span><br><span class="line">$ git push origin master</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
 <h4 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h4><hr>
 <ul>
 <li><p><a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank" rel="external">Install</a></p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install --save hexo-renderer-pug hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/pinggod/hexo-theme-apollo.git themes/apollo</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install --save hexo-renderer-pug hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/pinggod/hexo-theme-apollo.git themes/apollo</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>启用，更改_config.yml</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> apollo</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在归档页面显示所有文章</span></span><br><span class="line"><span class="comment"># 需要上面安装的 hexo-generator-archive 插件支持</span></span><br><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line"><span class="attr">    per_page:</span> <span class="number">0</span></span><br><span class="line"><span class="attr">    yearly:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">    monthly:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">    daily:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure></li>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> apollo</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在归档页面显示所有文章</span></span><br><span class="line"><span class="comment"># 需要上面安装的 hexo-generator-archive 插件支持</span></span><br><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line"><span class="attr">    per_page:</span> <span class="number">0</span></span><br><span class="line"><span class="attr">    yearly:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">    monthly:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">    daily:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure></li>
 </ul>
 
       
@@ -154,8 +154,6 @@ Install Hexo$ npm install hexo-cli -g">
   <ul class="entry">
   
     <li><a href="/tags/Java/">Java</a><small>2</small></li>
-  
-    <li><a href="/tags/Java01/">Java01</a><small>0</small></li>
   
     <li><a href="/tags/Linux/">Linux</a><small>1</small></li>
   
