@@ -182,7 +182,6 @@ article.link .title a:after {
 }
 article .post-content {
   padding: 20px 20px 15px 20px;
-  margin-bottom: 50px;
   position: relative;
 }
 @media screen and (max-width: 600px) {
