@@ -250,10 +250,9 @@
     <link href="http://oxlyn.cn/2016/04/21/hexo-usage/"/>
     <id>http://oxlyn.cn/2016/04/21/hexo-usage/</id>
     <published>2016-04-21T12:12:00.000Z</published>
-    <updated>2016-04-21T12:25:41.000Z</updated>
+    <updated>2016-08-08T15:01:30.000Z</updated>
     
-    <content type="html">&lt;h4 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h4&gt;&lt;hr&gt;
-&lt;ol&gt;
+    <content type="html">&lt;h4 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;Install Homebrew&lt;br&gt;&lt;code&gt;$ /usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Install Git&lt;br&gt;&lt;code&gt;$ brew install git&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Install Nvm:&lt;br&gt;&lt;code&gt;$ Curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh&lt;/code&gt;&lt;/li&gt;
@@ -261,8 +260,7 @@
 &lt;li&gt;Install Hexo&lt;br&gt;&lt;code&gt;$ npm install hexo-cli -g&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h4 id=&quot;部署到coding和github&quot;&gt;&lt;a href=&quot;#部署到coding和github&quot; class=&quot;headerlink&quot; title=&quot;部署到coding和github&quot;&gt;&lt;/a&gt;部署到coding和github&lt;/h4&gt;&lt;hr&gt;
-&lt;ol&gt;
+&lt;h4 id=&quot;部署到coding和github&quot;&gt;&lt;a href=&quot;#部署到coding和github&quot; class=&quot;headerlink&quot; title=&quot;部署到coding和github&quot;&gt;&lt;/a&gt;部署到coding和github&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;&lt;p&gt;初始化&lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo init &amp;lt;your_blog&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ &lt;span class=&quot;built_in&quot;&gt;cd&lt;/span&gt; &amp;lt;your_blog&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ npm install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
@@ -276,14 +274,12 @@
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install hexo-deployer-git --save&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&quot;将源码提交到github&quot;&gt;&lt;a href=&quot;#将源码提交到github&quot; class=&quot;headerlink&quot; title=&quot;将源码提交到github&quot;&gt;&lt;/a&gt;将源码提交到github&lt;/h4&gt;&lt;hr&gt;
-&lt;ol&gt;
+&lt;h4 id=&quot;将源码提交到github&quot;&gt;&lt;a href=&quot;#将源码提交到github&quot; class=&quot;headerlink&quot; title=&quot;将源码提交到github&quot;&gt;&lt;/a&gt;将源码提交到github&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;设置origin&lt;br&gt;&lt;code&gt;git origin&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;提交&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git init .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ git add .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ git commit -m &amp;apos;&amp;lt;commit_msg&amp;gt;&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ git push origin master&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&quot;安装主题&quot;&gt;&lt;a href=&quot;#安装主题&quot; class=&quot;headerlink&quot; title=&quot;安装主题&quot;&gt;&lt;/a&gt;安装主题&lt;/h4&gt;&lt;hr&gt;
-&lt;ul&gt;
+&lt;h4 id=&quot;安装主题&quot;&gt;&lt;a href=&quot;#安装主题&quot; class=&quot;headerlink&quot; title=&quot;安装主题&quot;&gt;&lt;/a&gt;安装主题&lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pinggod/hexo-theme-apollo&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Install&lt;/a&gt;&lt;/p&gt;
 &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install --save hexo-renderer-pug hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;$ git &lt;span class=&quot;built_in&quot;&gt;clone&lt;/span&gt; https://github.com/pinggod/hexo-theme-apollo.git themes/apollo&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;/li&gt;
@@ -294,8 +290,7 @@
     
     <summary type="html">
     
-      &lt;h4 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h4&gt;&lt;hr&gt;
-&lt;ol&gt;
+      &lt;h4 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;Install Homebrew&lt;br&gt;&lt;code&gt;$ /usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Install Git&lt;br&gt;&lt;code&gt;$ brew install git&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Install Nvm:&lt;br&gt;&lt;code&gt;$ Curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh&lt;/code&gt;&lt;/li&gt;
