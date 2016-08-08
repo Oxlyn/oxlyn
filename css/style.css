@@ -360,7 +360,7 @@ article.link .title a:after {
   vertical-align: super;
 }
 article .post-content {
-  padding: 20px 20px 15px 20px;
+  padding: 15px 20px 15px 20px;
   position: relative;
 }
 @media screen and (max-width: 600px) {
@@ -495,7 +495,6 @@ article .entry table {
   border-collapse: collapse;
   border-spacing: 0;
   empty-cells: show;
-  border: 1px solid #e2e2e2;
   width: 100%;
 }
 article .entry table th {
@@ -506,8 +505,6 @@ article .entry table th {
 }
 article .entry table td,
 article .entry table th {
-  border: 1px solid #e2e2e2;
-  padding: 8px 16px;
   text-align: left;
 }
 article .entry blockquote {
@@ -917,9 +914,8 @@ article footer .addthis iframe {
 }
 figure.highlight {
   background: #eee;
-  border: 1px solid #ddd;
   margin-top: 15px;
-  padding: 7px 15px;
+  padding: 7px 7px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
   text-shadow: 0 0 1px #fff;
@@ -949,12 +945,9 @@ figure.highlight table {
 figure.highlight .gutter {
   color: #999;
   padding-right: 15px;
-  border-right: 1px solid #ddd;
   text-align: right;
 }
 figure.highlight .code {
-  padding-left: 15px;
-  border-left: 1px solid #fff;
   color: #666;
 }
 figure.highlight .line {
