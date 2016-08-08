@@ -101,7 +101,7 @@
     <link href="http://oxlyn.cn/2016/06/03/java-notes-02/"/>
     <id>http://oxlyn.cn/2016/06/03/java-notes-02/</id>
     <published>2016-06-03T12:33:23.000Z</published>
-    <updated>2016-08-08T13:12:34.000Z</updated>
+    <updated>2016-08-08T13:13:11.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;4-Java注释&quot;&gt;&lt;a href=&quot;#4-Java注释&quot; class=&quot;headerlink&quot; title=&quot;4. Java注释&quot;&gt;&lt;/a&gt;4. Java注释&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Java中的注释使用&lt;ul&gt;
@@ -188,7 +188,7 @@
     </summary>
     
     
-      <category term="Java01" scheme="http://oxlyn.cn/tags/Java01/"/>
+      <category term="Java" scheme="http://oxlyn.cn/tags/Java/"/>
     
   </entry>
   
@@ -197,7 +197,7 @@
     <link href="http://oxlyn.cn/2016/06/01/java-notes-01/"/>
     <id>http://oxlyn.cn/2016/06/01/java-notes-01/</id>
     <published>2016-06-01T12:33:23.000Z</published>
-    <updated>2016-08-08T13:12:25.000Z</updated>
+    <updated>2016-08-08T13:13:14.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;1-HelloWorld&quot;&gt;&lt;a href=&quot;#1-HelloWorld&quot; class=&quot;headerlink&quot; title=&quot;1. HelloWorld&quot;&gt;&lt;/a&gt;1. HelloWorld&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;文件名必须和public修饰的类名一致；如果定义的类不是public的，则文件名和类名可以不同。&lt;/li&gt;
@@ -241,7 +241,7 @@
     </summary>
     
     
-      <category term="Java01" scheme="http://oxlyn.cn/tags/Java01/"/>
+      <category term="Java" scheme="http://oxlyn.cn/tags/Java/"/>
     
   </entry>
   
