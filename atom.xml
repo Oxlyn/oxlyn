@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://oxlyn.cn/"/>
-  <updated>2016-06-09T18:11:20.000Z</updated>
+  <updated>2016-08-08T13:10:24.000Z</updated>
   <id>http://oxlyn.cn/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://oxlyn.cn/2016/06/10/linux-commands/"/>
     <id>http://oxlyn.cn/2016/06/10/linux-commands/</id>
     <published>2016-06-09T16:30:18.000Z</published>
-    <updated>2016-06-09T18:11:20.000Z</updated>
+    <updated>2016-08-08T13:10:24.000Z</updated>
     
     <content type="html">&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;查看命令所在位置&lt;br&gt;[Linux]&lt;br&gt;&lt;code&gt;# whereis ruby&lt;/code&gt;&lt;br&gt;[Windows]&lt;br&gt;&lt;code&gt;&amp;gt; where ipconfig&lt;/code&gt;&lt;/p&gt;
@@ -36,7 +36,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;VIM/VI常用命令&lt;br&gt;&lt;code&gt;:%d&lt;/code&gt;                                  # 删除所有内容&lt;br&gt;&lt;code&gt;:%s/10.12.10.151/10.11.0.179/g&lt;/code&gt;       # 全局替换&lt;br&gt;&lt;code&gt;:set num&lt;/code&gt;                             # 显示行号&lt;br&gt;&lt;code&gt;:set ff?&lt;/code&gt;                             # 显示文件格式&lt;br&gt;&lt;code&gt;:set ff=unix / :set fileformat=unix&lt;/code&gt;  # 更改文件格式&lt;br&gt;&lt;code&gt;:set ff=dos / :set fileformat=dos&lt;/code&gt;    # 更改文件格式&lt;br&gt;&lt;code&gt;:set paste&lt;/code&gt;                           # 防止粘贴时候缩进混乱&lt;br&gt;&lt;code&gt;:set nopaste&lt;/code&gt;                         # 退出paste模式&lt;br&gt;&lt;code&gt;/search_str&lt;/code&gt;                          # 查找：n -&amp;gt; next; N -&amp;gt; previous&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;挂载NFS&lt;br&gt;&lt;code&gt;# mount -t nfs 193.168.249.194:/data/sdb2/nfs_share /mnt&lt;/code&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;挂载NFS&lt;br&gt;&lt;code&gt;# mount -t nfs 192.168.1.1:/data/sdb2/nfs_share /mnt&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;CentOS7设置hostname&lt;br&gt;&lt;code&gt;# hostnamectl set-hostname kilo-ror-keystone1&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
@@ -47,13 +47,13 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Grep文本搜索&lt;br&gt;&lt;code&gt;# findstr /s /i /n /c:&amp;quot;search_str&amp;quot; *.*&lt;/code&gt;                   # Window全文搜索&lt;br&gt;&lt;code&gt;# grep &amp;#39;search_str&amp;#39; -r /&lt;/code&gt;                                 # 全局搜索&lt;br&gt;&lt;code&gt;# egrep &amp;#39;search_str&amp;#39; -r /&lt;/code&gt;                                # 全局搜索&lt;br&gt;&lt;code&gt;# grep -E &amp;#39;abc|def&amp;#39;&lt;/code&gt;                                      # 正则搜索&lt;br&gt;&lt;code&gt;# egrep &amp;#39;abc|def&amp;#39;&lt;/code&gt;                                        # 正则搜索&lt;br&gt;&lt;code&gt;# cat /etc/nova/nova.conf | grep -v &amp;#39;#&amp;#39; | grep -v ^$&lt;/code&gt;     # 去除空行和注释&lt;br&gt;&lt;code&gt;# grep -A 10 &amp;#39;search_str&amp;#39;&lt;/code&gt;                                # 显示结果及之后10行&lt;br&gt;&lt;code&gt;# grep -B 10 &amp;#39;search_str&amp;#39;&lt;/code&gt;                                # 显示结果及之前10行&lt;br&gt;&lt;code&gt;# grep -C 10 &amp;#39;search_str&amp;#39;&lt;/code&gt;                                # 显示结果及前后各10行&lt;br&gt;参考：&lt;a href=&quot;http://www.cnblogs.com/end/archive/2012/02/21/2360965.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.cnblogs.com/end/archive/2012/02/21/2360965.html&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Scp文件拷贝&lt;br&gt;&lt;code&gt;# scp /home/a.tar.tz root@192.168.0.2:/home/tmp/&lt;/code&gt;         # 本地文件拷贝到远程服务器上&lt;br&gt;&lt;code&gt;# scp root@192.168.0.2:/home/a.tar.tz ./&lt;/code&gt;                 # 从远程机器拷贝到本机&lt;br&gt;&lt;code&gt;# scp -r root@192.168.0.2：/home/* ./&lt;/code&gt;                    # 拷贝目录中的所有文件&lt;br&gt;&lt;code&gt;# sshpass -p &amp;#39;oss!GSMC12341234&amp;#39; scp -rp ossuser@host:/var/lib/libvirt/images/dir/ /var&lt;/code&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Scp文件拷贝&lt;br&gt;&lt;code&gt;# scp /home/a.tar.tz root@192.168.0.2:/home/tmp/&lt;/code&gt;         # 本地文件拷贝到远程服务器上&lt;br&gt;&lt;code&gt;# scp root@192.168.0.2:/home/a.tar.tz ./&lt;/code&gt;                 # 从远程机器拷贝到本机&lt;br&gt;&lt;code&gt;# scp -r root@192.168.0.2：/home/* ./&lt;/code&gt;                    # 拷贝目录中的所有文件&lt;br&gt;&lt;code&gt;# sshpass -p &amp;#39;password&amp;#39; scp -rp username@host:/var/lib/libvirt/images/dir/ /var&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;SSH无密码登陆&lt;br&gt;&lt;code&gt;# ssh-copy-id user@host&lt;/code&gt;&lt;br&gt;&lt;code&gt;# ssh -vvv user@host&lt;/code&gt;                                     # 显示详细信息&lt;br&gt;&lt;code&gt;# sshpass -p &amp;#39;oss!GSMC12341234&amp;#39; ssh ossuser@10.8.0.13 sudo ls -lhR /var/ice_vm_backup_*&lt;/code&gt;&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;SSH无密码登陆&lt;br&gt;&lt;code&gt;# ssh-copy-id user@host&lt;/code&gt;&lt;br&gt;&lt;code&gt;# ssh -vvv user@host&lt;/code&gt;                                     # 显示详细信息&lt;br&gt;&lt;code&gt;# sshpass -p &amp;#39;password&amp;#39; ssh username@193.168.1.1 sudo ls -lhR /var/ice_vm_backup_*&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;数字证书原理&lt;br&gt;参考：&lt;a href=&quot;http://blog.sina.com.cn/s/blog_44ee37cd01016r1h.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.sina.com.cn/s/blog_44ee37cd01016r1h.html&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;p&gt;文件查找&lt;br&gt;&lt;code&gt;# find / -name live_migrate.py&lt;/code&gt;                           # 文件查找&lt;br&gt;&lt;code&gt;# find / -name live_migrate*&lt;/code&gt;                            # 模糊查找&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;文件查找&lt;br&gt;&lt;code&gt;# find / -name live_migrate.py&lt;/code&gt;                          # 文件查找&lt;br&gt;&lt;code&gt;# find / -name live_migrate*&lt;/code&gt;                            # 模糊查找&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;CentOS7/RHEL7 Service&lt;br&gt;&lt;code&gt;# pwd&lt;/code&gt; -&amp;gt; usr/lib/systemd/&lt;br&gt;&lt;code&gt;# systemctl {start|stop|status|restart..} &amp;lt;httpd.service&amp;gt;&lt;/code&gt;&lt;br&gt;&lt;code&gt;# systemctl stop firewalld&lt;/code&gt;                               # 禁用防火墙&lt;/p&gt;
 &lt;/li&gt;
@@ -101,7 +101,7 @@
     <link href="http://oxlyn.cn/2016/06/03/java-notes-02/"/>
     <id>http://oxlyn.cn/2016/06/03/java-notes-02/</id>
     <published>2016-06-03T12:33:23.000Z</published>
-    <updated>2016-06-09T17:54:37.000Z</updated>
+    <updated>2016-08-08T13:12:34.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;4-Java注释&quot;&gt;&lt;a href=&quot;#4-Java注释&quot; class=&quot;headerlink&quot; title=&quot;4. Java注释&quot;&gt;&lt;/a&gt;4. Java注释&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Java中的注释使用&lt;ul&gt;
@@ -188,7 +188,7 @@
     </summary>
     
     
-      <category term="Java" scheme="http://oxlyn.cn/tags/Java/"/>
+      <category term="Java01" scheme="http://oxlyn.cn/tags/Java01/"/>
     
   </entry>
   
@@ -197,7 +197,7 @@
     <link href="http://oxlyn.cn/2016/06/01/java-notes-01/"/>
     <id>http://oxlyn.cn/2016/06/01/java-notes-01/</id>
     <published>2016-06-01T12:33:23.000Z</published>
-    <updated>2016-06-09T18:04:18.000Z</updated>
+    <updated>2016-08-08T13:12:25.000Z</updated>
     
     <content type="html">&lt;h3 id=&quot;1-HelloWorld&quot;&gt;&lt;a href=&quot;#1-HelloWorld&quot; class=&quot;headerlink&quot; title=&quot;1. HelloWorld&quot;&gt;&lt;/a&gt;1. HelloWorld&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;文件名必须和public修饰的类名一致；如果定义的类不是public的，则文件名和类名可以不同。&lt;/li&gt;
@@ -241,7 +241,7 @@
     </summary>
     
     
-      <category term="Java" scheme="http://oxlyn.cn/tags/Java/"/>
+      <category term="Java01" scheme="http://oxlyn.cn/tags/Java01/"/>
     
   </entry>
   
