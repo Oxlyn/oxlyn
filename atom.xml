@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://oxlyn.cn/"/>
-  <updated>2016-08-08T13:10:24.000Z</updated>
+  <updated>2016-11-05T17:59:07.000Z</updated>
   <id>http://oxlyn.cn/</id>
   
   <author>
@@ -20,74 +20,41 @@
     <link href="http://oxlyn.cn/2016/06/10/linux-commands/"/>
     <id>http://oxlyn.cn/2016/06/10/linux-commands/</id>
     <published>2016-06-09T16:30:18.000Z</published>
-    <updated>2016-08-08T13:10:24.000Z</updated>
+    <updated>2016-11-05T17:59:07.000Z</updated>
     
-    <content type="html"><![CDATA[<ul>
-<li><p>查看命令所在位置<br>[Linux]<br><code># whereis ruby</code><br>[Windows]<br><code>&gt; where ipconfig</code></p>
-</li>
-<li><p>查看zip压缩文档的内容<br><code># zcat file_name.zip</code></p>
-</li>
-<li><p>压缩解压<br><code># tar -cvf jpg.tar *.jpg</code>       # 压缩tar<br><code># tar -czf jpg.tar.gz *.jpg</code>    # 压缩tar.gz<br><code># tar -xvf file.tar</code>            # 解压tar<br><code># tar -xzvf file.tar.gz</code>        # 解压tar.gz</p>
-</li>
-<li><p>清空文件内容<br><code># echo |&gt; /var/log/cinder/api.log</code></p>
-</li>
-</ul>
+    <content type="html"><![CDATA[<h3 id="ls查看目录及子目录的内容"><a href="#ls查看目录及子目录的内容" class="headerlink" title="ls查看目录及子目录的内容"></a>ls查看目录及子目录的内容</h3>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># ls -lhRa /cpf/</span></span><br><span class="line">/cpf/:</span><br><span class="line">total 4.0K</span><br><span class="line">drwxr-xr-x.  4 root   root     33 Mar  1 07:17 .</span><br><span class="line">dr-xr-xr-x. 18 root   root   4.0K Nov 10 02:35 ..</span><br><span class="line">drwx------.  3 apache apache   16 Mar  1 07:17 var</span><br><span class="line"></span><br><span class="line">/cpf/var:</span><br><span class="line">total 0</span><br><span class="line">drwx------. 3 apache apache 16 Mar  1 07:17 .</span><br><span class="line">drwxr-xr-x. 4 root   root   33 Mar  1 07:17 ..</span><br><span class="line">drwx------. 4 apache apache 33 Mar  1 07:17 <span class="built_in">log</span></span><br><span class="line"></span><br><span class="line">/cpf/var/<span class="built_in">log</span>:</span><br><span class="line">total 0</span><br><span class="line">drwx------. 4 apache apache 33 Mar  1 07:17 .</span><br><span class="line">drwx------. 3 apache apache 16 Mar  1 07:17 ..</span><br><span class="line">drwx------. 2 apache apache  6 Mar  1 07:17 httpd</span><br><span class="line">drwx------. 2 apache apache  6 Mar  1 07:17 keystone</span><br></pre></td></tr></table></figure>
+<h3 id="查看命令所在位置"><a href="#查看命令所在位置" class="headerlink" title="查看命令所在位置"></a>查看命令所在位置</h3><p>  [Linux]<br>  <code># whereis ruby</code><br>  [Windows]<br>  <code>&gt; where ipconfig</code></p>
+<h3 id="查看zip压缩文档的内容"><a href="#查看zip压缩文档的内容" class="headerlink" title="查看zip压缩文档的内容"></a>查看zip压缩文档的内容</h3><p>  <code># zcat file_name.zip</code></p>
+<h3 id="压缩解压"><a href="#压缩解压" class="headerlink" title="压缩解压"></a>压缩解压</h3><p>  <code># tar -cvf jpg.tar *.jpg</code>       # 压缩tar<br>  <code># tar -czf jpg.tar.gz *.jpg</code>    # 压缩tar.gz<br>  <code># tar -xvf file.tar</code>            # 解压tar<br>  <code># tar -xzvf file.tar.gz</code>        # 解压tar.gz</p>
+<h3 id="清空文件内容"><a href="#清空文件内容" class="headerlink" title="清空文件内容"></a>清空文件内容</h3><p>  <code># echo |&gt; /var/log/cinder/api.log</code></p>
 <a id="more"></a>
-<ul>
-<li><p>VIM/VI常用命令<br><code>:%d</code>                                  # 删除所有内容<br><code>:%s/10.12.10.151/10.11.0.179/g</code>       # 全局替换<br><code>:set num</code>                             # 显示行号<br><code>:set ff?</code>                             # 显示文件格式<br><code>:set ff=unix / :set fileformat=unix</code>  # 更改文件格式<br><code>:set ff=dos / :set fileformat=dos</code>    # 更改文件格式<br><code>:set paste</code>                           # 防止粘贴时候缩进混乱<br><code>:set nopaste</code>                         # 退出paste模式<br><code>/search_str</code>                          # 查找：n -&gt; next; N -&gt; previous</p>
-</li>
-<li><p>挂载NFS<br><code># mount -t nfs 192.168.1.1:/data/sdb2/nfs_share /mnt</code></p>
-</li>
-<li><p>CentOS7设置hostname<br><code># hostnamectl set-hostname kilo-ror-keystone1</code></p>
-</li>
-<li><p>ls查看目录及子目录的内容</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># ls -lhRa /cpf/</span></span><br><span class="line">/cpf/:</span><br><span class="line">total 4.0K</span><br><span class="line">drwxr-xr-x.  4 root   root     33 Mar  1 07:17 .</span><br><span class="line">dr-xr-xr-x. 18 root   root   4.0K Nov 10 02:35 ..</span><br><span class="line">drwx------.  3 apache apache   16 Mar  1 07:17 var</span><br><span class="line"></span><br><span class="line">/cpf/var:</span><br><span class="line">total 0</span><br><span class="line">drwx------. 3 apache apache 16 Mar  1 07:17 .</span><br><span class="line">drwxr-xr-x. 4 root   root   33 Mar  1 07:17 ..</span><br><span class="line">drwx------. 4 apache apache 33 Mar  1 07:17 <span class="built_in">log</span></span><br><span class="line"></span><br><span class="line">/cpf/var/<span class="built_in">log</span>:</span><br><span class="line">total 0</span><br><span class="line">drwx------. 4 apache apache 33 Mar  1 07:17 .</span><br><span class="line">drwx------. 3 apache apache 16 Mar  1 07:17 ..</span><br><span class="line">drwx------. 2 apache apache  6 Mar  1 07:17 httpd</span><br><span class="line">drwx------. 2 apache apache  6 Mar  1 07:17 keystone</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Chrome发送HTTP请求的插件<br><a href="http://chromecj.com/web-development/2014-09/60.html" target="_blank" rel="external">Postman</a>：<code>http://chromecj.com/web-development/2014-09/60.html</code></p>
-</li>
-<li><p>Grep文本搜索<br><code># findstr /s /i /n /c:&quot;search_str&quot; *.*</code>                   # Window全文搜索<br><code># grep &#39;search_str&#39; -r /</code>                                 # 全局搜索<br><code># egrep &#39;search_str&#39; -r /</code>                                # 全局搜索<br><code># grep -E &#39;abc|def&#39;</code>                                      # 正则搜索<br><code># egrep &#39;abc|def&#39;</code>                                        # 正则搜索<br><code># cat /etc/nova/nova.conf | grep -v &#39;#&#39; | grep -v ^$</code>     # 去除空行和注释<br><code># grep -A 10 &#39;search_str&#39;</code>                                # 显示结果及之后10行<br><code># grep -B 10 &#39;search_str&#39;</code>                                # 显示结果及之前10行<br><code># grep -C 10 &#39;search_str&#39;</code>                                # 显示结果及前后各10行<br>参考：<a href="http://www.cnblogs.com/end/archive/2012/02/21/2360965.html" target="_blank" rel="external">http://www.cnblogs.com/end/archive/2012/02/21/2360965.html</a></p>
-</li>
-<li><p>Scp文件拷贝<br><code># scp /home/a.tar.tz root@192.168.0.2:/home/tmp/</code>         # 本地文件拷贝到远程服务器上<br><code># scp root@192.168.0.2:/home/a.tar.tz ./</code>                 # 从远程机器拷贝到本机<br><code># scp -r root@192.168.0.2：/home/* ./</code>                    # 拷贝目录中的所有文件<br><code># sshpass -p &#39;password&#39; scp -rp username@host:/var/lib/libvirt/images/dir/ /var</code></p>
-</li>
-<li><p>SSH无密码登陆<br><code># ssh-copy-id user@host</code><br><code># ssh -vvv user@host</code>                                     # 显示详细信息<br><code># sshpass -p &#39;password&#39; ssh username@193.168.1.1 sudo ls -lhR /var/ice_vm_backup_*</code></p>
-</li>
-<li><p>数字证书原理<br>参考：<a href="http://blog.sina.com.cn/s/blog_44ee37cd01016r1h.html" target="_blank" rel="external">http://blog.sina.com.cn/s/blog_44ee37cd01016r1h.html</a></p>
-</li>
-<li><p>文件查找<br><code># find / -name live_migrate.py</code>                          # 文件查找<br><code># find / -name live_migrate*</code>                            # 模糊查找</p>
-</li>
-<li><p>CentOS7/RHEL7 Service<br><code># pwd</code> -&gt; usr/lib/systemd/<br><code># systemctl {start|stop|status|restart..} &lt;httpd.service&gt;</code><br><code># systemctl stop firewalld</code>                               # 禁用防火墙</p>
-</li>
-<li><p>SELinux<br><code># sestatus -v</code>                   # 查看状态<br><code># getenforce</code>                    # 查看状态<br><code># setenforce 0</code>                  # 设置SELinux 成为permissive模式<br><code># setenforce 1</code>                  # 设置SELinux 成为enforcing模式<br><code># vi /etc/selinux/config</code>        # 修改配置文件并reboot, 关闭SELinux</p>
-</li>
-<li><p>Windows CMD显示时间<br><code>&gt; prompt $P$G$T$G</code></p>
-</li>
-<li><p>统计目录下文件的大小<br><code># du -sh *</code></p>
-</li>
-<li><p>统计CPU的核心数目<br><code># grep &#39;model name&#39; /proc/cpuinfo | wc -l</code></p>
-</li>
-<li><p>查看负载状态<br><code># cat /proc/loadavg</code><br><code># top</code><br><code># netstat -n | awk &#39;/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}&#39;</code>  # 网络负载<br><code># netstat -anp | grep -E &quot;23461|23462&quot; | grep -vE &#39;LISTEN|&lt;ELB_IP&gt;&#39; | wc -l</code></p>
-</li>
-<li><p>Yum常用命令<br><code># yum provides libnetsnmp* --showduplicates | grep -w libnetsnmp</code></p>
-</li>
-<li><p>监视文件变化<br><code># tail -f /var/log/nova-api.log</code><br><code># tail -F /var/log/nova-api.log</code>         # 文件重新建立后,可以继续跟踪<br><code># tail -n 20 filename</code>                   # 显示文件末尾20行的内容<br><code># cat -n filename</code>                       # 显示行号</p>
-</li>
-<li><p>Virsh常用命令<br><code># virsh list --all</code><br><code># virsh define</code><br><code># virsh console</code><br><code># virsh start|shutdown|reboot|destroy</code><br><code># virsh dumpxml</code></p>
-</li>
-</ul>
+<h3 id="VIM-VI常用命令"><a href="#VIM-VI常用命令" class="headerlink" title="VIM/VI常用命令"></a>VIM/VI常用命令</h3><p>  <code>:%d</code>                                  # 删除所有内容<br>  <code>:%s/10.12.10.151/10.11.0.179/g</code>       # 全局替换<br>  <code>:set num</code>                             # 显示行号<br>  <code>:set ff?</code>                             # 显示文件格式<br>  <code>:set ff=unix / :set fileformat=unix</code>  # 更改文件格式<br>  <code>:set ff=dos / :set fileformat=dos</code>    # 更改文件格式<br>  <code>:set paste</code>                           # 防止粘贴时候缩进混乱<br>  <code>:set nopaste</code>                         # 退出paste模式<br>  <code>/search_str</code>                          # 查找：n -&gt; next; N -&gt; previous</p>
+<h3 id="挂载NFS"><a href="#挂载NFS" class="headerlink" title="挂载NFS"></a>挂载NFS</h3><p>  <code># mount -t nfs 192.168.1.1:/data/sdb2/nfs_share /mnt</code></p>
+<h3 id="CentOS7设置hostname"><a href="#CentOS7设置hostname" class="headerlink" title="CentOS7设置hostname"></a>CentOS7设置hostname</h3><p>  <code># hostnamectl set-hostname kilo-ror-keystone1</code></p>
+<h3 id="Chrome发送HTTP请求插件"><a href="#Chrome发送HTTP请求插件" class="headerlink" title="Chrome发送HTTP请求插件"></a>Chrome发送HTTP请求插件</h3><p>  <a href="http://chromecj.com/web-development/2014-09/60.html" target="_blank" rel="external">Postman</a>：<code>http://chromecj.com/web-development/2014-09/60.html</code></p>
+<h3 id="Grep文本搜索"><a href="#Grep文本搜索" class="headerlink" title="Grep文本搜索"></a>Grep文本搜索</h3><p>  <code># findstr /s /i /n /c:&quot;search_str&quot; *.*</code>                   # Window全文搜索<br>  <code># grep &#39;search_str&#39; -r /</code>                                 # 全局搜索<br>  <code># egrep &#39;search_str&#39; -r /</code>                                # 全局搜索<br>  <code># grep -E &#39;abc|def&#39;</code>                                      # 正则搜索<br>  <code># egrep &#39;abc|def&#39;</code>                                        # 正则搜索<br>  <code># cat /etc/nova/nova.conf | grep -v &#39;#&#39; | grep -v ^$</code>     # 去除空行和注释<br>  <code># grep -A 10 &#39;search_str&#39;</code>                                # 显示结果及之后10行<br>  <code># grep -B 10 &#39;search_str&#39;</code>                                # 显示结果及之前10行<br>  <code># grep -C 10 &#39;search_str&#39;</code>                                # 显示结果及前后各10行<br>  参考：<a href="http://www.cnblogs.com/end/archive/2012/02/21/2360965.html" target="_blank" rel="external">http://www.cnblogs.com/end/archive/2012/02/21/2360965.html</a></p>
+<h3 id="Scp文件拷贝"><a href="#Scp文件拷贝" class="headerlink" title="Scp文件拷贝"></a>Scp文件拷贝</h3><p>  <code># scp /home/a.tar.tz root@192.168.0.2:/home/tmp/</code>         # 本地文件拷贝到远程服务器上<br>  <code># scp root@192.168.0.2:/home/a.tar.tz ./</code>                 # 从远程机器拷贝到本机<br>  <code># scp -r root@192.168.0.2：/home/* ./</code>                    # 拷贝目录中的所有文件<br>  <code># sshpass -p &#39;password&#39; scp -rp username@host:/var/lib/libvirt/images/dir/ /var</code></p>
+<h3 id="SSH无密码登陆"><a href="#SSH无密码登陆" class="headerlink" title="SSH无密码登陆"></a>SSH无密码登陆</h3><p>  <code># ssh-copy-id user@host</code><br>  <code># ssh -vvv user@host</code>                                     # 显示详细信息<br>  <code># sshpass -p &#39;password&#39; ssh username@193.168.1.1 sudo ls -lhR /var/ice_vm_backup_*</code></p>
+<h3 id="数字证书原理"><a href="#数字证书原理" class="headerlink" title="数字证书原理"></a>数字证书原理</h3><p>  参考：<a href="http://blog.sina.com.cn/s/blog_44ee37cd01016r1h.html" target="_blank" rel="external">http://blog.sina.com.cn/s/blog_44ee37cd01016r1h.html</a></p>
+<h3 id="文件查找"><a href="#文件查找" class="headerlink" title="文件查找"></a>文件查找</h3><p>  <code># find / -name live_migrate.py</code>                          # 文件查找<br>  <code># find / -name live_migrate*</code>                            # 模糊查找</p>
+<h3 id="CentOS7-RHEL7-Service"><a href="#CentOS7-RHEL7-Service" class="headerlink" title="CentOS7/RHEL7 Service"></a>CentOS7/RHEL7 Service</h3><p>  <code># pwd</code> -&gt; usr/lib/systemd/<br>  <code># systemctl {start|stop|status|restart..} &lt;httpd.service&gt;</code><br>  <code># systemctl stop firewalld</code>                               # 禁用防火墙</p>
+<h3 id="SELinux"><a href="#SELinux" class="headerlink" title="SELinux"></a>SELinux</h3><p>  <code># sestatus -v</code>                   # 查看状态<br>  <code># getenforce</code>                    # 查看状态<br>  <code># setenforce 0</code>                  # 设置SELinux 成为permissive模式<br>  <code># setenforce 1</code>                  # 设置SELinux 成为enforcing模式<br>  <code># vi /etc/selinux/config</code>        # 修改配置文件并reboot, 关闭SELinux</p>
+<h3 id="Windows-CMD显示时间"><a href="#Windows-CMD显示时间" class="headerlink" title="Windows CMD显示时间"></a>Windows CMD显示时间</h3><p>  <code>&gt; prompt $P$G$T$G</code></p>
+<h3 id="统计目录下文件的大小"><a href="#统计目录下文件的大小" class="headerlink" title="统计目录下文件的大小"></a>统计目录下文件的大小</h3><p>  <code># du -sh *</code></p>
+<h3 id="统计CPU的核心数目"><a href="#统计CPU的核心数目" class="headerlink" title="统计CPU的核心数目"></a>统计CPU的核心数目</h3><p>  <code># grep &#39;model name&#39; /proc/cpuinfo | wc -l</code></p>
+<h3 id="查看负载状态"><a href="#查看负载状态" class="headerlink" title="查看负载状态"></a>查看负载状态</h3><p>  <code># cat /proc/loadavg</code><br>  <code># top</code><br>  <code># netstat -n | awk &#39;/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}&#39;</code>  # 网络负载<br>  <code># netstat -anp | grep -E &quot;23461|23462&quot; | grep -vE &#39;LISTEN|&lt;ELB_IP&gt;&#39; | wc -l</code></p>
+<h3 id="Yum常用命令"><a href="#Yum常用命令" class="headerlink" title="Yum常用命令"></a>Yum常用命令</h3><p>  <code># yum provides libnetsnmp* --showduplicates | grep -w libnetsnmp</code></p>
+<h3 id="监视文件变化"><a href="#监视文件变化" class="headerlink" title="监视文件变化"></a>监视文件变化</h3><p>  <code># tail -f /var/log/nova-api.log</code><br>  <code># tail -F /var/log/nova-api.log</code>         # 文件重新建立后,可以继续跟踪<br>  <code># tail -n 20 filename</code>                   # 显示文件末尾20行的内容<br>  <code># cat -n filename</code>                       # 显示行号</p>
+<h3 id="Virsh常用命令"><a href="#Virsh常用命令" class="headerlink" title="Virsh常用命令"></a>Virsh常用命令</h3><p>  <code># virsh list --all</code><br>  <code># virsh define</code><br>  <code># virsh console</code><br>  <code># virsh start|shutdown|reboot|destroy</code><br>  <code># virsh dumpxml</code></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;查看命令所在位置&lt;br&gt;[Linux]&lt;br&gt;&lt;code&gt;# whereis ruby&lt;/code&gt;&lt;br&gt;[Windows]&lt;br&gt;&lt;code&gt;&amp;gt; where ipconfig&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;查看zip压缩文档的内容&lt;br&gt;&lt;code&gt;# zcat file_name.zip&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;压缩解压&lt;br&gt;&lt;code&gt;# tar -cvf jpg.tar *.jpg&lt;/code&gt;       # 压缩tar&lt;br&gt;&lt;code&gt;# tar -czf jpg.tar.gz *.jpg&lt;/code&gt;    # 压缩tar.gz&lt;br&gt;&lt;code&gt;# tar -xvf file.tar&lt;/code&gt;            # 解压tar&lt;br&gt;&lt;code&gt;# tar -xzvf file.tar.gz&lt;/code&gt;        # 解压tar.gz&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;清空文件内容&lt;br&gt;&lt;code&gt;# echo |&amp;gt; /var/log/cinder/api.log&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+      &lt;h3 id=&quot;ls查看目录及子目录的内容&quot;&gt;&lt;a href=&quot;#ls查看目录及子目录的内容&quot; class=&quot;headerlink&quot; title=&quot;ls查看目录及子目录的内容&quot;&gt;&lt;/a&gt;ls查看目录及子目录的内容&lt;/h3&gt;  &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# ls -lhRa /cpf/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/cpf/:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;total 4.0K&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwxr-xr-x.  4 root   root     33 Mar  1 07:17 .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;dr-xr-xr-x. 18 root   root   4.0K Nov 10 02:35 ..&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------.  3 apache apache   16 Mar  1 07:17 var&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/cpf/var:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;total 0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 3 apache apache 16 Mar  1 07:17 .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwxr-xr-x. 4 root   root   33 Mar  1 07:17 ..&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 4 apache apache 33 Mar  1 07:17 &lt;span class=&quot;built_in&quot;&gt;log&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/cpf/var/&lt;span class=&quot;built_in&quot;&gt;log&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;total 0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 4 apache apache 33 Mar  1 07:17 .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 3 apache apache 16 Mar  1 07:17 ..&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 2 apache apache  6 Mar  1 07:17 httpd&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 2 apache apache  6 Mar  1 07:17 keystone&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;查看命令所在位置&quot;&gt;&lt;a href=&quot;#查看命令所在位置&quot; class=&quot;headerlink&quot; title=&quot;查看命令所在位置&quot;&gt;&lt;/a&gt;查看命令所在位置&lt;/h3&gt;&lt;p&gt;  [Linux]&lt;br&gt;  &lt;code&gt;# whereis ruby&lt;/code&gt;&lt;br&gt;  [Windows]&lt;br&gt;  &lt;code&gt;&amp;gt; where ipconfig&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;查看zip压缩文档的内容&quot;&gt;&lt;a href=&quot;#查看zip压缩文档的内容&quot; class=&quot;headerlink&quot; title=&quot;查看zip压缩文档的内容&quot;&gt;&lt;/a&gt;查看zip压缩文档的内容&lt;/h3&gt;&lt;p&gt;  &lt;code&gt;# zcat file_name.zip&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;压缩解压&quot;&gt;&lt;a href=&quot;#压缩解压&quot; class=&quot;headerlink&quot; title=&quot;压缩解压&quot;&gt;&lt;/a&gt;压缩解压&lt;/h3&gt;&lt;p&gt;  &lt;code&gt;# tar -cvf jpg.tar *.jpg&lt;/code&gt;       # 压缩tar&lt;br&gt;  &lt;code&gt;# tar -czf jpg.tar.gz *.jpg&lt;/code&gt;    # 压缩tar.gz&lt;br&gt;  &lt;code&gt;# tar -xvf file.tar&lt;/code&gt;            # 解压tar&lt;br&gt;  &lt;code&gt;# tar -xzvf file.tar.gz&lt;/code&gt;        # 解压tar.gz&lt;/p&gt;
+&lt;h3 id=&quot;清空文件内容&quot;&gt;&lt;a href=&quot;#清空文件内容&quot; class=&quot;headerlink&quot; title=&quot;清空文件内容&quot;&gt;&lt;/a&gt;清空文件内容&lt;/h3&gt;&lt;p&gt;  &lt;code&gt;# echo |&amp;gt; /var/log/cinder/api.log&lt;/code&gt;&lt;/p&gt;
     
     </summary>
     
