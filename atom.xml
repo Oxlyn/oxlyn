@@ -68,9 +68,9 @@
     <link href="http://oxlyn.cn/2016/06/03/java-notes-02/"/>
     <id>http://oxlyn.cn/2016/06/03/java-notes-02/</id>
     <published>2016-06-03T12:33:23.000Z</published>
-    <updated>2016-08-08T13:13:11.000Z</updated>
+    <updated>2016-11-05T18:01:13.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="4-Java注释"><a href="#4-Java注释" class="headerlink" title="4. Java注释"></a>4. Java注释</h3><ul>
+    <content type="html"><![CDATA[<h3 id="5-Java注释"><a href="#5-Java注释" class="headerlink" title="5. Java注释"></a>5. Java注释</h3><ul>
 <li>Java中的注释使用<ul>
 <li>单行注释 <code>//</code></li>
 <li>多行注释 <code>/* ... */</code></li>
@@ -78,7 +78,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="5-标识符及关键字"><a href="#5-标识符及关键字" class="headerlink" title="5. 标识符及关键字"></a>5. 标识符及关键字</h3><ol>
+<h3 id="6-标识符及关键字"><a href="#6-标识符及关键字" class="headerlink" title="6. 标识符及关键字"></a>6. 标识符及关键字</h3><ol>
 <li>标识符<ul>
 <li>标识符由数字、字母、下划线和<code>&quot;$&quot;</code>组成，不能以数字开头</li>
 <li>大小写敏感</li>
@@ -104,7 +104,7 @@
 </ul>
 </li>
 </ol>
-<h3 id="6-Java的运算符"><a href="#6-Java的运算符" class="headerlink" title="6. Java的运算符"></a>6. Java的运算符</h3><ol>
+<h3 id="7-Java的运算符"><a href="#7-Java的运算符" class="headerlink" title="7. Java的运算符"></a>7. Java的运算符</h3><ol>
 <li>算符运算符<ul>
 <li><code>+ - ++ --</code></li>
 <li><code>+ - * / %</code></li>
@@ -131,7 +131,7 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;4-Java注释&quot;&gt;&lt;a href=&quot;#4-Java注释&quot; class=&quot;headerlink&quot; title=&quot;4. Java注释&quot;&gt;&lt;/a&gt;4. Java注释&lt;/h3&gt;&lt;ul&gt;
+      &lt;h3 id=&quot;5-Java注释&quot;&gt;&lt;a href=&quot;#5-Java注释&quot; class=&quot;headerlink&quot; title=&quot;5. Java注释&quot;&gt;&lt;/a&gt;5. Java注释&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Java中的注释使用&lt;ul&gt;
 &lt;li&gt;单行注释 &lt;code&gt;//&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;多行注释 &lt;code&gt;/* ... */&lt;/code&gt;&lt;/li&gt;
@@ -139,7 +139,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;5-标识符及关键字&quot;&gt;&lt;a href=&quot;#5-标识符及关键字&quot; class=&quot;headerlink&quot; title=&quot;5. 标识符及关键字&quot;&gt;&lt;/a&gt;5. 标识符及关键字&lt;/h3&gt;&lt;ol&gt;
+&lt;h3 id=&quot;6-标识符及关键字&quot;&gt;&lt;a href=&quot;#6-标识符及关键字&quot; class=&quot;headerlink&quot; title=&quot;6. 标识符及关键字&quot;&gt;&lt;/a&gt;6. 标识符及关键字&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;标识符&lt;ul&gt;
 &lt;li&gt;标识符由数字、字母、下划线和&lt;code&gt;&amp;quot;$&amp;quot;&lt;/code&gt;组成，不能以数字开头&lt;/li&gt;
 &lt;li&gt;大小写敏感&lt;/li&gt;
@@ -164,7 +164,7 @@
     <link href="http://oxlyn.cn/2016/06/01/java-notes-01/"/>
     <id>http://oxlyn.cn/2016/06/01/java-notes-01/</id>
     <published>2016-06-01T12:33:23.000Z</published>
-    <updated>2016-08-08T13:13:14.000Z</updated>
+    <updated>2016-11-05T18:00:52.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="1-HelloWorld"><a href="#1-HelloWorld" class="headerlink" title="1. HelloWorld"></a>1. HelloWorld</h3><ul>
 <li>文件名必须和public修饰的类名一致；如果定义的类不是public的，则文件名和类名可以不同。</li>
@@ -188,7 +188,7 @@
 <li>类型转换<br>自动类型转换：<code>byte -&gt; short -&gt; int -&gt; long -&gt; float -&gt; double</code><br>强制转换：<code>int a = (int)3.14;</code><br>默认浮点类型为double，float类型的后缀为f/F。<br>long类型的后缀为l/L。<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">byte a = 1;</span><br><span class="line">byte b = 1;</span><br><span class="line">a = a + b  // Compile Error</span><br><span class="line">a += b     // Success</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<h3 id="5-引用数据类型"><a href="#5-引用数据类型" class="headerlink" title="5. 引用数据类型"></a>5. 引用数据类型</h3><ul>
+<h3 id="4-引用数据类型"><a href="#4-引用数据类型" class="headerlink" title="4. 引用数据类型"></a>4. 引用数据类型</h3><ul>
 <li>类</li>
 <li>接口</li>
 <li>数组</li>

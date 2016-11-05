@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://oxlyn.cn/2016/06/03/java-notes-02/</loc>
+    
+    <lastmod>2016-11-05T18:01:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://oxlyn.cn/2016/06/01/java-notes-01/</loc>
+    
+    <lastmod>2016-11-05T18:00:52.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://oxlyn.cn/2016/06/10/linux-commands/</loc>
     
     <lastmod>2016-11-05T17:59:07.000Z</lastmod>
@@ -33,20 +47,6 @@
     <loc>http://oxlyn.cn/2016/04/21/hexo-usage/</loc>
     
     <lastmod>2016-08-08T15:01:30.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://oxlyn.cn/2016/06/01/java-notes-01/</loc>
-    
-    <lastmod>2016-08-08T13:13:14.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://oxlyn.cn/2016/06/03/java-notes-02/</loc>
-    
-    <lastmod>2016-08-08T13:13:11.000Z</lastmod>
     
   </url>
   
