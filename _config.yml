@@ -9,6 +9,7 @@ description:
 author: oxlyn
 language: en
 timezone:
+since: 2016
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -69,9 +70,13 @@ theme: even
 # 需要上面安装的 hexo-generator-archive 插件支持
 archive_generator:
     per_page: 0
-    yearly: false
-    monthly: false
-    daily: false
+    yearly: true
+    monthly: true
+    daily: true
+
+# Generator-tag
+tag_generator:
+  per_page: 10 # 标签页文章数, 参数为 0 时不分页
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
