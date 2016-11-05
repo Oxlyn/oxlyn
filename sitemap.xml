@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://oxlyn.cn/about/index.html</loc>
+    
+    <lastmod>2016-11-05T17:25:54.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://oxlyn.cn/tags/index.html</loc>
+    
+    <lastmod>2016-11-05T17:25:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://oxlyn.cn/categories/index.html</loc>
+    
+    <lastmod>2016-11-05T17:24:15.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://oxlyn.cn/2016/04/21/hexo-usage/</loc>
     
     <lastmod>2016-08-08T15:01:30.000Z</lastmod>
