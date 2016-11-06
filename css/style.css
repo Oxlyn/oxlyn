@@ -382,7 +382,7 @@ body {
   color: #34495e;
   background: #fefefe;
   scroll-behavior: smooth;
-  border-top: 3px solid #c05b4d; }
+  border-top: 3px solid #4592ff; }
 
 img {
   max-width: 100%;
@@ -436,7 +436,7 @@ header {
       header .nav .nav-link :hover, header .nav .nav-link .active {
         transition: 0.1s ease-out;
         border-radius: 2px;
-        border-bottom: 2px solid #c05b4d; }
+        border-bottom: 2px solid #4592ff; }
 
 footer {
   padding-top: 2em; }
@@ -448,7 +448,7 @@ footer {
       margin-right: 10px;
       font-size: 30px; }
       footer .social .iconfont:hover {
-        color: #c05b4d; }
+        color: #4592ff; }
   footer .copyright {
     margin-top: 15px;
     margin-bottom: 10px;
@@ -462,7 +462,7 @@ footer {
     footer .copyright .power {
       margin: 0; }
       footer .copyright .power a {
-        color: #c05b4d; }
+        color: #4592ff; }
     footer .copyright .since {
       margin: 0; }
   footer #back2top {
@@ -486,7 +486,7 @@ footer {
     font-size: 26px;
     font-family: Athelas, Times New Roman, STHeiti, Microsoft Yahei, serif; }
     .post .post-title .post-link:hover {
-      border-bottom: 2px solid #c05b4d;
+      border-bottom: 2px solid #4592ff;
       transition: 0.1s; }
   .post .post-time {
     margin-top: 5px;
@@ -496,32 +496,32 @@ footer {
     font-weight: 400;
     font-family: Athelas, Times New Roman, STHeiti, Microsoft Yahei, serif; }
     .post .post-content h1:target {
-      color: #c05b4d; }
+      color: #4592ff; }
   .post .post-content h2 {
     font-weight: 400;
     font-family: Athelas, Times New Roman, STHeiti, Microsoft Yahei, serif; }
     .post .post-content h2:target {
-      color: #c05b4d; }
+      color: #4592ff; }
   .post .post-content h3 {
     font-weight: 400;
     font-family: Athelas, Times New Roman, STHeiti, Microsoft Yahei, serif; }
     .post .post-content h3:target {
-      color: #c05b4d; }
+      color: #4592ff; }
   .post .post-content h4 {
     font-weight: 400;
     font-family: Athelas, Times New Roman, STHeiti, Microsoft Yahei, serif; }
     .post .post-content h4:target {
-      color: #c05b4d; }
+      color: #4592ff; }
   .post .post-content h5 {
     font-weight: 400;
     font-family: Athelas, Times New Roman, STHeiti, Microsoft Yahei, serif; }
     .post .post-content h5:target {
-      color: #c05b4d; }
+      color: #4592ff; }
   .post .post-content h6 {
     font-weight: 400;
     font-family: Athelas, Times New Roman, STHeiti, Microsoft Yahei, serif; }
     .post .post-content h6:target {
-      color: #c05b4d; }
+      color: #4592ff; }
   .post .post-content .headerlink:hover {
     border-bottom: 0; }
   .post .post-content .headerlink::before {
@@ -529,17 +529,17 @@ footer {
     margin-right: 5px;
     font-size: 1.1em; }
   .post .post-content a {
-    color: #c05b4d;
+    color: #4592ff;
     word-break: break-all; }
     .post .post-content a:hover {
-      border-bottom: 1px solid #c05b4d; }
+      border-bottom: 1px solid #4592ff; }
   .post .post-content blockquote {
     margin: 2em 0;
     padding: 10px 20px;
     position: relative;
     color: rgba(52, 73, 94, 0.8);
-    background-color: rgba(192, 91, 77, 0.05);
-    border-left: 3px solid rgba(192, 91, 77, 0.3);
+    background-color: rgba(69, 146, 255, 0.05);
+    border-left: 3px solid rgba(69, 146, 255, 0.3);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125); }
     .post .post-content blockquote p {
       margin: 0; }
@@ -556,11 +556,11 @@ footer {
     margin-bottom: 20px;
     border-spacing: 0;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.125);
-    border: 3px double #e8c3be; }
+    border: 3px double #deecff; }
     .post .post-content > table th, .post .post-content > table td {
       padding: 5px 15px;
       background-color: white;
-      border: 1px double #e8c3be; }
+      border: 1px double #deecff; }
 
 .post .post-sidebar {
   width: 200px;
@@ -570,7 +570,7 @@ footer {
   font-size: 15px;
   font-family: Athelas, Times New Roman, STHeiti, Microsoft Yahei, serif;
   border-radius: 5px;
-  background: rgba(248, 245, 236, 0.6);
+  background: rgba(245, 245, 245, 0.6);
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
   word-wrap: break-word; }
   .post .post-sidebar .heading {
@@ -583,7 +583,7 @@ footer {
   .post .post-sidebar > ol {
     list-style: square; }
     .post .post-sidebar > ol a.active {
-      color: #c05b4d; }
+      color: #4592ff; }
   .post .post-sidebar .toc {
     margin: 7px 0;
     padding-left: 15px; }
@@ -594,7 +594,7 @@ code, pre {
   padding: 7px;
   font-size: 13px;
   font-family: Consolas, Monaco, Menlo, Consolas, monospace;
-  background: #f8f5ec; }
+  background: #f5f5f5; }
 
 code {
   padding: 3px 5px;
@@ -616,7 +616,7 @@ code {
     font-size: 12px;
     font-weight: bold;
     color: #cacaca;
-    background: #f4efe1;
+    background: #ededed;
     content: 'CODE'; }
   .highlight.html::after {
     content: "HTML"; }
@@ -719,7 +719,7 @@ code {
       margin: 0 5px; }
     .paginator .prev:hover,
     .paginator .next:hover {
-      color: #c05b4d; }
+      color: #4592ff; }
   .paginator .prev {
     float: left; }
   .paginator .next {
@@ -737,11 +737,11 @@ code {
     .home .post-item .post-title {
       display: block; }
   .home .read-more {
-    color: #c05b4d;
+    color: #4592ff;
     font-size: 1.1em;
     font-family: Athelas, Times New Roman, STHeiti, Microsoft Yahei, serif; }
     .home .read-more:hover {
-      border-bottom: 1px solid #c05b4d; }
+      border-bottom: 1px solid #4592ff; }
 
 .archive {
   margin: 3em auto;
@@ -760,12 +760,12 @@ code {
     border-left: 1px solid #cacaca; }
     .archive .post-item:hover {
       padding-left: 13px;
-      border-left: 3px solid #c05b4d;
+      border-left: 3px solid #4592ff;
       transition: 0.2s ease-out; }
       .archive .post-item:hover .post-time {
         color: #717171; }
       .archive .post-item:hover .post-link {
-        color: #a14639; }
+        color: #1274ff; }
   .archive .post-time {
     display: inline-block;
     margin: 0 10px;
@@ -773,7 +773,7 @@ code {
   .archive .post-link {
     width: 75%;
     display: inline-block;
-    color: #c05b4d;
+    color: #4592ff;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -787,7 +787,7 @@ code {
   border-top: 1px solid #e6e6e6; }
   .tags a {
     margin-right: 5px;
-    color: #c05b4d;
+    color: #4592ff;
     word-break: break-all; }
     .tags a::before {
       content: '#'; }
@@ -796,7 +796,7 @@ code {
   margin-top: 3em;
   margin-bottom: 5em;
   text-align: center;
-  color: #c05b4d;
+  color: #4592ff;
   font-family: Athelas, Times New Roman, STHeiti, Microsoft Yahei, serif; }
   .tagcloud .total {
     margin-bottom: 10px; }
@@ -804,7 +804,7 @@ code {
       margin: auto;
       font-size: 18px;
       width: 110px;
-      border-bottom: 2px solid #c05b4d; }
+      border-bottom: 2px solid #4592ff; }
   .tagcloud a {
     display: inline-block;
     word-wrap: break-word;
@@ -814,14 +814,14 @@ code {
     transition-property: transform;
     transition-timing-function: ease-out; }
     .tagcloud a:active, .tagcloud a:focus, .tagcloud a:hover {
-      color: #c05b4d;
+      color: #4592ff;
       transform: scale(1.05); }
 
 .categories {
   margin-top: 3em;
   margin-bottom: 5em;
   text-align: center;
-  color: #c05b4d;
+  color: #4592ff;
   font-family: Athelas, Times New Roman, STHeiti, Microsoft Yahei, serif; }
   .categories .total {
     margin-bottom: 20px; }
@@ -829,7 +829,7 @@ code {
       margin: auto;
       font-size: 18px;
       width: 110px;
-      border-bottom: 2px solid #c05b4d; }
+      border-bottom: 2px solid #4592ff; }
   .categories .category-link {
     display: inline-block;
     margin: 3px 10px;
@@ -842,10 +842,10 @@ code {
       position: relative;
       top: -8px;
       right: -2px;
-      color: #c05b4d;
+      color: #4592ff;
       font-size: 12px; }
     .categories .category-link:active, .categories .category-link:focus, .categories .category-link:hover {
-      color: #c05b4d;
+      color: #4592ff;
       transform: scale(1.05); }
 
 @media screen and (max-width: 800px) {

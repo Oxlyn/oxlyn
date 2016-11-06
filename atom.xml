@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://oxlyn.cn/"/>
-  <updated>2016-11-05T17:59:07.000Z</updated>
+  <updated>2016-11-06T04:17:28.000Z</updated>
   <id>http://oxlyn.cn/</id>
   
   <author>
@@ -16,44 +16,44 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Linux常用命令</title>
+    <title>Linux 常用命令</title>
     <link href="http://oxlyn.cn/2016/06/10/linux-commands/"/>
     <id>http://oxlyn.cn/2016/06/10/linux-commands/</id>
     <published>2016-06-09T16:30:18.000Z</published>
-    <updated>2016-11-05T17:59:07.000Z</updated>
+    <updated>2016-11-06T04:17:28.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="ls查看目录及子目录的内容"><a href="#ls查看目录及子目录的内容" class="headerlink" title="ls查看目录及子目录的内容"></a>ls查看目录及子目录的内容</h3>  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># ls -lhRa /cpf/</span></span><br><span class="line">/cpf/:</span><br><span class="line">total 4.0K</span><br><span class="line">drwxr-xr-x.  4 root   root     33 Mar  1 07:17 .</span><br><span class="line">dr-xr-xr-x. 18 root   root   4.0K Nov 10 02:35 ..</span><br><span class="line">drwx------.  3 apache apache   16 Mar  1 07:17 var</span><br><span class="line"></span><br><span class="line">/cpf/var:</span><br><span class="line">total 0</span><br><span class="line">drwx------. 3 apache apache 16 Mar  1 07:17 .</span><br><span class="line">drwxr-xr-x. 4 root   root   33 Mar  1 07:17 ..</span><br><span class="line">drwx------. 4 apache apache 33 Mar  1 07:17 <span class="built_in">log</span></span><br><span class="line"></span><br><span class="line">/cpf/var/<span class="built_in">log</span>:</span><br><span class="line">total 0</span><br><span class="line">drwx------. 4 apache apache 33 Mar  1 07:17 .</span><br><span class="line">drwx------. 3 apache apache 16 Mar  1 07:17 ..</span><br><span class="line">drwx------. 2 apache apache  6 Mar  1 07:17 httpd</span><br><span class="line">drwx------. 2 apache apache  6 Mar  1 07:17 keystone</span><br></pre></td></tr></table></figure>
+    <content type="html"><![CDATA[<h3 id="ls-查看目录及子目录的内容"><a href="#ls-查看目录及子目录的内容" class="headerlink" title="ls 查看目录及子目录的内容"></a>ls 查看目录及子目录的内容</h3>  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># ls -lhRa /cpf/</span><br><span class="line">/cpf/:</span><br><span class="line">total 4.0K</span><br><span class="line">drwxr-xr-x.  4 root   root     33 Mar  1 07:17 .</span><br><span class="line">dr-xr-xr-x. 18 root   root   4.0K Nov 10 02:35 ..</span><br><span class="line">drwx------.  3 apache apache   16 Mar  1 07:17 var</span><br><span class="line"></span><br><span class="line">/cpf/var:</span><br><span class="line">total 0</span><br><span class="line">drwx------. 3 apache apache 16 Mar  1 07:17 .</span><br><span class="line">drwxr-xr-x. 4 root   root   33 Mar  1 07:17 ..</span><br><span class="line">drwx------. 4 apache apache 33 Mar  1 07:17 log</span><br><span class="line"></span><br><span class="line">/cpf/var/log:</span><br><span class="line">total 0</span><br><span class="line">drwx------. 4 apache apache 33 Mar  1 07:17 .</span><br><span class="line">drwx------. 3 apache apache 16 Mar  1 07:17 ..</span><br><span class="line">drwx------. 2 apache apache  6 Mar  1 07:17 httpd</span><br><span class="line">drwx------. 2 apache apache  6 Mar  1 07:17 keystone</span><br></pre></td></tr></table></figure>
 <h3 id="查看命令所在位置"><a href="#查看命令所在位置" class="headerlink" title="查看命令所在位置"></a>查看命令所在位置</h3><p>  [Linux]<br>  <code># whereis ruby</code><br>  [Windows]<br>  <code>&gt; where ipconfig</code></p>
-<h3 id="查看zip压缩文档的内容"><a href="#查看zip压缩文档的内容" class="headerlink" title="查看zip压缩文档的内容"></a>查看zip压缩文档的内容</h3><p>  <code># zcat file_name.zip</code></p>
-<h3 id="压缩解压"><a href="#压缩解压" class="headerlink" title="压缩解压"></a>压缩解压</h3><p>  <code># tar -cvf jpg.tar *.jpg</code>       # 压缩tar<br>  <code># tar -czf jpg.tar.gz *.jpg</code>    # 压缩tar.gz<br>  <code># tar -xvf file.tar</code>            # 解压tar<br>  <code># tar -xzvf file.tar.gz</code>        # 解压tar.gz</p>
+<h3 id="查看-zip-压缩文档的内容"><a href="#查看-zip-压缩文档的内容" class="headerlink" title="查看 zip 压缩文档的内容"></a>查看 zip 压缩文档的内容</h3><p>  <code># zcat file_name.zip</code></p>
+<h3 id="压缩解压"><a href="#压缩解压" class="headerlink" title="压缩解压"></a>压缩解压</h3><p>  <code># tar -cvf jpg.tar *.jpg</code>       # 压缩 tar<br>  <code># tar -czf jpg.tar.gz *.jpg</code>    # 压缩 tar.gz<br>  <code># tar -xvf file.tar</code>            # 解压 tar<br>  <code># tar -xzvf file.tar.gz</code>        # 解压 tar.gz</p>
 <h3 id="清空文件内容"><a href="#清空文件内容" class="headerlink" title="清空文件内容"></a>清空文件内容</h3><p>  <code># echo |&gt; /var/log/cinder/api.log</code></p>
 <a id="more"></a>
-<h3 id="VIM-VI常用命令"><a href="#VIM-VI常用命令" class="headerlink" title="VIM/VI常用命令"></a>VIM/VI常用命令</h3><p>  <code>:%d</code>                                  # 删除所有内容<br>  <code>:%s/10.12.10.151/10.11.0.179/g</code>       # 全局替换<br>  <code>:set num</code>                             # 显示行号<br>  <code>:set ff?</code>                             # 显示文件格式<br>  <code>:set ff=unix / :set fileformat=unix</code>  # 更改文件格式<br>  <code>:set ff=dos / :set fileformat=dos</code>    # 更改文件格式<br>  <code>:set paste</code>                           # 防止粘贴时候缩进混乱<br>  <code>:set nopaste</code>                         # 退出paste模式<br>  <code>/search_str</code>                          # 查找：n -&gt; next; N -&gt; previous</p>
-<h3 id="挂载NFS"><a href="#挂载NFS" class="headerlink" title="挂载NFS"></a>挂载NFS</h3><p>  <code># mount -t nfs 192.168.1.1:/data/sdb2/nfs_share /mnt</code></p>
-<h3 id="CentOS7设置hostname"><a href="#CentOS7设置hostname" class="headerlink" title="CentOS7设置hostname"></a>CentOS7设置hostname</h3><p>  <code># hostnamectl set-hostname kilo-ror-keystone1</code></p>
-<h3 id="Chrome发送HTTP请求插件"><a href="#Chrome发送HTTP请求插件" class="headerlink" title="Chrome发送HTTP请求插件"></a>Chrome发送HTTP请求插件</h3><p>  <a href="http://chromecj.com/web-development/2014-09/60.html" target="_blank" rel="external">Postman</a>：<code>http://chromecj.com/web-development/2014-09/60.html</code></p>
-<h3 id="Grep文本搜索"><a href="#Grep文本搜索" class="headerlink" title="Grep文本搜索"></a>Grep文本搜索</h3><p>  <code># findstr /s /i /n /c:&quot;search_str&quot; *.*</code>                   # Window全文搜索<br>  <code># grep &#39;search_str&#39; -r /</code>                                 # 全局搜索<br>  <code># egrep &#39;search_str&#39; -r /</code>                                # 全局搜索<br>  <code># grep -E &#39;abc|def&#39;</code>                                      # 正则搜索<br>  <code># egrep &#39;abc|def&#39;</code>                                        # 正则搜索<br>  <code># cat /etc/nova/nova.conf | grep -v &#39;#&#39; | grep -v ^$</code>     # 去除空行和注释<br>  <code># grep -A 10 &#39;search_str&#39;</code>                                # 显示结果及之后10行<br>  <code># grep -B 10 &#39;search_str&#39;</code>                                # 显示结果及之前10行<br>  <code># grep -C 10 &#39;search_str&#39;</code>                                # 显示结果及前后各10行<br>  参考：<a href="http://www.cnblogs.com/end/archive/2012/02/21/2360965.html" target="_blank" rel="external">http://www.cnblogs.com/end/archive/2012/02/21/2360965.html</a></p>
-<h3 id="Scp文件拷贝"><a href="#Scp文件拷贝" class="headerlink" title="Scp文件拷贝"></a>Scp文件拷贝</h3><p>  <code># scp /home/a.tar.tz root@192.168.0.2:/home/tmp/</code>         # 本地文件拷贝到远程服务器上<br>  <code># scp root@192.168.0.2:/home/a.tar.tz ./</code>                 # 从远程机器拷贝到本机<br>  <code># scp -r root@192.168.0.2：/home/* ./</code>                    # 拷贝目录中的所有文件<br>  <code># sshpass -p &#39;password&#39; scp -rp username@host:/var/lib/libvirt/images/dir/ /var</code></p>
-<h3 id="SSH无密码登陆"><a href="#SSH无密码登陆" class="headerlink" title="SSH无密码登陆"></a>SSH无密码登陆</h3><p>  <code># ssh-copy-id user@host</code><br>  <code># ssh -vvv user@host</code>                                     # 显示详细信息<br>  <code># sshpass -p &#39;password&#39; ssh username@193.168.1.1 sudo ls -lhR /var/ice_vm_backup_*</code></p>
+<h3 id="VIM-VI-常用命令"><a href="#VIM-VI-常用命令" class="headerlink" title="VIM/VI 常用命令"></a>VIM/VI 常用命令</h3><p>  <code>:%d</code>                                  # 删除所有内容<br>  <code>:%s/10.12.10.151/10.11.0.179/g</code>       # 全局替换<br>  <code>:set num</code>                             # 显示行号<br>  <code>:set ff?</code>                             # 显示文件格式<br>  <code>:set ff=unix / :set fileformat=unix</code>  # 更改文件格式<br>  <code>:set ff=dos / :set fileformat=dos</code>    # 更改文件格式<br>  <code>:set paste</code>                           # 防止粘贴时候缩进混乱<br>  <code>:set nopaste</code>                         # 退出 paste 模式<br>  <code>/search_str</code>                          # 查找：n -&gt; next; N -&gt; previous</p>
+<h3 id="挂载-NFS"><a href="#挂载-NFS" class="headerlink" title="挂载 NFS"></a>挂载 NFS</h3><p>  <code># mount -t nfs 192.168.1.1:/data/sdb2/nfs_share /mnt</code></p>
+<h3 id="CentOS7-设置-hostname"><a href="#CentOS7-设置-hostname" class="headerlink" title="CentOS7 设置 hostname"></a>CentOS7 设置 hostname</h3><p>  <code># hostnamectl set-hostname kilo-ror-keystone1</code></p>
+<h3 id="Chrome-发送-HTTP-请求的插件"><a href="#Chrome-发送-HTTP-请求的插件" class="headerlink" title="Chrome 发送 HTTP 请求的插件"></a>Chrome 发送 HTTP 请求的插件</h3><p>  <a href="http://chromecj.com/web-development/2014-09/60.html" target="_blank" rel="external">Postman</a>：<code>http://chromecj.com/web-development/2014-09/60.html</code></p>
+<h3 id="Grep-文本搜索"><a href="#Grep-文本搜索" class="headerlink" title="Grep 文本搜索"></a>Grep 文本搜索</h3><p>  <code># findstr /s /i /n /c:&quot;search_str&quot; *.*</code>                   # Window 全文搜索<br>  <code># grep &#39;search_str&#39; -r /</code>                                 # 全局搜索<br>  <code># egrep &#39;search_str&#39; -r /</code>                                # 全局搜索<br>  <code># grep -E &#39;abc|def&#39;</code>                                      # 正则搜索<br>  <code># egrep &#39;abc|def&#39;</code>                                        # 正则搜索<br>  <code># cat /etc/nova/nova.conf | grep -v &#39;#&#39; | grep -v ^$</code>     # 去除空行和注释<br>  <code># grep -A 10 &#39;search_str&#39;</code>                                # 显示结果及之后 10 行<br>  <code># grep -B 10 &#39;search_str&#39;</code>                                # 显示结果及之前 10 行<br>  <code># grep -C 10 &#39;search_str&#39;</code>                                # 显示结果及前后各 10 行<br>  参考：<a href="http://www.cnblogs.com/end/archive/2012/02/21/2360965.html" target="_blank" rel="external">http://www.cnblogs.com/end/archive/2012/02/21/2360965.html</a></p>
+<h3 id="Scp-文件拷贝"><a href="#Scp-文件拷贝" class="headerlink" title="Scp 文件拷贝"></a>Scp 文件拷贝</h3><p>  <code># scp /home/a.tar.tz root@192.168.0.2:/home/tmp/</code>         # 本地文件拷贝到远程服务器上<br>  <code># scp root@192.168.0.2:/home/a.tar.tz ./</code>                 # 从远程机器拷贝到本机<br>  <code># scp -r root@192.168.0.2：/home/* ./</code>                    # 拷贝目录中的所有文件<br>  <code># sshpass -p &#39;password&#39; scp -rp username@host:/var/lib/libvirt/images/dir/ /var</code></p>
+<h3 id="SSH-无密码登陆"><a href="#SSH-无密码登陆" class="headerlink" title="SSH 无密码登陆"></a>SSH 无密码登陆</h3><p>  <code># ssh-copy-id user@host</code><br>  <code># ssh -vvv user@host</code>                                     # 显示详细信息<br>  <code># sshpass -p &#39;password&#39; ssh username@193.168.1.1 sudo ls -lhR /var/ice_vm_backup_*</code></p>
 <h3 id="数字证书原理"><a href="#数字证书原理" class="headerlink" title="数字证书原理"></a>数字证书原理</h3><p>  参考：<a href="http://blog.sina.com.cn/s/blog_44ee37cd01016r1h.html" target="_blank" rel="external">http://blog.sina.com.cn/s/blog_44ee37cd01016r1h.html</a></p>
 <h3 id="文件查找"><a href="#文件查找" class="headerlink" title="文件查找"></a>文件查找</h3><p>  <code># find / -name live_migrate.py</code>                          # 文件查找<br>  <code># find / -name live_migrate*</code>                            # 模糊查找</p>
 <h3 id="CentOS7-RHEL7-Service"><a href="#CentOS7-RHEL7-Service" class="headerlink" title="CentOS7/RHEL7 Service"></a>CentOS7/RHEL7 Service</h3><p>  <code># pwd</code> -&gt; usr/lib/systemd/<br>  <code># systemctl {start|stop|status|restart..} &lt;httpd.service&gt;</code><br>  <code># systemctl stop firewalld</code>                               # 禁用防火墙</p>
 <h3 id="SELinux"><a href="#SELinux" class="headerlink" title="SELinux"></a>SELinux</h3><p>  <code># sestatus -v</code>                   # 查看状态<br>  <code># getenforce</code>                    # 查看状态<br>  <code># setenforce 0</code>                  # 设置SELinux 成为permissive模式<br>  <code># setenforce 1</code>                  # 设置SELinux 成为enforcing模式<br>  <code># vi /etc/selinux/config</code>        # 修改配置文件并reboot, 关闭SELinux</p>
-<h3 id="Windows-CMD显示时间"><a href="#Windows-CMD显示时间" class="headerlink" title="Windows CMD显示时间"></a>Windows CMD显示时间</h3><p>  <code>&gt; prompt $P$G$T$G</code></p>
+<h3 id="Windows-CMD-显示时间"><a href="#Windows-CMD-显示时间" class="headerlink" title="Windows CMD 显示时间"></a>Windows CMD 显示时间</h3><p>  <code>&gt; prompt $P$G$T$G</code></p>
 <h3 id="统计目录下文件的大小"><a href="#统计目录下文件的大小" class="headerlink" title="统计目录下文件的大小"></a>统计目录下文件的大小</h3><p>  <code># du -sh *</code></p>
-<h3 id="统计CPU的核心数目"><a href="#统计CPU的核心数目" class="headerlink" title="统计CPU的核心数目"></a>统计CPU的核心数目</h3><p>  <code># grep &#39;model name&#39; /proc/cpuinfo | wc -l</code></p>
-<h3 id="查看负载状态"><a href="#查看负载状态" class="headerlink" title="查看负载状态"></a>查看负载状态</h3><p>  <code># cat /proc/loadavg</code><br>  <code># top</code><br>  <code># netstat -n | awk &#39;/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}&#39;</code>  # 网络负载<br>  <code># netstat -anp | grep -E &quot;23461|23462&quot; | grep -vE &#39;LISTEN|&lt;ELB_IP&gt;&#39; | wc -l</code></p>
-<h3 id="Yum常用命令"><a href="#Yum常用命令" class="headerlink" title="Yum常用命令"></a>Yum常用命令</h3><p>  <code># yum provides libnetsnmp* --showduplicates | grep -w libnetsnmp</code></p>
-<h3 id="监视文件变化"><a href="#监视文件变化" class="headerlink" title="监视文件变化"></a>监视文件变化</h3><p>  <code># tail -f /var/log/nova-api.log</code><br>  <code># tail -F /var/log/nova-api.log</code>         # 文件重新建立后,可以继续跟踪<br>  <code># tail -n 20 filename</code>                   # 显示文件末尾20行的内容<br>  <code># cat -n filename</code>                       # 显示行号</p>
-<h3 id="Virsh常用命令"><a href="#Virsh常用命令" class="headerlink" title="Virsh常用命令"></a>Virsh常用命令</h3><p>  <code># virsh list --all</code><br>  <code># virsh define</code><br>  <code># virsh console</code><br>  <code># virsh start|shutdown|reboot|destroy</code><br>  <code># virsh dumpxml</code></p>
+<h3 id="统计-CPU-的核心数目"><a href="#统计-CPU-的核心数目" class="headerlink" title="统计 CPU 的核心数目"></a>统计 CPU 的核心数目</h3><p>  <code># grep &#39;model name&#39; /proc/cpuinfo | wc -l</code></p>
+<h3 id="查看负载状态"><a href="#查看负载状态" class="headerlink" title="查看负载状态"></a>查看负载状态</h3><p>  <code># cat /proc/loadavg</code><br>  <code># top</code><br>  <code># netstat -n | awk &#39;/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}&#39;</code>  # 网络负载<br>  <code># netstat -anp | grep -E &quot;23|24&quot; | grep -vE &#39;LISTEN|&lt;IP&gt;&#39; | wc -l</code></p>
+<h3 id="Yum-常用命令"><a href="#Yum-常用命令" class="headerlink" title="Yum 常用命令"></a>Yum 常用命令</h3><p>  <code># yum provides libnetsnmp* --showduplicates | grep -w libnetsnmp</code></p>
+<h3 id="监视文件变化"><a href="#监视文件变化" class="headerlink" title="监视文件变化"></a>监视文件变化</h3><p>  <code># tail -f /var/log/nova-api.log</code><br>  <code># tail -F /var/log/nova-api.log</code>         # 文件重新建立后,可以继续跟踪<br>  <code># tail -n 20 filename</code>                   # 显示文件末尾 20 行的内容<br>  <code># cat -n filename</code>                       # 显示行号</p>
+<h3 id="Virsh-常用命令"><a href="#Virsh-常用命令" class="headerlink" title="Virsh 常用命令"></a>Virsh 常用命令</h3><p>  <code># virsh list --all</code><br>  <code># virsh define</code><br>  <code># virsh console</code><br>  <code># virsh start|shutdown|reboot|destroy</code><br>  <code># virsh dumpxml</code></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;ls查看目录及子目录的内容&quot;&gt;&lt;a href=&quot;#ls查看目录及子目录的内容&quot; class=&quot;headerlink&quot; title=&quot;ls查看目录及子目录的内容&quot;&gt;&lt;/a&gt;ls查看目录及子目录的内容&lt;/h3&gt;  &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# ls -lhRa /cpf/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/cpf/:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;total 4.0K&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwxr-xr-x.  4 root   root     33 Mar  1 07:17 .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;dr-xr-xr-x. 18 root   root   4.0K Nov 10 02:35 ..&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------.  3 apache apache   16 Mar  1 07:17 var&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/cpf/var:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;total 0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 3 apache apache 16 Mar  1 07:17 .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwxr-xr-x. 4 root   root   33 Mar  1 07:17 ..&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 4 apache apache 33 Mar  1 07:17 &lt;span class=&quot;built_in&quot;&gt;log&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/cpf/var/&lt;span class=&quot;built_in&quot;&gt;log&lt;/span&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;total 0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 4 apache apache 33 Mar  1 07:17 .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 3 apache apache 16 Mar  1 07:17 ..&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 2 apache apache  6 Mar  1 07:17 httpd&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 2 apache apache  6 Mar  1 07:17 keystone&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+      &lt;h3 id=&quot;ls-查看目录及子目录的内容&quot;&gt;&lt;a href=&quot;#ls-查看目录及子目录的内容&quot; class=&quot;headerlink&quot; title=&quot;ls 查看目录及子目录的内容&quot;&gt;&lt;/a&gt;ls 查看目录及子目录的内容&lt;/h3&gt;  &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;# ls -lhRa /cpf/&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/cpf/:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;total 4.0K&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwxr-xr-x.  4 root   root     33 Mar  1 07:17 .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;dr-xr-xr-x. 18 root   root   4.0K Nov 10 02:35 ..&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------.  3 apache apache   16 Mar  1 07:17 var&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/cpf/var:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;total 0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 3 apache apache 16 Mar  1 07:17 .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwxr-xr-x. 4 root   root   33 Mar  1 07:17 ..&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 4 apache apache 33 Mar  1 07:17 log&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;/cpf/var/log:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;total 0&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 4 apache apache 33 Mar  1 07:17 .&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 3 apache apache 16 Mar  1 07:17 ..&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 2 apache apache  6 Mar  1 07:17 httpd&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;drwx------. 2 apache apache  6 Mar  1 07:17 keystone&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;h3 id=&quot;查看命令所在位置&quot;&gt;&lt;a href=&quot;#查看命令所在位置&quot; class=&quot;headerlink&quot; title=&quot;查看命令所在位置&quot;&gt;&lt;/a&gt;查看命令所在位置&lt;/h3&gt;&lt;p&gt;  [Linux]&lt;br&gt;  &lt;code&gt;# whereis ruby&lt;/code&gt;&lt;br&gt;  [Windows]&lt;br&gt;  &lt;code&gt;&amp;gt; where ipconfig&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&quot;查看zip压缩文档的内容&quot;&gt;&lt;a href=&quot;#查看zip压缩文档的内容&quot; class=&quot;headerlink&quot; title=&quot;查看zip压缩文档的内容&quot;&gt;&lt;/a&gt;查看zip压缩文档的内容&lt;/h3&gt;&lt;p&gt;  &lt;code&gt;# zcat file_name.zip&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&quot;压缩解压&quot;&gt;&lt;a href=&quot;#压缩解压&quot; class=&quot;headerlink&quot; title=&quot;压缩解压&quot;&gt;&lt;/a&gt;压缩解压&lt;/h3&gt;&lt;p&gt;  &lt;code&gt;# tar -cvf jpg.tar *.jpg&lt;/code&gt;       # 压缩tar&lt;br&gt;  &lt;code&gt;# tar -czf jpg.tar.gz *.jpg&lt;/code&gt;    # 压缩tar.gz&lt;br&gt;  &lt;code&gt;# tar -xvf file.tar&lt;/code&gt;            # 解压tar&lt;br&gt;  &lt;code&gt;# tar -xzvf file.tar.gz&lt;/code&gt;        # 解压tar.gz&lt;/p&gt;
+&lt;h3 id=&quot;查看-zip-压缩文档的内容&quot;&gt;&lt;a href=&quot;#查看-zip-压缩文档的内容&quot; class=&quot;headerlink&quot; title=&quot;查看 zip 压缩文档的内容&quot;&gt;&lt;/a&gt;查看 zip 压缩文档的内容&lt;/h3&gt;&lt;p&gt;  &lt;code&gt;# zcat file_name.zip&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&quot;压缩解压&quot;&gt;&lt;a href=&quot;#压缩解压&quot; class=&quot;headerlink&quot; title=&quot;压缩解压&quot;&gt;&lt;/a&gt;压缩解压&lt;/h3&gt;&lt;p&gt;  &lt;code&gt;# tar -cvf jpg.tar *.jpg&lt;/code&gt;       # 压缩 tar&lt;br&gt;  &lt;code&gt;# tar -czf jpg.tar.gz *.jpg&lt;/code&gt;    # 压缩 tar.gz&lt;br&gt;  &lt;code&gt;# tar -xvf file.tar&lt;/code&gt;            # 解压 tar&lt;br&gt;  &lt;code&gt;# tar -xzvf file.tar.gz&lt;/code&gt;        # 解压 tar.gz&lt;/p&gt;
 &lt;h3 id=&quot;清空文件内容&quot;&gt;&lt;a href=&quot;#清空文件内容&quot; class=&quot;headerlink&quot; title=&quot;清空文件内容&quot;&gt;&lt;/a&gt;清空文件内容&lt;/h3&gt;&lt;p&gt;  &lt;code&gt;# echo |&amp;gt; /var/log/cinder/api.log&lt;/code&gt;&lt;/p&gt;
     
     </summary>
@@ -64,13 +64,13 @@
   </entry>
   
   <entry>
-    <title>Java 学习简记   (二)</title>
+    <title>Java 学习简记 (二)</title>
     <link href="http://oxlyn.cn/2016/06/03/java-notes-02/"/>
     <id>http://oxlyn.cn/2016/06/03/java-notes-02/</id>
     <published>2016-06-03T12:33:23.000Z</published>
-    <updated>2016-11-05T18:13:01.000Z</updated>
+    <updated>2016-11-06T04:12:43.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="5-Java-注释"><a href="#5-Java-注释" class="headerlink" title="5. Java 注释"></a>5. Java 注释</h3><ul>
+    <content type="html"><![CDATA[<h3 id="4-Java-注释"><a href="#4-Java-注释" class="headerlink" title="4. Java 注释"></a>4. Java 注释</h3><ul>
 <li>Java 中的注释使用<ul>
 <li>单行注释 <code>//</code></li>
 <li>多行注释 <code>/* ... */</code></li>
@@ -78,7 +78,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="6-标识符及关键字"><a href="#6-标识符及关键字" class="headerlink" title="6. 标识符及关键字"></a>6. 标识符及关键字</h3><ul>
+<h3 id="5-标识符及关键字"><a href="#5-标识符及关键字" class="headerlink" title="5. 标识符及关键字"></a>5. 标识符及关键字</h3><ul>
 <li>标识符<ul>
 <li>标识符由数字、字母、下划线和<code>&quot;$&quot;</code>组成，不能以数字开头</li>
 <li>大小写敏感</li>
@@ -97,15 +97,15 @@
 <li><code>\f</code> 换页</li>
 <li><code>\n</code> 回车</li>
 <li><code>\r</code> 换行</li>
-<li><code>\t</code> 制表符 Tab</li>
+<li><code>\t</code> 制表符Tab</li>
 <li><code>\&#39;</code> 单引号</li>
 <li><code>\&quot;</code> 双引号</li>
 <li><code>\\</code> 反斜杠</li>
 </ul>
 </li>
 </ul>
-<h3 id="7-Java-的运算符"><a href="#7-Java-的运算符" class="headerlink" title="7. Java 的运算符"></a>7. Java 的运算符</h3><ol>
-<li>算符运算符<ul>
+<h3 id="6-Java-中的运算符"><a href="#6-Java-中的运算符" class="headerlink" title="6. Java 中的运算符"></a>6. Java 中的运算符</h3><ol>
+<li>算术运算<ul>
 <li><code>+ - ++ --</code></li>
 <li><code>+ - * / %</code></li>
 <li><code>a &gt; b ? &quot;true&quot; : &quot;false&quot;</code></li>
@@ -115,7 +115,7 @@
 <li><code>== != &gt; &lt; &gt;= &lt;=</code></li>
 </ul>
 </li>
-<li>位运算 &amp; 逻辑运算<ul>
+<li>位运算&amp;逻辑运算<ul>
 <li>位运算: <code>&amp;</code>(与) <code>|</code>(或) <code>~</code>(非) <code>^</code>(异或)</li>
 <li>逻辑运算: <code>&amp;&amp;</code>(与) <code>||</code>(或) <code>!</code>(非)</li>
 </ul>
@@ -131,7 +131,7 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;5-Java-注释&quot;&gt;&lt;a href=&quot;#5-Java-注释&quot; class=&quot;headerlink&quot; title=&quot;5. Java 注释&quot;&gt;&lt;/a&gt;5. Java 注释&lt;/h3&gt;&lt;ul&gt;
+      &lt;h3 id=&quot;4-Java-注释&quot;&gt;&lt;a href=&quot;#4-Java-注释&quot; class=&quot;headerlink&quot; title=&quot;4. Java 注释&quot;&gt;&lt;/a&gt;4. Java 注释&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;Java 中的注释使用&lt;ul&gt;
 &lt;li&gt;单行注释 &lt;code&gt;//&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;多行注释 &lt;code&gt;/* ... */&lt;/code&gt;&lt;/li&gt;
@@ -139,7 +139,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;6-标识符及关键字&quot;&gt;&lt;a href=&quot;#6-标识符及关键字&quot; class=&quot;headerlink&quot; title=&quot;6. 标识符及关键字&quot;&gt;&lt;/a&gt;6. 标识符及关键字&lt;/h3&gt;&lt;ul&gt;
+&lt;h3 id=&quot;5-标识符及关键字&quot;&gt;&lt;a href=&quot;#5-标识符及关键字&quot; class=&quot;headerlink&quot; title=&quot;5. 标识符及关键字&quot;&gt;&lt;/a&gt;5. 标识符及关键字&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;标识符&lt;ul&gt;
 &lt;li&gt;标识符由数字、字母、下划线和&lt;code&gt;&amp;quot;$&amp;quot;&lt;/code&gt;组成，不能以数字开头&lt;/li&gt;
 &lt;li&gt;大小写敏感&lt;/li&gt;
@@ -164,15 +164,15 @@
     <link href="http://oxlyn.cn/2016/06/01/java-notes-01/"/>
     <id>http://oxlyn.cn/2016/06/01/java-notes-01/</id>
     <published>2016-06-01T12:33:23.000Z</published>
-    <updated>2016-11-05T18:15:43.000Z</updated>
+    <updated>2016-11-06T04:11:07.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="1-HelloWorld"><a href="#1-HelloWorld" class="headerlink" title="1. HelloWorld"></a>1. HelloWorld</h3><ul>
 <li>文件名必须和 public 修饰的类名一致；如果定义的类不是 public 的，则文件名和类名可以不同。</li>
 <li>一个 Java 文件中可以有多个 class，但是只能有一个 public 修饰的类。</li>
 <li>Java 源代码编译后，一个类对应生成一个 class 文件。</li>
-<li>一个 Java 应用程序应该包含一个 main() 方法，且其签名是固定的，是程序的入口。可以定义在任意类中，不一定非得是 public 修饰的类。</li>
+<li>一个 Java 应用程序应该包含一个 main() 方法，且其签名是固定的，是程序的入口。可以定义在任意类中，不一定非得是 public 修饰的类。<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">javac -d . HelloWorld.java</span><br><span class="line">java mypack.HelloWorld</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
-<p><code>$ javac -d . HelloWorld.java</code><br><code>java mypack.HelloWorld</code></p>
 <a id="more"></a>
 <h3 id="2-面向对象的特性"><a href="#2-面向对象的特性" class="headerlink" title="2. 面向对象的特性"></a>2. 面向对象的特性</h3><ul>
 <li>抽象</li>
@@ -180,15 +180,15 @@
 <li>继承</li>
 <li>多态</li>
 </ul>
-<h3 id="3-Java-的数据类型"><a href="#3-Java-的数据类型" class="headerlink" title="3. Java 的数据类型"></a>3. Java 的数据类型</h3><ol>
+<h3 id="3-Java-中的数据类型"><a href="#3-Java-中的数据类型" class="headerlink" title="3. Java 中的数据类型"></a>3. Java 中的数据类型</h3><ol>
 <li>整型<br>|byte |1B|8位 |-128 ~ 127      |<br>|—  |–|— |—             |<br>|short|2B|16位|-2^15 ~ (2^15)-1|<br>|int  |4B|32位|-2^31 ~ (2^31)-1|<br>|long |8B|64位|-2^63 ~ (2^63)-1|</li>
 <li>浮点型<br>|float|4B |32位|<br>|—  |—|— |<br>|double|8B |64位|</li>
 <li>字符型<br><code>char 2B 16位</code></li>
 <li>布尔型<br><code>boolean true/false</code></li>
-<li>类型转换<br>自动类型转换：<code>byte -&gt; short -&gt; int -&gt; long -&gt; float -&gt; double</code><br>强制转换：<code>int a = (int)3.14;</code><br>默认浮点类型为 double，float 类型的后缀为f/F。<br>long 类型的后缀为l/L。<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">byte a = 1;</span><br><span class="line">byte b = 1;</span><br><span class="line">a = a + b  // Compile Error</span><br><span class="line">a += b     // Success</span><br></pre></td></tr></table></figure>
+<li>类型转换<br>自动类型转换：<code>byte -&gt; short -&gt; int -&gt; long -&gt; float -&gt; double</code><br>强制转换：<code>int a = (int)3.14;</code><br>默认浮点类型为 double，float 类型的后缀为 f/F。<br>long 类型的后缀为 l/L。<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">byte a = 1;</span><br><span class="line">byte b = 1;</span><br><span class="line">a = a + b  // Compile Error</span><br><span class="line">a += b     // Success</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<h3 id="4-引用数据类型"><a href="#4-引用数据类型" class="headerlink" title="4. 引用数据类型"></a>4. 引用数据类型</h3><ul>
+<h3 id="5-引用数据类型"><a href="#5-引用数据类型" class="headerlink" title="5. 引用数据类型"></a>5. 引用数据类型</h3><ul>
 <li>类</li>
 <li>接口</li>
 <li>数组</li>
@@ -201,9 +201,9 @@
 &lt;li&gt;文件名必须和 public 修饰的类名一致；如果定义的类不是 public 的，则文件名和类名可以不同。&lt;/li&gt;
 &lt;li&gt;一个 Java 文件中可以有多个 class，但是只能有一个 public 修饰的类。&lt;/li&gt;
 &lt;li&gt;Java 源代码编译后，一个类对应生成一个 class 文件。&lt;/li&gt;
-&lt;li&gt;一个 Java 应用程序应该包含一个 main() 方法，且其签名是固定的，是程序的入口。可以定义在任意类中，不一定非得是 public 修饰的类。&lt;/li&gt;
+&lt;li&gt;一个 Java 应用程序应该包含一个 main() 方法，且其签名是固定的，是程序的入口。可以定义在任意类中，不一定非得是 public 修饰的类。&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;javac -d . HelloWorld.java&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;java mypack.HelloWorld&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;code&gt;$ javac -d . HelloWorld.java&lt;/code&gt;&lt;br&gt;&lt;code&gt;java mypack.HelloWorld&lt;/code&gt;&lt;/p&gt;
     
     </summary>
     
@@ -213,13 +213,13 @@
   </entry>
   
   <entry>
-    <title>Hexo使用概要</title>
+    <title>Hexo 使用概要</title>
     <link href="http://oxlyn.cn/2016/04/21/hexo-usage/"/>
     <id>http://oxlyn.cn/2016/04/21/hexo-usage/</id>
     <published>2016-04-21T12:12:00.000Z</published>
-    <updated>2016-08-08T15:01:30.000Z</updated>
+    <updated>2016-11-06T04:08:58.000Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h4><ol>
+    <content type="html"><![CDATA[<h4 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h4><ol>
 <li>Install Homebrew<br><code>$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></li>
 <li>Install Git<br><code>$ brew install git</code></li>
 <li>Install Nvm:<br><code>$ Curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh</code></li>
@@ -227,37 +227,37 @@
 <li>Install Hexo<br><code>$ npm install hexo-cli -g</code></li>
 </ol>
 <a id="more"></a>
-<h4 id="部署到coding和github"><a href="#部署到coding和github" class="headerlink" title="部署到coding和github"></a>部署到coding和github</h4><ol>
+<h4 id="部署到-coding-和-github"><a href="#部署到-coding-和-github" class="headerlink" title="部署到 coding 和 github"></a>部署到 coding 和 github</h4><ol>
 <li><p>初始化</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init &lt;your_blog&gt;</span><br><span class="line">$ <span class="built_in">cd</span> &lt;your_blog&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>设置<a href="https://hexo.io/docs/configuration.html" target="_blank" rel="external">_config.yml</a><br>在github和coding上创建项目oxlyn，并开启Pages服务。_config.yml中deploy部分配置如下：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: </span><br><span class="line">    github: git@github.com:oxlyn/oxlyn.git,gh-pages</span><br><span class="line">    coding: git@git.coding.net:oxlyn/oxlyn.git,coding-pages</span><br></pre></td></tr></table></figure>
+<li><p>设置 <a href="https://hexo.io/docs/configuration.html" target="_blank" rel="external">_config.yml</a><br>在 github 和 coding 上创建项目 oxlyn，并开启 Pages 服务。_config.yml 中 deploy 部分配置如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: </span><br><span class="line">    github: git@github.com:oxlyn/oxlyn.git,gh-pages</span><br><span class="line">    coding: git@git.coding.net:oxlyn/oxlyn.git,coding-pages</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>设置git</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">'&lt;your_name&gt;'</span></span><br><span class="line">$ git config --global user.email <span class="string">'&lt;your_email&gt;'</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git config --global user.name &apos;&lt;your_name&gt;&apos;</span><br><span class="line">$ git config --global user.email &apos;&lt;your_email&gt;&apos;</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>Deploy<br>先上传公钥到github和coding，然后deploy。</p>
+<li><p>Deploy<br>先上传公钥到 github 和 coding，然后 deploy。</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
-<h4 id="将源码提交到github"><a href="#将源码提交到github" class="headerlink" title="将源码提交到github"></a>将源码提交到github</h4><ol>
-<li>设置origin<br><code>git origin</code></li>
+<h4 id="将源码提交到-github"><a href="#将源码提交到-github" class="headerlink" title="将源码提交到 github"></a>将源码提交到 github</h4><ol>
+<li>设置 origin<br><code>git remote add origin git@github.com:oxlyn/oxlyn.git</code></li>
 <li>提交<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git init .</span><br><span class="line">$ git add .</span><br><span class="line">$ git commit -m &apos;&lt;commit_msg&gt;&apos;</span><br><span class="line">$ git push origin master</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
 <h4 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h4><ul>
 <li><p><a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank" rel="external">Install</a></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install --save hexo-renderer-pug hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/pinggod/hexo-theme-apollo.git themes/apollo</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install --save hexo-renderer-pug hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive</span><br><span class="line">$ git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>启用，更改_config.yml</p>
+<li><p>更改 _config.yml，启用主题</p>
 <figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> apollo</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在归档页面显示所有文章</span></span><br><span class="line"><span class="comment"># 需要上面安装的 hexo-generator-archive 插件支持</span></span><br><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line"><span class="attr">    per_page:</span> <span class="number">0</span></span><br><span class="line"><span class="attr">    yearly:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">    monthly:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">    daily:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure></li>
 </ul>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h4 id=&quot;安装Hexo&quot;&gt;&lt;a href=&quot;#安装Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装Hexo&quot;&gt;&lt;/a&gt;安装Hexo&lt;/h4&gt;&lt;ol&gt;
+      &lt;h4 id=&quot;安装-Hexo&quot;&gt;&lt;a href=&quot;#安装-Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装 Hexo&quot;&gt;&lt;/a&gt;安装 Hexo&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;Install Homebrew&lt;br&gt;&lt;code&gt;$ /usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Install Git&lt;br&gt;&lt;code&gt;$ brew install git&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Install Nvm:&lt;br&gt;&lt;code&gt;$ Curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh&lt;/code&gt;&lt;/li&gt;
@@ -279,7 +279,7 @@
     <link href="http://oxlyn.cn/2016/04/21/hello-world/"/>
     <id>http://oxlyn.cn/2016/04/21/hello-world/</id>
     <published>2016-04-21T10:12:00.000Z</published>
-    <updated>2016-04-21T12:25:47.000Z</updated>
+    <updated>2016-11-06T03:35:51.000Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
