@@ -1,10 +1,10 @@
 ---
-title: Hexo使用概要
+title: Hexo 部署概要
 date: 2016-04-21 20:12:00
 tags: [hexo, git]
 ---
 
-#### 安装Hexo
+#### 安装 Hexo
 
 1. Install Homebrew
 `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -20,7 +20,7 @@ tags: [hexo, git]
 
 <!--more-->
 
-#### 部署到coding和github
+#### 部署到 coding 和 github
 
 1. 初始化
 ``` bash
@@ -28,9 +28,9 @@ $ hexo init <your_blog>
 $ cd <your_blog>
 $ npm install
 ```
-2. 设置[_config.yml](https://hexo.io/docs/configuration.html)
-   在github和coding上创建项目oxlyn，并开启Pages服务。_config.yml中deploy部分配置如下：
-``` bash
+2. 设置 [_config.yml](https://hexo.io/docs/configuration.html) 
+   在 github 和 coding 上创建项目 oxlyn，并开启 Pages 服务。_config.yml 中 deploy 部分配置如下：
+```
 deploy:
   type: git
   repo: 
@@ -39,21 +39,21 @@ deploy:
 ```
 
 3. 设置git
-```bash
+```
 $ git config --global user.name '<your_name>'
 $ git config --global user.email '<your_email>'
 ```
 4. Deploy
-先上传公钥到github和coding，然后deploy。
+先上传公钥到 github 和 coding，然后 deploy。
 ```
 $ npm install hexo-deployer-git --save
 $ hexo deploy
 ```
 
-#### 将源码提交到github
+#### 将源码提交到 github
 
-1. 设置origin
-`git origin`
+1. 设置 origin
+`git remote add origin git@github.com:oxlyn/oxlyn.git`
 2. 提交
 ```
 $ git init .
@@ -64,13 +64,12 @@ $ git push origin master
 
 #### 安装主题
 
-
 * [Install](https://github.com/pinggod/hexo-theme-apollo)
-```bash
+```
 $ npm install --save hexo-renderer-pug hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
 $ git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo
 ```
-* 启用，更改_config.yml
+* 更改 _config.yml，启用主题
 ```yaml
 theme: apollo
 
