@@ -242,53 +242,30 @@
     <link href="http://oxlyn.cn/2016/04/21/hexo-deploy/"/>
     <id>http://oxlyn.cn/2016/04/21/hexo-deploy/</id>
     <published>2016-04-21T12:12:00.000Z</published>
-    <updated>2016-11-07T12:51:27.000Z</updated>
+    <updated>2016-11-07T13:11:55.000Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h4><ol>
-<li>Install Homebrew<br><code>$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></li>
-<li>Install Git<br><code>$ brew install git</code></li>
-<li>Install Nvm:<br><code>$ Curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh</code></li>
-<li>Install Node.js<br><code>$ nvm install 5</code></li>
-<li>Install Hexo<br><code>$ npm install hexo-cli -g</code></li>
-</ol>
+    <content type="html"><![CDATA[<h3 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h3><h4 id="1-Install-Homebrew"><a href="#1-Install-Homebrew" class="headerlink" title="1. Install Homebrew"></a>1. Install Homebrew</h4><p><code>$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></p>
+<h4 id="2-Install-Git"><a href="#2-Install-Git" class="headerlink" title="2. Install Git"></a>2. Install Git</h4><p><code>$ brew install git</code></p>
+<h4 id="3-Install-Nvm"><a href="#3-Install-Nvm" class="headerlink" title="3. Install Nvm:"></a>3. Install Nvm:</h4><p><code>$ Curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh</code></p>
+<h4 id="4-Install-Node-js"><a href="#4-Install-Node-js" class="headerlink" title="4. Install Node.js"></a>4. Install Node.js</h4><p><code>$ nvm install 5</code></p>
+<h4 id="5-Install-Hexo"><a href="#5-Install-Hexo" class="headerlink" title="5. Install Hexo"></a>5. Install Hexo</h4><p><code>$ npm install hexo-cli -g</code></p>
 <a id="more"></a>
-<h4 id="部署到-coding-和-github"><a href="#部署到-coding-和-github" class="headerlink" title="部署到 coding 和 github"></a>部署到 coding 和 github</h4><ol>
-<li><p>初始化</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init &lt;your_blog&gt;</span><br><span class="line">$ <span class="built_in">cd</span> &lt;your_blog&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>设置 <a href="https://hexo.io/docs/configuration.html" target="_blank" rel="external">_config.yml</a><br>在 github 和 coding 上创建项目 oxlyn，并开启 Pages 服务。_config.yml 中 deploy 部分配置如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: </span><br><span class="line">    github: git@github.com:oxlyn/oxlyn.git,gh-pages</span><br><span class="line">    coding: git@git.coding.net:oxlyn/oxlyn.git,coding-pages</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>设置git</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git config --global user.name &apos;&lt;your_name&gt;&apos;</span><br><span class="line">$ git config --global user.email &apos;&lt;your_email&gt;&apos;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>Deploy<br>先上传公钥到 github 和 coding，然后 deploy。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h4 id="将源码提交到-github"><a href="#将源码提交到-github" class="headerlink" title="将源码提交到 github"></a>将源码提交到 github</h4><ol>
-<li>设置 origin<br><code>git remote add origin git@github.com:oxlyn/oxlyn.git</code></li>
-<li>提交<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git init .</span><br><span class="line">$ git add .</span><br><span class="line">$ git commit -m &apos;&lt;commit_msg&gt;&apos;</span><br><span class="line">$ git push origin master</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h4 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h4><ul>
-<li><p><a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank" rel="external">Install</a></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install --save hexo-renderer-pug hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive</span><br><span class="line">$ git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>更改 _config.yml，启用主题</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> apollo</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在归档页面显示所有文章</span></span><br><span class="line"><span class="comment"># 需要上面安装的 hexo-generator-archive 插件支持</span></span><br><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line"><span class="attr">    per_page:</span> <span class="number">0</span></span><br><span class="line"><span class="attr">    yearly:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">    monthly:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">    daily:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-]]></content>
+<h3 id="部署到-coding-和-github"><a href="#部署到-coding-和-github" class="headerlink" title="部署到 coding 和 github"></a>部署到 coding 和 github</h3><h4 id="1-初始化"><a href="#1-初始化" class="headerlink" title="1. 初始化"></a>1. 初始化</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo init &lt;your_blog&gt;</span><br><span class="line">$ <span class="built_in">cd</span> &lt;your_blog&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<h4 id="2-设置-config-yml"><a href="#2-设置-config-yml" class="headerlink" title="2. 设置 _config.yml"></a>2. 设置 <a href="https://hexo.io/docs/configuration.html" target="_blank" rel="external">_config.yml</a></h4><p>   在 github 和 coding 上创建项目 oxlyn，并开启 Pages 服务。_config.yml 中 deploy 部分配置如下：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: </span><br><span class="line">    github: git@github.com:oxlyn/oxlyn.git,gh-pages</span><br><span class="line">    coding: git@git.coding.net:oxlyn/oxlyn.git,coding-pages</span><br></pre></td></tr></table></figure></p>
+<h4 id="3-设置-git"><a href="#3-设置-git" class="headerlink" title="3. 设置 git"></a>3. 设置 git</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git config --global user.name &apos;&lt;your_name&gt;&apos;</span><br><span class="line">$ git config --global user.email &apos;&lt;your_email&gt;&apos;</span><br></pre></td></tr></table></figure>
+<h4 id="4-Deploy"><a href="#4-Deploy" class="headerlink" title="4. Deploy"></a>4. Deploy</h4><p>先上传公钥到 github 和 coding，然后 deploy。<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure></p>
+<h3 id="将源码提交到-github"><a href="#将源码提交到-github" class="headerlink" title="将源码提交到 github"></a>将源码提交到 github</h3><h4 id="1-设置-origin"><a href="#1-设置-origin" class="headerlink" title="1. 设置 origin"></a>1. 设置 origin</h4><p><code>git remote add origin git@github.com:oxlyn/oxlyn.git</code></p>
+<h4 id="2-提交"><a href="#2-提交" class="headerlink" title="2. 提交"></a>2. 提交</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git init .</span><br><span class="line">$ git add .</span><br><span class="line">$ git commit -m &apos;&lt;commit_msg&gt;&apos;</span><br><span class="line">$ git push origin master</span><br></pre></td></tr></table></figure>
+<h3 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h3><h4 id="1-Install"><a href="#1-Install" class="headerlink" title="1. Install"></a>1. <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank" rel="external">Install</a></h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install --save hexo-renderer-pug hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive</span><br><span class="line">$ git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo</span><br></pre></td></tr></table></figure>
+<h4 id="2-更改-config-yml，启用主题"><a href="#2-更改-config-yml，启用主题" class="headerlink" title="2. 更改 _config.yml，启用主题"></a>2. 更改 _config.yml，启用主题</h4><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> apollo</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在归档页面显示所有文章</span></span><br><span class="line"><span class="comment"># 需要上面安装的 hexo-generator-archive 插件支持</span></span><br><span class="line"><span class="attr">archive_generator:</span></span><br><span class="line"><span class="attr">    per_page:</span> <span class="number">0</span></span><br><span class="line"><span class="attr">    yearly:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">    monthly:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">    daily:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      &lt;h4 id=&quot;安装-Hexo&quot;&gt;&lt;a href=&quot;#安装-Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装 Hexo&quot;&gt;&lt;/a&gt;安装 Hexo&lt;/h4&gt;&lt;ol&gt;
-&lt;li&gt;Install Homebrew&lt;br&gt;&lt;code&gt;$ /usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Install Git&lt;br&gt;&lt;code&gt;$ brew install git&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Install Nvm:&lt;br&gt;&lt;code&gt;$ Curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Install Node.js&lt;br&gt;&lt;code&gt;$ nvm install 5&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Install Hexo&lt;br&gt;&lt;code&gt;$ npm install hexo-cli -g&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
+      &lt;h3 id=&quot;安装-Hexo&quot;&gt;&lt;a href=&quot;#安装-Hexo&quot; class=&quot;headerlink&quot; title=&quot;安装 Hexo&quot;&gt;&lt;/a&gt;安装 Hexo&lt;/h3&gt;&lt;h4 id=&quot;1-Install-Homebrew&quot;&gt;&lt;a href=&quot;#1-Install-Homebrew&quot; class=&quot;headerlink&quot; title=&quot;1. Install Homebrew&quot;&gt;&lt;/a&gt;1. Install Homebrew&lt;/h4&gt;&lt;p&gt;&lt;code&gt;$ /usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&quot;2-Install-Git&quot;&gt;&lt;a href=&quot;#2-Install-Git&quot; class=&quot;headerlink&quot; title=&quot;2. Install Git&quot;&gt;&lt;/a&gt;2. Install Git&lt;/h4&gt;&lt;p&gt;&lt;code&gt;$ brew install git&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&quot;3-Install-Nvm&quot;&gt;&lt;a href=&quot;#3-Install-Nvm&quot; class=&quot;headerlink&quot; title=&quot;3. Install Nvm:&quot;&gt;&lt;/a&gt;3. Install Nvm:&lt;/h4&gt;&lt;p&gt;&lt;code&gt;$ Curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&quot;4-Install-Node-js&quot;&gt;&lt;a href=&quot;#4-Install-Node-js&quot; class=&quot;headerlink&quot; title=&quot;4. Install Node.js&quot;&gt;&lt;/a&gt;4. Install Node.js&lt;/h4&gt;&lt;p&gt;&lt;code&gt;$ nvm install 5&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&quot;5-Install-Hexo&quot;&gt;&lt;a href=&quot;#5-Install-Hexo&quot; class=&quot;headerlink&quot; title=&quot;5. Install Hexo&quot;&gt;&lt;/a&gt;5. Install Hexo&lt;/h4&gt;&lt;p&gt;&lt;code&gt;$ npm install hexo-cli -g&lt;/code&gt;&lt;/p&gt;
     
     </summary>
     
