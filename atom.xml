@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://oxlyn.cn/"/>
-  <updated>2016-11-07T12:57:23.000Z</updated>
+  <updated>2016-11-07T13:16:01.000Z</updated>
   <id>http://oxlyn.cn/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Eclipse 设置</title>
+    <title>Eclipse 常用设置（不定时更新）</title>
     <link href="http://oxlyn.cn/2016/11/07/eclipse-setting/"/>
     <id>http://oxlyn.cn/2016/11/07/eclipse-setting/</id>
     <published>2016-11-07T12:52:04.000Z</published>
-    <updated>2016-11-07T12:57:23.000Z</updated>
+    <updated>2016-11-07T13:16:01.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="1-自动删除行末空格"><a href="#1-自动删除行末空格" class="headerlink" title="1. 自动删除行末空格"></a>1. 自动删除行末空格</h3><p><code>Window -&gt; Preferences -&gt; Java -&gt; Editor -&gt; Save Actions -&gt; Additional actions -&gt; Configure</code></p>
 <h3 id="2-设置显示行号"><a href="#2-设置显示行号" class="headerlink" title="2. 设置显示行号"></a>2. 设置显示行号</h3><p><code>Window -&gt; Preferences -&gt; Editor -&gt; Text Editors -&gt; Show line numbers</code></p>
