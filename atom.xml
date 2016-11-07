@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://oxlyn.cn/"/>
-  <updated>2016-11-06T04:17:28.000Z</updated>
+  <updated>2016-11-07T12:57:23.000Z</updated>
   <id>http://oxlyn.cn/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Eclipse 设置</title>
+    <link href="http://oxlyn.cn/2016/11/07/eclipse-setting/"/>
+    <id>http://oxlyn.cn/2016/11/07/eclipse-setting/</id>
+    <published>2016-11-07T12:52:04.000Z</published>
+    <updated>2016-11-07T12:57:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-自动删除行末空格"><a href="#1-自动删除行末空格" class="headerlink" title="1. 自动删除行末空格"></a>1. 自动删除行末空格</h3><p><code>Window -&gt; Preferences -&gt; Java -&gt; Editor -&gt; Save Actions -&gt; Additional actions -&gt; Configure</code></p>
+<h3 id="2-设置显示行号"><a href="#2-设置显示行号" class="headerlink" title="2. 设置显示行号"></a>2. 设置显示行号</h3><p><code>Window -&gt; Preferences -&gt; Editor -&gt; Text Editors -&gt; Show line numbers</code></p>
+<h3 id="3-设置显示空格和-Tab"><a href="#3-设置显示空格和-Tab" class="headerlink" title="3. 设置显示空格和 Tab"></a>3. 设置显示空格和 Tab</h3><p><code>Window -&gt; Preferences -&gt; Editor -&gt; Text Editors -&gt; Show whitespace characters</code></p>
+<h3 id="4-设置自动转换-Tab-为空格"><a href="#4-设置自动转换-Tab-为空格" class="headerlink" title="4. 设置自动转换 Tab 为空格"></a>4. 设置自动转换 Tab 为空格</h3><p><code>Window -&gt; Preferences -&gt; General -&gt; Editors -&gt; Text Editors -&gt; Insert space for tabs</code><br><code>Window -&gt; Preferences -&gt; Java -&gt; Code style -&gt; Formatter -&gt; Edit -&gt; Tab policy -&gt;spaces only</code><br>若出现应用 Apply 按钮为灰色的情况，需要回到上一步，点击 new 按钮，根据当前的样式重新生成一个新的样式并保存，编辑该样式即可<br>参考：<a href="http://my.oschina.net/xunxun10/blog/110074" target="_blank" rel="external">http://my.oschina.net/xunxun10/blog/110074</a></p>
+<h3 id="5-设置在第-80-个字符处显示提示线"><a href="#5-设置在第-80-个字符处显示提示线" class="headerlink" title="5. 设置在第 80 个字符处显示提示线"></a>5. 设置在第 80 个字符处显示提示线</h3><p><code>Window -&gt; Preferences -&gt; Editor -&gt; Text Editors -&gt; Show print margin</code></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1-自动删除行末空格&quot;&gt;&lt;a href=&quot;#1-自动删除行末空格&quot; class=&quot;headerlink&quot; title=&quot;1. 自动删除行末空格&quot;&gt;&lt;/a&gt;1. 自动删除行末空格&lt;/h3&gt;&lt;p&gt;&lt;code&gt;Window -&amp;gt; Preferences -&amp;gt;
+    
+    </summary>
+    
+    
+      <category term="eclipse" scheme="http://oxlyn.cn/tags/eclipse/"/>
+    
+  </entry>
   
   <entry>
     <title>Linux 常用命令</title>
@@ -213,11 +238,11 @@
   </entry>
   
   <entry>
-    <title>Hexo 使用概要</title>
-    <link href="http://oxlyn.cn/2016/04/21/hexo-usage/"/>
-    <id>http://oxlyn.cn/2016/04/21/hexo-usage/</id>
+    <title>Hexo 部署概要</title>
+    <link href="http://oxlyn.cn/2016/04/21/hexo-deploy/"/>
+    <id>http://oxlyn.cn/2016/04/21/hexo-deploy/</id>
     <published>2016-04-21T12:12:00.000Z</published>
-    <updated>2016-11-06T04:08:58.000Z</updated>
+    <updated>2016-11-07T12:51:27.000Z</updated>
     
     <content type="html"><![CDATA[<h4 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h4><ol>
 <li>Install Homebrew<br><code>$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></li>

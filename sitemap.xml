@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://oxlyn.cn/2016/11/07/eclipse-setting/</loc>
+    
+    <lastmod>2016-11-07T12:57:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://oxlyn.cn/2016/04/21/hexo-deploy/</loc>
+    
+    <lastmod>2016-11-07T12:51:27.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://oxlyn.cn/about/index.html</loc>
     
     <lastmod>2016-11-06T04:18:05.000Z</lastmod>
@@ -26,13 +40,6 @@
     <loc>http://oxlyn.cn/2016/06/01/java-notes-01/</loc>
     
     <lastmod>2016-11-06T04:11:07.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://oxlyn.cn/2016/04/21/hexo-usage/</loc>
-    
-    <lastmod>2016-11-06T04:08:58.000Z</lastmod>
     
   </url>
   
