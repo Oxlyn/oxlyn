@@ -1,5 +1,5 @@
 ---
-title: "Use Hugo"
+title: "使用 Hugo 生成站点"
 date: 2019-01-04T15:16:29+08:00
 tags: [ "hugo", "even"]
 ---
@@ -49,3 +49,25 @@ project_url: https://example.com
 draft: true
 ---
 ```
+
+### 4. 更换电脑时，初始化项目奖
+#### 1. clone 源码分支
+`$ git clone git@github.com:oxlyn/oxlyn.github.io.git -b source`
+
+#### 2. 设置 user & email
+`$ git config user.name "Oxlyn"`
+`$ git config user.email "oxlyn@hotmail.com"` 
+
+#### 3. clone master 分支到 public 目录
+`$ git clone git@github.com:oxlyn/oxlyn.github.io.git -b master public`
+
+#### 4. 设置 Coding Pages 上游
+`$ git remote add upstream git@git.coding.net:Oxlyn/oxlyn.git`
+
+#### 5. 提交 source 到 github
+`$ git push origin source`
+
+#### 6. 提交 public 到 github & coding
+`$ cd public`  
+`$ git push origin master`  
+`$ git push upstream master`  

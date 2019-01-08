@@ -1,5 +1,5 @@
 ---
-title: Use Git
+title: Git 常用
 date: "2019-01-04 08:33:23"
 tags: ["git"]
 ---
@@ -17,6 +17,7 @@ $ git init
 $ git add .
 $ git commit -m "init commit"
 $ git push origin master 
+$ git push origin master -f                 # 强制提交
 ```
 
 <!--more-->
