@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Use Git - Notes - A super concise theme for Hugo</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Oxlyn" /><meta name="description" content="Setup Git 1 2 3  $ git config --global user.name &amp;#34;username&amp;#34; $ git config --global user.email username@email.com $ git config --list   代码提交 1 2 3 4  $ git init $ git add . $ git commit -m &amp;#34;init commit&amp;#34; $ git push origin master   " /><meta name="keywords" content="Hugo, even, Notes, Oxlyn" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.53 with even 4.0.0" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/git-usage/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="Use Git" />
+<meta property="og:description" content="Setup Git
+
+
+1
+2
+3
+
+
+$ git config --global user.name &#34;username&#34;
+$ git config --global user.email username@email.com
+$ git config --list
+
+
+代码提交
+
+
+1
+2
+3
+4
+
+
+$ git init 
+$ git add .
+$ git commit -m &#34;init commit&#34;
+$ git push origin master 
+
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/git-usage/" /><meta property="article:published_time" content="2019-01-04T08:33:23&#43;00:00"/>
+<meta property="article:modified_time" content="2019-01-04T08:33:23&#43;00:00"/>
+
+<meta itemprop="name" content="Use Git">
+<meta itemprop="description" content="Setup Git
+
+
+1
+2
+3
+
+
+$ git config --global user.name &#34;username&#34;
+$ git config --global user.email username@email.com
+$ git config --list
+
+
+代码提交
+
+
+1
+2
+3
+4
+
+
+$ git init 
+$ git add .
+$ git commit -m &#34;init commit&#34;
+$ git push origin master 
+
+">
+
+
+<meta itemprop="datePublished" content="2019-01-04T08:33:23&#43;00:00" />
+<meta itemprop="dateModified" content="2019-01-04T08:33:23&#43;00:00" />
+<meta itemprop="wordCount" content="406">
+
+
+
+<meta itemprop="keywords" content="git," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Use Git"/>
+<meta name="twitter:description" content="Setup Git
+
+
+1
+2
+3
+
+
+$ git config --global user.name &#34;username&#34;
+$ git config --global user.email username@email.com
+$ git config --list
+
+
+代码提交
+
+
+1
+2
+3
+4
+
+
+$ git init 
+$ git add .
+$ git commit -m &#34;init commit&#34;
+$ git push origin master 
+
+"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Notes</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Notes</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Use Git</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-01-04 </span>
+        
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#setup-git">Setup Git</a></li>
+<li><a href="#代码提交">代码提交</a></li>
+<li><a href="#代码更新">代码更新</a></li>
+<li><a href="#打标签">打标签</a></li>
+<li><a href="#设置多个上游">设置多个上游</a></li>
+<li><a href="#分支操作">分支操作</a></li>
+<li><a href="#gerrit">Gerrit</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h3 id="setup-git">Setup Git</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain">$ git config --global user.name &#34;username&#34;
+$ git config --global user.email username@email.com
+$ git config --list</code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="代码提交">代码提交</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain">$ git init 
+$ git add .
+$ git commit -m &#34;init commit&#34;
+$ git push origin master </code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="代码更新">代码更新</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain">$ git fetch --all                           # 下载远程的库的内容
+$ git pull                                  # git pull = git fetch + git merge
+$ git reset HEAD^                           # 放弃上次 commit，本地修改还在
+$ git reset --hard origin/master            # 放弃本地内容，使用服务端强制覆盖本地</code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="打标签">打标签</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain">$ git tag                                   # 查看标签列表
+$ git tag &lt;tag_name&gt; -m &#34;msg&#34;               # 打标签
+$ git push origin &lt;tag_name&gt;                # 提交标签
+$ git tag                                   # 查看标签列表
+$ git show &lt;tag_name&gt;                       # 查看标签详情
+$ git tag -d &lt;tag_name&gt;                     # 删除本地标签
+$ git push origin :refs/tags/&lt;tag_name&gt;     # 删除远端标签
+$ git checkout &lt;tag_name&gt;                   # 切换到指定标签</code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="设置多个上游">设置多个上游</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain">$ git remote -v                             # 查看上游设置
+$ git remote add upstream ssh://xxx.git     # 添加上游
+$ git pull upstream master                  # 更新上游代码
+$ git fetch upstream                        # 获取 fork 的原始上游代码
+$ git checkout master                       # 切换到自己仓库的 master
+$ git merge upstream/master                 # merge 并解决冲突
+$ git remote rm upstream                    # 删除上游</code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="分支操作">分支操作</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain">$ git branch -d &lt;BranchName&gt;                # 删除本地分支
+$ git push origin --delete &lt;BranchName&gt;     # 删除远程分支
+$ git branch -a                             # 列出所有分支
+$ git checkout -b master origin/master      # 切换远端分支</code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="gerrit">Gerrit</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain">$ git commit --amend                    # 与上次提交合并， Gerrit 中带上 commitId 可以实现 update patch set</code></pre></td></tr></table>
+</div>
+</div>
+    </div>
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/git/">git</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/markdown-syntax/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">[转] Markdown 基本语法</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/hugo-usage/">
+            <span class="next-text nav-default">Use Hugo</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2016 - 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Oxlyn</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

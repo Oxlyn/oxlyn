@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Notes - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/windows/</link>
+    <description>Recent content in Windows on Notes - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows 常用命令</title>
+      <link>http://localhost:1313/post/windows-commands/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/windows-commands/</guid>
+      <description>&lt;h3 id=&#34;windows-常用命令&#34;&gt;Windows 常用命令&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Plain&#34; data-lang=&#34;Plain&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Plain&#34; data-lang=&#34;Plain&#34;&gt;&amp;gt; where ipconfig                        # 查看命令所在位置
+&amp;gt; prompt $P$G$T$G                       # Windows CMD 显示时间
+&amp;gt; findstr /s /i /n /c:&amp;#34;search_str&amp;#34; *.*  # Window 全文搜索&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;windows-程序&#34;&gt;Windows 程序&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Plain&#34; data-lang=&#34;Plain&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Plain&#34; data-lang=&#34;Plain&#34;&gt;&amp;gt; calc                                  # 计算器
+&amp;gt; regedit                               # 注册表编辑器
+&amp;gt; notepad                               # 记事本
+&amp;gt; msconfig                              # 系统配置
+&amp;gt; gpedit                                # 组策略编辑器
+&amp;gt; snippingtool                          # 截图工具
+&amp;gt; mstsc                                 # 远程桌面&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux 常用命令</title>
+      <link>http://localhost:1313/post/linux-commands/</link>
+      <pubDate>Fri, 10 Jun 2016 00:30:18 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/linux-commands/</guid>
+      <description>&lt;h3 id=&#34;压缩解压&#34;&gt;压缩解压&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Plain&#34; data-lang=&#34;Plain&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Plain&#34; data-lang=&#34;Plain&#34;&gt;$ tar -cvf jpg.tar *.jpg          # 压缩 tar
+$ tar -czf jpg.tar.gz *.jpg       # 压缩 tar.gz
+$ tar -xvf file.tar               # 解压 tar
+$ tar -xzvf file.tar.gz -C /abc   # 解压 tar.gz
+
+$ gzip -v file1.txt               # 压缩
+$ gzip -d run.log.gz              # 解压 gzip
+
+$ unzip abc.zip -d /dir           # 解压 zip&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;c create 创建新的压缩文件&lt;/li&gt;
+&lt;li&gt;v verbose 显示详细信息&lt;/li&gt;
+&lt;li&gt;f 使用档案名字，最后一个参数，后面只能接档案名&lt;/li&gt;
+&lt;li&gt;x extract 解压缩&lt;/li&gt;
+&lt;li&gt;z gzip&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;清空文件内容&#34;&gt;清空文件内容&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;$ echo |&amp;gt; /var/log/cinder/api.log&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

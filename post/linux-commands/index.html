@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Linux 常用命令 - Notes - A super concise theme for Hugo</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Oxlyn" /><meta name="description" content="压缩解压 1 2 3 4 5 6 7 8 9  $ tar -cvf jpg.tar *.jpg # 压缩 tar $ tar -czf jpg.tar.gz *.jpg # 压缩 tar.gz $ tar -xvf file.tar # 解压 tar $ tar -xzvf file.tar.gz -C /abc # 解压 tar.gz $ gzip -v file1.txt # 压缩 $ gzip -d run.log.gz # 解压 gzip $ unzip abc.zip -d /dir # 解压 zip    c create 创建新的压缩文件 v verbose 显示详细信息 f 使用档案名字，最后一个参数，后面只能接档案名 x extract 解压缩 z gzip  清空文件内容 $ echo |&amp;gt; /var/log/cinder/api.log
+" /><meta name="keywords" content="Hugo, even, Notes, Oxlyn" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.53 with even 4.0.0" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/linux-commands/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="Linux 常用命令" />
+<meta property="og:description" content="压缩解压
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+
+$ tar -cvf jpg.tar *.jpg          # 压缩 tar
+$ tar -czf jpg.tar.gz *.jpg       # 压缩 tar.gz
+$ tar -xvf file.tar               # 解压 tar
+$ tar -xzvf file.tar.gz -C /abc   # 解压 tar.gz
+
+$ gzip -v file1.txt               # 压缩
+$ gzip -d run.log.gz              # 解压 gzip
+
+$ unzip abc.zip -d /dir           # 解压 zip
+
+
+
+c create 创建新的压缩文件
+v verbose 显示详细信息
+f 使用档案名字，最后一个参数，后面只能接档案名
+x extract 解压缩
+z gzip
+
+
+清空文件内容
+
+$ echo |&gt; /var/log/cinder/api.log" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/linux-commands/" /><meta property="article:published_time" content="2016-06-10T00:30:18&#43;00:00"/>
+<meta property="article:modified_time" content="2016-06-10T00:30:18&#43;00:00"/>
+
+<meta itemprop="name" content="Linux 常用命令">
+<meta itemprop="description" content="压缩解压
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+
+$ tar -cvf jpg.tar *.jpg          # 压缩 tar
+$ tar -czf jpg.tar.gz *.jpg       # 压缩 tar.gz
+$ tar -xvf file.tar               # 解压 tar
+$ tar -xzvf file.tar.gz -C /abc   # 解压 tar.gz
+
+$ gzip -v file1.txt               # 压缩
+$ gzip -d run.log.gz              # 解压 gzip
+
+$ unzip abc.zip -d /dir           # 解压 zip
+
+
+
+c create 创建新的压缩文件
+v verbose 显示详细信息
+f 使用档案名字，最后一个参数，后面只能接档案名
+x extract 解压缩
+z gzip
+
+
+清空文件内容
+
+$ echo |&gt; /var/log/cinder/api.log">
+
+
+<meta itemprop="datePublished" content="2016-06-10T00:30:18&#43;00:00" />
+<meta itemprop="dateModified" content="2016-06-10T00:30:18&#43;00:00" />
+<meta itemprop="wordCount" content="967">
+
+
+
+<meta itemprop="keywords" content="Windows," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Linux 常用命令"/>
+<meta name="twitter:description" content="压缩解压
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+
+$ tar -cvf jpg.tar *.jpg          # 压缩 tar
+$ tar -czf jpg.tar.gz *.jpg       # 压缩 tar.gz
+$ tar -xvf file.tar               # 解压 tar
+$ tar -xzvf file.tar.gz -C /abc   # 解压 tar.gz
+
+$ gzip -v file1.txt               # 压缩
+$ gzip -d run.log.gz              # 解压 gzip
+
+$ unzip abc.zip -d /dir           # 解压 zip
+
+
+
+c create 创建新的压缩文件
+v verbose 显示详细信息
+f 使用档案名字，最后一个参数，后面只能接档案名
+x extract 解压缩
+z gzip
+
+
+清空文件内容
+
+$ echo |&gt; /var/log/cinder/api.log"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Notes</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Notes</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Linux 常用命令</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2016-06-10 </span>
+        
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#压缩解压">压缩解压</a></li>
+<li><a href="#清空文件内容">清空文件内容</a></li>
+<li><a href="#查看命令所在位置">查看命令所在位置</a></li>
+<li><a href="#查看-zip-压缩文档的内容">查看 zip 压缩文档的内容</a></li>
+<li><a href="#目录操作">目录操作</a></li>
+<li><a href="#vim-vi-常用命令">VIM/VI 常用命令</a></li>
+<li><a href="#挂载-nfs">挂载 NFS</a></li>
+<li><a href="#chrome-插件">Chrome 插件</a></li>
+<li><a href="#grep-文本搜索">Grep 文本搜索</a></li>
+<li><a href="#scp-文件拷贝">Scp 文件拷贝</a></li>
+<li><a href="#ssh-无密码登陆">SSH 无密码登陆</a></li>
+<li><a href="#数字证书原理">数字证书原理</a></li>
+<li><a href="#文件查找">文件查找</a></li>
+<li><a href="#selinux">SELinux</a></li>
+<li><a href="#统计-cpu-的核心数目">统计 CPU 的核心数目</a></li>
+<li><a href="#查看负载状态">查看负载状态</a></li>
+<li><a href="#yum-常用命令">Yum 常用命令</a></li>
+<li><a href="#监视文件变化">监视文件变化</a></li>
+<li><a href="#virsh-常用命令">Virsh 常用命令</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h3 id="压缩解压">压缩解压</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain">$ tar -cvf jpg.tar *.jpg          # 压缩 tar
+$ tar -czf jpg.tar.gz *.jpg       # 压缩 tar.gz
+$ tar -xvf file.tar               # 解压 tar
+$ tar -xzvf file.tar.gz -C /abc   # 解压 tar.gz
+
+$ gzip -v file1.txt               # 压缩
+$ gzip -d run.log.gz              # 解压 gzip
+
+$ unzip abc.zip -d /dir           # 解压 zip</code></pre></td></tr></table>
+</div>
+</div>
+<ul>
+<li>c create 创建新的压缩文件</li>
+<li>v verbose 显示详细信息</li>
+<li>f 使用档案名字，最后一个参数，后面只能接档案名</li>
+<li>x extract 解压缩</li>
+<li>z gzip</li>
+</ul>
+
+<h3 id="清空文件内容">清空文件内容</h3>
+
+<p><code>$ echo |&gt; /var/log/cinder/api.log</code></p>
+
+<h3 id="查看命令所在位置">查看命令所在位置</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain">$ whereis ruby                    # Linux
+$ which ruby`                     # Linux</code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="查看-zip-压缩文档的内容">查看 zip 压缩文档的内容</h3>
+
+<p><code>$ zcat file_name.zip</code></p>
+
+<h3 id="目录操作">目录操作</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain">$ ls -lhRa /cpf/                  # 查看目录及子目录的内容
+$ du -sh *                        # 统计目录及文件大小</code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="vim-vi-常用命令">VIM/VI 常用命令</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain">:%d                              # 删除所有内容
+:%s/1.1.1.1/2.2.2.2/g            # 全局替换
+:set num                         # 显示行号
+:set ff?                         # 显示文件格式
+:set ff=unix                     # 更改文件格式
+:set ff=dos                      # 更改文件格式
+:set paste                       # 防止粘贴时候缩进混乱
+:set nopaste                     # 退出 paste 模式
+/search_str                      # 查找：n -&gt; next; N -&gt; previous</code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="挂载-nfs">挂载 NFS</h3>
+
+<p><code>$ mount -t nfs 192.168.1.1:/data/sdb2/nfs_share /mnt</code></p>
+
+<h3 id="chrome-插件">Chrome 插件</h3>
+
+<p><a href="http://chromecj.com/web-development/2014-09/60.html">Postman</a>：<code>http://chromecj.com/web-development/2014-09/60.html</code></p>
+
+<h3 id="grep-文本搜索">Grep 文本搜索</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain">$ grep &#39;search_str&#39; -r /                                 # 全局搜索
+$ egrep &#39;search_str&#39; -r /                                # 全局搜索
+$ grep -E &#39;abc|def&#39;                                      # 正则搜索
+$ egrep &#39;abc|def&#39;                                        # 正则搜索
+$ cat /etc/nova/nova.conf | grep -v &#39;#&#39; | grep -v ^$     # 去除空行和注释
+$ grep -A 10 &#39;search_str&#39;                                # 显示结果及之后 10 行
+$ grep -B 10 &#39;search_str&#39;                                # 显示结果及之前 10 行
+$ grep -C 10 &#39;search_str&#39;                                # 显示结果及前后各 10 行
+$ grep -v grep                                           # 忽略 grep 本身
+$ grep -i Abc                                            # 不区分大小写</code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="scp-文件拷贝">Scp 文件拷贝</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain">$ scp /home/a.tar.tz root@192.168.0.1:/home/tmp/         # 本地文件拷贝到远程服务器上
+$ scp root@192.168.0.1:/home/a.tar.tz ./                 # 从远程机器拷贝到本机
+$ scp -r root@192.168.0.2：/home/* ./                    # 拷贝目录中的所有文件
+$ sshpass -p &#39;password&#39; scp -rp username@host:/var/aaa/ /dstdir</code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="ssh-无密码登陆">SSH 无密码登陆</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain">$ ssh-copy-id user@host
+$ ssh -vvv user@host   # 显示详细信息
+$ sshpass -p &#39;password&#39; ssh username@192.168.1.1 sudo ls -lhR /var</code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="数字证书原理">数字证书原理</h3>
+
+<p>参考：<a href="http://blog.sina.com.cn/s/blog_44ee37cd01016r1h.html">http://blog.sina.com.cn/s/blog_44ee37cd01016r1h.html</a></p>
+
+<h3 id="文件查找">文件查找</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain">$ find / -name live_migrate.py          # 文件查找
+$ find / -name live_migrate*            # 模糊查找</code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="selinux">SELinux</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain">$ sestatus -v                           # 查看状态
+$ getenforce                            # 查看状态
+$ setenforce 0                          # 设置SELinux 成为permissive模式
+$ setenforce 1                          # 设置SELinux 成为enforcing模式
+$ vi /etc/selinux/config                # 修改配置文件并reboot, 关闭SELinux</code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="统计-cpu-的核心数目">统计 CPU 的核心数目</h3>
+
+<p><code>$ grep 'model name' /proc/cpuinfo | wc -l</code></p>
+
+<h3 id="查看负载状态">查看负载状态</h3>
+
+<p><code>$ cat /proc/loadavg</code><br />
+<code>$ top</code><br />
+<code>$ netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a, S[a]}'</code>  # 网络负载<br />
+<code>$ netstat -anp | grep -E &quot;23|24&quot; | grep -vE 'LISTEN|&lt;IP&gt;' | wc -l</code></p>
+
+<h3 id="yum-常用命令">Yum 常用命令</h3>
+
+<p><code>$ yum provides libnetsnmp* --showduplicates | grep -w libnetsnmp</code></p>
+
+<h3 id="监视文件变化">监视文件变化</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Plain" data-lang="Plain">$ tail -f /var/log/nova-api.log  
+$ tail -F /var/log/nova-api.log         # 文件重新建立后,可以继续跟踪  
+$ tail -n 20 filename                   # 显示文件末尾 20 行的内容  
+$ cat -n filename                       # 显示行号</code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="virsh-常用命令">Virsh 常用命令</h3>
+
+<p><code>$ virsh list --all</code><br />
+<code>$ virsh define</code><br />
+<code>$ virsh console</code><br />
+<code>$ virsh start|shutdown|reboot|destroy</code><br />
+<code>$ virsh dumpxml</code></p>
+    </div>
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/windows/">Windows</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/eclipse-setting/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Eclipse 设置</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/java-notes-02/">
+            <span class="next-text nav-default">Java 学习简记 (二)</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2016 - 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">Oxlyn</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

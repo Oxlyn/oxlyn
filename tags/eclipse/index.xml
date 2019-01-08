@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eclipse on Notes - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/eclipse/</link>
+    <description>Recent content in eclipse on Notes - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 07 Nov 2016 20:52:04 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/eclipse/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Eclipse 设置</title>
+      <link>http://localhost:1313/post/eclipse-setting/</link>
+      <pubDate>Mon, 07 Nov 2016 20:52:04 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/eclipse-setting/</guid>
+      <description>&lt;h3 id=&#34;config-eclipse&#34;&gt;Config Eclipse&lt;/h3&gt;
+
+&lt;h4 id=&#34;1-自动删除行末空格&#34;&gt;1. 自动删除行末空格&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;Window -&amp;gt; Preferences -&amp;gt; Java -&amp;gt; Editor -&amp;gt; Save Actions -&amp;gt; Additional actions -&amp;gt; Configure&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;2-设置显示行号&#34;&gt;2. 设置显示行号&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;Window -&amp;gt; Preferences -&amp;gt; Editor -&amp;gt; Text Editors -&amp;gt; Show line numbers&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;3-设置显示空格和-tab&#34;&gt;3. 设置显示空格和 Tab&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;Window -&amp;gt; Preferences -&amp;gt; Editor -&amp;gt; Text Editors -&amp;gt; Show whitespace characters&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;5-设置在第-80-个字符处显示提示线&#34;&gt;5. 设置在第 80 个字符处显示提示线&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;Window -&amp;gt; Preferences -&amp;gt; Editor -&amp;gt; Text Editors -&amp;gt; Show print margin&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

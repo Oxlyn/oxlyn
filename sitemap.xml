@@ -1,67 +1,200 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://oxlyn.cn/2016/11/07/eclipse-setting/</loc>
-    
-    <lastmod>2016-11-07T13:16:01.000Z</lastmod>
-    
+    <loc>http://localhost:1313/post/windows-commands/</loc>
+    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://oxlyn.cn/2016/04/21/hexo-deploy/</loc>
-    
-    <lastmod>2016-11-07T13:11:55.000Z</lastmod>
-    
+    <loc>http://localhost:1313/post/markdown-syntax/</loc>
+    <lastmod>2019-01-06T11:27:27-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://oxlyn.cn/about/index.html</loc>
-    
-    <lastmod>2016-11-06T04:18:05.000Z</lastmod>
-    
+    <loc>http://localhost:1313/post/git-usage/</loc>
+    <lastmod>2019-01-04T08:33:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://oxlyn.cn/2016/06/10/linux-commands/</loc>
-    
-    <lastmod>2016-11-06T04:17:28.000Z</lastmod>
-    
+    <loc>http://localhost:1313/post/hugo-usage/</loc>
+    <lastmod>2019-01-04T15:16:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://oxlyn.cn/2016/06/03/java-notes-02/</loc>
-    
-    <lastmod>2016-11-06T04:12:43.000Z</lastmod>
-    
+    <loc>http://localhost:1313/post/java-tools/</loc>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://oxlyn.cn/2016/06/01/java-notes-01/</loc>
-    
-    <lastmod>2016-11-06T04:11:07.000Z</lastmod>
-    
+    <loc>http://localhost:1313/post/eclipse-setting/</loc>
+    <lastmod>2016-11-07T20:52:04+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://oxlyn.cn/2016/04/21/hello-world/</loc>
-    
-    <lastmod>2016-11-06T03:35:51.000Z</lastmod>
-    
+    <loc>http://localhost:1313/post/linux-commands/</loc>
+    <lastmod>2016-06-10T00:30:18+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://oxlyn.cn/tags/index.html</loc>
-    
-    <lastmod>2016-11-05T17:25:10.000Z</lastmod>
-    
+    <loc>http://localhost:1313/post/java-notes-02/</loc>
+    <lastmod>2016-06-03T20:33:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://oxlyn.cn/categories/index.html</loc>
-    
-    <lastmod>2016-11-05T17:24:15.000Z</lastmod>
-    
+    <loc>http://localhost:1313/post/java-notes-01/</loc>
+    <lastmod>2016-06-01T20:33:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/hexo-usage/</loc>
+    <lastmod>2016-04-21T20:12:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/hello-world/</loc>
+    <lastmod>2016-04-21T18:12:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/java/</loc>
+    <lastmod>2016-06-03T20:33:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2016-06-03T20:33:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/windows/</loc>
+    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/windows/</loc>
+    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/eclipse/</loc>
+    <lastmod>2016-11-07T20:52:04+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/even/</loc>
+    <lastmod>2019-01-04T15:16:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/git/</loc>
+    <lastmod>2019-01-04T08:33:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/hexo/</loc>
+    <lastmod>2016-04-21T20:12:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/hugo/</loc>
+    <lastmod>2019-01-04T15:16:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/java/</loc>
+    <lastmod>2016-06-03T20:33:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/jmap/</loc>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/jstat/</loc>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/markdown/</loc>
+    <lastmod>2019-01-06T11:27:27-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/markdown/</loc>
+    <lastmod>2019-01-06T11:27:27-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0</priority>
   </url>
   
 </urlset>
