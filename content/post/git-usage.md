@@ -1,5 +1,5 @@
 ---
-title: Git 常用
+title: Git 常用操作
 date: "2019-01-04 08:33:23"
 tags: ["git"]
 ---
@@ -51,6 +51,7 @@ $ git fetch upstream                        # 获取 fork 的原始上游代码
 $ git checkout master                       # 切换到自己仓库的 master
 $ git merge upstream/master                 # merge 并解决冲突
 $ git remote rm upstream                    # 删除上游
+$ git push upstream master:master           # 提交到上游
 ```
 
 ### 分支操作
@@ -65,4 +66,3 @@ $ git checkout -b master origin/master      # 切换远端分支
 ```Plain
 $ git commit --amend                    # 与上次提交合并， Gerrit 中带上 commitId 可以实现 update patch set
 ```
-

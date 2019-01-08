@@ -1,5 +1,5 @@
 ---
-title: Use Hexo
+title: 使用 Hexo 构建个人站点
 date: 2016-04-21 20:12:00
 tags: ["hexo", "git"]
 ---
@@ -29,7 +29,7 @@ $ cd <your_blog>
 $ npm install
 ```
 #### 2. 设置 [_config.yml](https://hexo.io/docs/configuration.html)
-   在 github 和 coding 上创建项目 oxlyn，并开启 Pages 服务。_config.yml 中 deploy 部分配置如下：
+在 github 和 coding 上创建项目 oxlyn，并开启 Pages 服务。_config.yml 中 deploy 部分配置如下：
 ```
 deploy:
   type: git
