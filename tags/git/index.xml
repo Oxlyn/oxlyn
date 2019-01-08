@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Git 常用</title>
+      <title>Git 常用操作</title>
       <link>https://oxlyn.cn/post/git-usage/</link>
       <pubDate>Fri, 04 Jan 2019 08:33:23 +0000</pubDate>
       
@@ -50,7 +50,7 @@ $ git push origin master -f                 # 强制提交&lt;/code&gt;&lt;/pre&
     </item>
     
     <item>
-      <title>Use Hexo</title>
+      <title>使用 Hexo 构建个人站点</title>
       <link>https://oxlyn.cn/post/hexo-usage/</link>
       <pubDate>Thu, 21 Apr 2016 20:12:00 +0000</pubDate>
       
