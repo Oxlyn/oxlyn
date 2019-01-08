@@ -1,7 +1,7 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://oxlyn.cn/"
 languageCode = "en"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
-title = "Notes - A super concise theme for Hugo"
+title = "Notes"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
