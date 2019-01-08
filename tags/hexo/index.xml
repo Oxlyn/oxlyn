@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hexo on Notes - A super concise theme for Hugo</title>
-    <link>http://localhost:1313/tags/hexo/</link>
-    <description>Recent content in hexo on Notes - A super concise theme for Hugo</description>
+    <title>hexo on Notes</title>
+    <link>https://oxlyn.cn/tags/hexo/</link>
+    <description>Recent content in hexo on Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 21 Apr 2016 20:12:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://oxlyn.cn/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Use Hexo</title>
-      <link>http://localhost:1313/post/hexo-usage/</link>
+      <link>https://oxlyn.cn/post/hexo-usage/</link>
       <pubDate>Thu, 21 Apr 2016 20:12:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/hexo-usage/</guid>
+      <guid>https://oxlyn.cn/post/hexo-usage/</guid>
       <description>&lt;h3 id=&#34;安装-hexo&#34;&gt;安装 Hexo&lt;/h3&gt;
 
 &lt;h4 id=&#34;1-install-homebrew&#34;&gt;1. Install Homebrew&lt;/h4&gt;
@@ -43,10 +43,10 @@
     
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/post/hello-world/</link>
+      <link>https://oxlyn.cn/post/hello-world/</link>
       <pubDate>Thu, 21 Apr 2016 18:12:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/hello-world/</guid>
+      <guid>https://oxlyn.cn/post/hello-world/</guid>
       <description>&lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;quick-start&#34;&gt;Quick Start&lt;/h2&gt;

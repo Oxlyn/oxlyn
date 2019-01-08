@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Notes - A super concise theme for Hugo</title>
-    <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on Notes - A super concise theme for Hugo</description>
+    <title>Categories on Notes</title>
+    <link>https://oxlyn.cn/categories/</link>
+    <description>Recent content in Categories on Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://oxlyn.cn/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Windows</title>
-      <link>http://localhost:1313/categories/windows/</link>
+      <link>https://oxlyn.cn/categories/windows/</link>
       <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/windows/</guid>
+      <guid>https://oxlyn.cn/categories/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>markdown</title>
-      <link>http://localhost:1313/categories/markdown/</link>
+      <link>https://oxlyn.cn/categories/markdown/</link>
       <pubDate>Sun, 06 Jan 2019 11:27:27 -0400</pubDate>
       
-      <guid>http://localhost:1313/categories/markdown/</guid>
+      <guid>https://oxlyn.cn/categories/markdown/</guid>
       <description></description>
     </item>
     

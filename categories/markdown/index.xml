@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>markdown on Notes - A super concise theme for Hugo</title>
-    <link>http://localhost:1313/categories/markdown/</link>
-    <description>Recent content in markdown on Notes - A super concise theme for Hugo</description>
+    <title>markdown on Notes</title>
+    <link>https://oxlyn.cn/categories/markdown/</link>
+    <description>Recent content in markdown on Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 06 Jan 2019 11:27:27 -0400</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://oxlyn.cn/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>[转] Markdown 基本语法</title>
-      <link>http://localhost:1313/post/markdown-syntax/</link>
+      <link>https://oxlyn.cn/post/markdown-syntax/</link>
       <pubDate>Sun, 06 Jan 2019 11:27:27 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/markdown-syntax/</guid>
+      <guid>https://oxlyn.cn/post/markdown-syntax/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文地址：&lt;a href=&#34;https://github.com/younghz/Markdown&#34;&gt;https://github.com/younghz/Markdown&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;

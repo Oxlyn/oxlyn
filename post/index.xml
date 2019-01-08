@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Notes - A super concise theme for Hugo</title>
-    <link>http://localhost:1313/post/</link>
-    <description>Recent content in Posts on Notes - A super concise theme for Hugo</description>
+    <title>Posts on Notes</title>
+    <link>https://oxlyn.cn/post/</link>
+    <description>Recent content in Posts on Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://oxlyn.cn/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Windows 常用命令</title>
-      <link>http://localhost:1313/post/windows-commands/</link>
+      <link>https://oxlyn.cn/post/windows-commands/</link>
       <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/windows-commands/</guid>
+      <guid>https://oxlyn.cn/post/windows-commands/</guid>
       <description>&lt;h3 id=&#34;windows-常用命令&#34;&gt;Windows 常用命令&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -55,10 +55,10 @@
     
     <item>
       <title>[转] Markdown 基本语法</title>
-      <link>http://localhost:1313/post/markdown-syntax/</link>
+      <link>https://oxlyn.cn/post/markdown-syntax/</link>
       <pubDate>Sun, 06 Jan 2019 11:27:27 -0400</pubDate>
       
-      <guid>http://localhost:1313/post/markdown-syntax/</guid>
+      <guid>https://oxlyn.cn/post/markdown-syntax/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;原文地址：&lt;a href=&#34;https://github.com/younghz/Markdown&#34;&gt;https://github.com/younghz/Markdown&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -90,10 +90,10 @@
     
     <item>
       <title>Use Git</title>
-      <link>http://localhost:1313/post/git-usage/</link>
+      <link>https://oxlyn.cn/post/git-usage/</link>
       <pubDate>Fri, 04 Jan 2019 08:33:23 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/git-usage/</guid>
+      <guid>https://oxlyn.cn/post/git-usage/</guid>
       <description>&lt;h3 id=&#34;setup-git&#34;&gt;Setup Git&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -126,10 +126,10 @@ $ git push origin master &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tab
     
     <item>
       <title>Use Hugo</title>
-      <link>http://localhost:1313/post/hugo-usage/</link>
+      <link>https://oxlyn.cn/post/hugo-usage/</link>
       <pubDate>Fri, 04 Jan 2019 15:16:29 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/hugo-usage/</guid>
+      <guid>https://oxlyn.cn/post/hugo-usage/</guid>
       <description>&lt;h3 id=&#34;1-目录结构&#34;&gt;1. 目录结构&lt;/h3&gt;
 
 &lt;ol&gt;
@@ -174,10 +174,10 @@ $ git push origin master &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tab
     
     <item>
       <title>Java 常用工具</title>
-      <link>http://localhost:1313/post/java-tools/</link>
+      <link>https://oxlyn.cn/post/java-tools/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/java-tools/</guid>
+      <guid>https://oxlyn.cn/post/java-tools/</guid>
       <description>&lt;h3 id=&#34;jps&#34;&gt;Jps&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -209,10 +209,10 @@ $ git push origin master &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tab
     
     <item>
       <title>Eclipse 设置</title>
-      <link>http://localhost:1313/post/eclipse-setting/</link>
+      <link>https://oxlyn.cn/post/eclipse-setting/</link>
       <pubDate>Mon, 07 Nov 2016 20:52:04 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/eclipse-setting/</guid>
+      <guid>https://oxlyn.cn/post/eclipse-setting/</guid>
       <description>&lt;h3 id=&#34;config-eclipse&#34;&gt;Config Eclipse&lt;/h3&gt;
 
 &lt;h4 id=&#34;1-自动删除行末空格&#34;&gt;1. 自动删除行末空格&lt;/h4&gt;
@@ -234,10 +234,10 @@ $ git push origin master &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tab
     
     <item>
       <title>Linux 常用命令</title>
-      <link>http://localhost:1313/post/linux-commands/</link>
+      <link>https://oxlyn.cn/post/linux-commands/</link>
       <pubDate>Fri, 10 Jun 2016 00:30:18 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/linux-commands/</guid>
+      <guid>https://oxlyn.cn/post/linux-commands/</guid>
       <description>&lt;h3 id=&#34;压缩解压&#34;&gt;压缩解压&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -278,10 +278,10 @@ $ unzip abc.zip -d /dir           # 解压 zip&lt;/code&gt;&lt;/pre&gt;&lt;/td&g
     
     <item>
       <title>Java 学习简记 (二)</title>
-      <link>http://localhost:1313/post/java-notes-02/</link>
+      <link>https://oxlyn.cn/post/java-notes-02/</link>
       <pubDate>Fri, 03 Jun 2016 20:33:23 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/java-notes-02/</guid>
+      <guid>https://oxlyn.cn/post/java-notes-02/</guid>
       <description>&lt;h3 id=&#34;4-java-注释&#34;&gt;4. Java 注释&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -313,10 +313,10 @@ $ unzip abc.zip -d /dir           # 解压 zip&lt;/code&gt;&lt;/pre&gt;&lt;/td&g
     
     <item>
       <title>Java 学习简记 (一)</title>
-      <link>http://localhost:1313/post/java-notes-01/</link>
+      <link>https://oxlyn.cn/post/java-notes-01/</link>
       <pubDate>Wed, 01 Jun 2016 20:33:23 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/java-notes-01/</guid>
+      <guid>https://oxlyn.cn/post/java-notes-01/</guid>
       <description>&lt;h3 id=&#34;1-helloworld&#34;&gt;1. HelloWorld&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -333,10 +333,10 @@ java mypack.HelloWorld
     
     <item>
       <title>Use Hexo</title>
-      <link>http://localhost:1313/post/hexo-usage/</link>
+      <link>https://oxlyn.cn/post/hexo-usage/</link>
       <pubDate>Thu, 21 Apr 2016 20:12:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/hexo-usage/</guid>
+      <guid>https://oxlyn.cn/post/hexo-usage/</guid>
       <description>&lt;h3 id=&#34;安装-hexo&#34;&gt;安装 Hexo&lt;/h3&gt;
 
 &lt;h4 id=&#34;1-install-homebrew&#34;&gt;1. Install Homebrew&lt;/h4&gt;
@@ -363,10 +363,10 @@ java mypack.HelloWorld
     
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/post/hello-world/</link>
+      <link>https://oxlyn.cn/post/hello-world/</link>
       <pubDate>Thu, 21 Apr 2016 18:12:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/hello-world/</guid>
+      <guid>https://oxlyn.cn/post/hello-world/</guid>
       <description>&lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;quick-start&#34;&gt;Quick Start&lt;/h2&gt;

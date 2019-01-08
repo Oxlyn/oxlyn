@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>git on Notes - A super concise theme for Hugo</title>
-    <link>http://localhost:1313/tags/git/</link>
-    <description>Recent content in git on Notes - A super concise theme for Hugo</description>
+    <title>git on Notes</title>
+    <link>https://oxlyn.cn/tags/git/</link>
+    <description>Recent content in git on Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 04 Jan 2019 08:33:23 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://oxlyn.cn/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Use Git</title>
-      <link>http://localhost:1313/post/git-usage/</link>
+      <link>https://oxlyn.cn/post/git-usage/</link>
       <pubDate>Fri, 04 Jan 2019 08:33:23 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/git-usage/</guid>
+      <guid>https://oxlyn.cn/post/git-usage/</guid>
       <description>&lt;h3 id=&#34;setup-git&#34;&gt;Setup Git&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -49,10 +49,10 @@ $ git push origin master &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tab
     
     <item>
       <title>Use Hexo</title>
-      <link>http://localhost:1313/post/hexo-usage/</link>
+      <link>https://oxlyn.cn/post/hexo-usage/</link>
       <pubDate>Thu, 21 Apr 2016 20:12:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/hexo-usage/</guid>
+      <guid>https://oxlyn.cn/post/hexo-usage/</guid>
       <description>&lt;h3 id=&#34;安装-hexo&#34;&gt;安装 Hexo&lt;/h3&gt;
 
 &lt;h4 id=&#34;1-install-homebrew&#34;&gt;1. Install Homebrew&lt;/h4&gt;
