@@ -56,6 +56,7 @@ draft: true
 
 #### 2. 设置 user & email
 `$ git config user.name "Oxlyn"`
+
 `$ git config user.email "oxlyn@hotmail.com"` 
 
 #### 3. clone master 分支到 public 目录
