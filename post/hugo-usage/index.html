@@ -16,15 +16,14 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Oxlyn" /><meta name="description" content="1. 目录结构  安装 Hugo
- 生成站点：hugo new site blog  1 2 3 4 5 6 7 8 9  blog ├── archetypes ├── config.toml ├── content ├── data ├── layouts ├── static ├── themes └── public    archetypes 模板目录 config.toml 全局配置文件 content 文章存放目录 data 用来存储网站用到一些配置、数据文件。文件类型可以是 yaml | toml | json 等格式。 layouts 渲染模板文件 static 存放静态资源 themes 存放主题 public 编译后生成的发布文件 " /><meta name="keywords" content="Hugo, even, Notes, Oxlyn" />
+<meta name="author" content="Oxlyn" /><meta name="description" content="1. 目录结构  安装 Hugo 生成站点：hugo new site blog  1 2 3 4 5 6 7 8 9  blog ├── archetypes ├── config.toml ├── content ├── data ├── layouts ├── static ├── themes └── public    archetypes 模板目录 config.toml 全局配置文件 content 文章存放目录 data 用来存储网站用到一些配置、数据文件。文件类型可以是 yaml | toml | json 等格式。 layouts 渲染模板文件 static 存放静态资源 themes 存放主题 public 编译后生成的发布文件 " /><meta name="keywords" content="Hugo, even, Notes, Oxlyn" />
 
 
 
 
 
 
-<meta name="generator" content="Hugo 0.53 with even 4.0.0" />
+<meta name="generator" content="Hugo 0.64.1 with theme even" />
 
 
 <link rel="canonical" href="https://oxlyn.cn/post/hugo-usage/" />
@@ -41,7 +40,6 @@
 
 <meta property="og:title" content="使用 Hugo 生成站点" />
 <meta property="og:description" content="1. 目录结构
-
 
 安装 Hugo
 生成站点：hugo new site blog
@@ -81,12 +79,11 @@ themes 存放主题
 public 编译后生成的发布文件
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://oxlyn.cn/post/hugo-usage/" /><meta property="article:published_time" content="2019-01-04T15:16:29&#43;08:00"/>
-<meta property="article:modified_time" content="2019-01-04T15:16:29&#43;08:00"/>
-
+<meta property="og:url" content="https://oxlyn.cn/post/hugo-usage/" />
+<meta property="article:published_time" content="2019-01-04T15:16:29+08:00" />
+<meta property="article:modified_time" content="2019-01-04T15:16:29+08:00" />
 <meta itemprop="name" content="使用 Hugo 生成站点">
 <meta itemprop="description" content="1. 目录结构
-
 
 安装 Hugo
 生成站点：hugo new site blog
@@ -125,19 +122,15 @@ static 存放静态资源
 themes 存放主题
 public 编译后生成的发布文件
 ">
-
-
 <meta itemprop="datePublished" content="2019-01-04T15:16:29&#43;08:00" />
 <meta itemprop="dateModified" content="2019-01-04T15:16:29&#43;08:00" />
 <meta itemprop="wordCount" content="344">
 
 
 
-<meta itemprop="keywords" content="hugo,even," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="hugo,even," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="使用 Hugo 生成站点"/>
 <meta name="twitter:description" content="1. 目录结构
-
 
 安装 Hugo
 生成站点：hugo new site blog
@@ -255,39 +248,28 @@ public 编译后生成的发布文件
   <h2 class="post-toc-title">Contents</h2>
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#1-目录结构">1. 目录结构</a></li>
-<li><a href="#2-常用命令">2. 常用命令</a></li>
-<li><a href="#3-模板配置">3. 模板配置</a></li>
-<li><a href="#4-更换电脑时-初始化项目奖">4. 更换电脑时，初始化项目奖</a>
-<ul>
-<li><a href="#1-clone-源码分支">1. clone 源码分支</a></li>
-<li><a href="#2-设置-user-email">2. 设置 user &amp; email</a></li>
-<li><a href="#3-clone-master-分支到-public-目录">3. clone master 分支到 public 目录</a></li>
-<li><a href="#4-设置-coding-pages-上游">4. 设置 Coding Pages 上游</a></li>
-<li><a href="#5-提交-source-到-github">5. 提交 source 到 github</a></li>
-<li><a href="#6-提交-public-到-github-coding">6. 提交 public 到 github &amp; coding</a></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-目录结构">1. 目录结构</a></li>
+        <li><a href="#2-常用命令">2. 常用命令</a></li>
+        <li><a href="#3-模板配置">3. 模板配置</a></li>
+        <li><a href="#4-更换电脑时初始化项目奖">4. 更换电脑时，初始化项目奖</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
   </div>
 </div>
     <div class="post-content">
       <h3 id="1-目录结构">1. 目录结构</h3>
-
 <ol>
-<li>安装 <a href="https://github.com/gohugoio/hugo">Hugo</a><br /></li>
+<li>安装 <a href="https://github.com/gohugoio/hugo">Hugo</a></li>
 <li>生成站点：<code>hugo new site blog</code></li>
 </ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><span class="lnt">1
+<pre class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
@@ -296,9 +278,9 @@ public 编译后生成的发布文件
 </span><span class="lnt">7
 </span><span class="lnt">8
 </span><span class="lnt">9
-</span></pre></td>
+</span></code></pre></td>
 <td class="lntd">
-<pre class="chroma">blog
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">blog
 ├── archetypes
 ├── config.toml
 ├── content
@@ -306,10 +288,10 @@ public 编译后生成的发布文件
 ├── layouts
 ├── static
 ├── themes
-└── public</pre></td></tr></table>
+└── public
+</code></pre></td></tr></table>
 </div>
-</div>
-<ul>
+</div><ul>
 <li>archetypes 模板目录</li>
 <li>config.<a href="https://github.com/toml-lang/toml">toml</a> 全局配置文件</li>
 <li>content 文章存放目录</li>
@@ -319,20 +301,17 @@ public 编译后生成的发布文件
 <li>themes 存放主题</li>
 <li>public 编译后生成的发布文件</li>
 </ul>
-
 <h3 id="2-常用命令">2. 常用命令</h3>
-
 <ul>
 <li><code>$ hugo new post/helloworld.md</code> 根据 archetypes 下的模板生成新的 blog 文章</li>
 <li><code>$ hugo</code> 构建发布文件</li>
 <li><code>$ hugo server -D</code> 启动本地调试服务，-D 包括 draft 文件</li>
 <li><code>$ hugo -d public</code> 构建到指定目录</li>
 </ul>
-
 <h3 id="3-模板配置">3. 模板配置</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code class="language-Plain" data-lang="Plain"><span class="lnt"> 1
+<pre class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -353,40 +332,29 @@ categories: [&#34;Hugo&#34;]
 slug: sss
 project_url: https://example.com
 draft: true
----</code></pre></td></tr></table>
+---
+</code></pre></td></tr></table>
 </div>
-</div>
-<h3 id="4-更换电脑时-初始化项目奖">4. 更换电脑时，初始化项目奖</h3>
-
+</div><h3 id="4-更换电脑时初始化项目奖">4. 更换电脑时，初始化项目奖</h3>
 <h4 id="1-clone-源码分支">1. clone 源码分支</h4>
-
 <p><code>$ git clone git@github.com:oxlyn/oxlyn.github.io.git -b source</code></p>
-
-<h4 id="2-设置-user-email">2. 设置 user &amp; email</h4>
-
-<p><code>$ git config user.name &quot;Oxlyn&quot;</code>
-<code>$ git config user.email &quot;oxlyn@hotmail.com&quot;</code></p>
-
+<h4 id="2-设置-user--email">2. 设置 user &amp; email</h4>
+<p><code>$ git config user.name &quot;Oxlyn&quot;</code></p>
+<p><code>$ git config user.email &quot;oxlyn@hotmail.com&quot;</code></p>
 <h4 id="3-clone-master-分支到-public-目录">3. clone master 分支到 public 目录</h4>
-
 <p><code>$ git clone git@github.com:oxlyn/oxlyn.github.io.git -b master public</code></p>
-
 <h4 id="4-设置-coding-pages-上游">4. 设置 Coding Pages 上游</h4>
-
 <p><code>$ git remote add upstream git@git.coding.net:Oxlyn/oxlyn.git</code></p>
-
 <h4 id="5-提交-source-到-github">5. 提交 source 到 github</h4>
-
 <p><code>$ git push origin source</code></p>
-
-<h4 id="6-提交-public-到-github-coding">6. 提交 public 到 github &amp; coding</h4>
-
-<p><code>$ cd public</code><br />
-<code>$ git push origin master</code><br />
+<h4 id="6-提交-public-到-github--coding">6. 提交 public 到 github &amp; coding</h4>
+<p><code>$ cd public</code><br>
+<code>$ git push origin master</code><br>
 <code>$ git push upstream master</code></p>
     </div>
 
-    <footer class="post-footer">
+    
+<footer class="post-footer">
       <div class="post-tags">
           <a href="/tags/hugo/">hugo</a>
           <a href="/tags/even/">even</a>
@@ -407,6 +375,10 @@ draft: true
   </article>
         </div>
         
+
+  
+
+  
 
       </div>
     </main>
@@ -433,7 +405,7 @@ draft: true
   <span class="copyright-year">
     &copy; 
     2016 - 
-    2019
+    2020
     <span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>

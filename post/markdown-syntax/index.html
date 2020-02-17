@@ -23,7 +23,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.53 with even 4.0.0" />
+<meta name="generator" content="Hugo 0.64.1 with theme even" />
 
 
 <link rel="canonical" href="https://oxlyn.cn/post/markdown-syntax/" />
@@ -41,21 +41,18 @@
 <meta property="og:title" content="[转] Markdown 基本语法" />
 <meta property="og:description" content="Markdown syntax" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://oxlyn.cn/post/markdown-syntax/" /><meta property="article:published_time" content="2019-01-06T11:27:27-04:00"/>
-<meta property="article:modified_time" content="2019-01-06T11:27:27-04:00"/>
-
+<meta property="og:url" content="https://oxlyn.cn/post/markdown-syntax/" />
+<meta property="article:published_time" content="2019-01-06T11:27:27-04:00" />
+<meta property="article:modified_time" content="2019-01-06T11:27:27-04:00" />
 <meta itemprop="name" content="[转] Markdown 基本语法">
 <meta itemprop="description" content="Markdown syntax">
-
-
 <meta itemprop="datePublished" content="2019-01-06T11:27:27-04:00" />
 <meta itemprop="dateModified" content="2019-01-06T11:27:27-04:00" />
-<meta itemprop="wordCount" content="1098">
+<meta itemprop="wordCount" content="1091">
 
 
 
-<meta itemprop="keywords" content="markdown," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="markdown," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="[转] Markdown 基本语法"/>
 <meta name="twitter:description" content="Markdown syntax"/>
 
@@ -139,147 +136,92 @@
   <h2 class="post-toc-title">Contents</h2>
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#1-markdown-是什么">1. Markdown <em>是什么</em></a></li>
-<li><a href="#2-怎么-使用">2. <em>怎么</em> 使用？</a>
-<ul>
-<li><a href="#2-1-标题">2.1 标题</a></li>
-<li><a href="#2-2-段落">2.2 段落</a></li>
-<li><a href="#2-3-区块引用">2.3 区块引用</a></li>
-<li><a href="#2-4-代码区块">2.4 代码区块</a></li>
-<li><a href="#2-5-强调">2.5 强调</a></li>
-<li><a href="#2-6-列表">2.6 列表</a></li>
-<li><a href="#2-7-分割线">2.7 分割线</a></li>
-<li><a href="#2-8-链接">2.8 链接</a></li>
-<li><a href="#2-9-图片">2.9 图片</a></li>
-<li><a href="#2-10-反斜杠">2.10 反斜杠<code>\</code></a></li>
-<li><a href="#2-11-符号">2.11 符号&rsquo;`&rsquo;</a></li>
-<li><a href="#2-12-表格">2.12 表格</a></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1-markdown-是什么">1. Markdown 是什么</a></li>
+        <li><a href="#2-怎么-使用">2. 怎么 使用？</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
   </div>
 </div>
     <div class="post-content">
       <blockquote>
-<p>原文地址：<a href="https://github.com/younghz/Markdown">https://github.com/younghz/Markdown</a></p>
+<p>原文地址：https://github.com/younghz/Markdown</p>
 </blockquote>
-
 <h3 id="1-markdown-是什么">1. Markdown <em>是什么</em></h3>
-
-<p><strong>Markdown</strong> 是一种轻量级<strong>标记语言</strong>，它以纯文本形式(<em>易读、易写、易更改</em>)编写文档，并最终以HTML格式发布。<br />
+<p><strong>Markdown</strong> 是一种轻量级<strong>标记语言</strong>，它以纯文本形式(<em>易读、易写、易更改</em>)编写文档，并最终以HTML格式发布。 <br>
 <strong>Markdown</strong> 也可以理解为将以 MARKDOWN 语法编写的语言转换成 HTML 内容的工具。</p>
-
 <h3 id="2-怎么-使用">2. <em>怎么</em> 使用？</h3>
-
 <p>如果不算<strong>扩展</strong>，Markdown 的语法绝对<strong>简单</strong>到让你爱不释手。</p>
-
 <p>Markdown 语法主要分为如下几大部分：
-<strong>标题</strong>，<strong>段落</strong>，<strong>区块引用</strong>，<strong>代码区块</strong>，<strong>强调</strong>，<strong>列表</strong>，<strong>分割线</strong>，<strong>链接</strong>，<strong>图片</strong>，<strong>反斜杠 <code>\</code></strong>，<strong>反引号 &lsquo;`&lsquo;</strong>。</p>
-
-<h4 id="2-1-标题">2.1 标题</h4>
-
-<p>两种形式：<br />
+<strong>标题</strong>，<strong>段落</strong>，<strong>区块引用</strong>，<strong>代码区块</strong>，<strong>强调</strong>，<strong>列表</strong>，<strong>分割线</strong>，<strong>链接</strong>，<strong>图片</strong>，<strong>反斜杠 <code>\</code></strong>，<strong>反引号 &lsquo;`&rsquo;</strong>。</p>
+<h4 id="21-标题">2.1 标题</h4>
+<p>两种形式：<br>
 1）使用<code>=</code>和<code>-</code>标记一级和二级标题。</p>
-
 <blockquote>
-<p>一级标题<br />
-<code>=========</code><br />
-二级标题<br />
+<p>一级标题<br>
+<code>=========</code><br>
+二级标题<br>
 <code>---------</code></p>
 </blockquote>
-
 <p>2）使用<code>#</code>，可表示 1-6 级标题。</p>
-
 <blockquote>
-<p># 一级标题<br />
-## 二级标题<br />
+<p># 一级标题<br>
+## 二级标题<br>
 ### 三级标题</p>
 </blockquote>
-
-<h4 id="2-2-段落">2.2 段落</h4>
-
+<h4 id="22-段落">2.2 段落</h4>
 <p>段落的前后要有空行，所谓的空行是指没有文字内容。若想在段内强制换行的方式是使用<strong>两个以上</strong>空格加上回车（引用中换行省略回车）。</p>
-
-<h4 id="2-3-区块引用">2.3 区块引用</h4>
-
+<h4 id="23-区块引用">2.3 区块引用</h4>
 <p>在段落的每行或者只在第一行使用符号 <code>&gt;</code>,还可使用多个嵌套引用，如：</p>
-
 <blockquote>
-<p>&gt; 区块引用<br />
+<p>&gt; 区块引用<br>
 &gt;&gt; 嵌套引用</p>
 </blockquote>
-
 <p>效果：</p>
-
 <blockquote>
-<p>区块引用<br />
-&gt;  嵌套引用</p>
+<p>区块引用</p>
+<blockquote>
+<p>嵌套引用</p>
 </blockquote>
-
-<h4 id="2-4-代码区块">2.4 代码区块</h4>
-
-<p>代码区块的建立是在每行加上4个空格或者一个制表符（如同写代码一样）。如<br />
+</blockquote>
+<h4 id="24-代码区块">2.4 代码区块</h4>
+<p>代码区块的建立是在每行加上4个空格或者一个制表符（如同写代码一样）。如 <br>
 普通段落：</p>
-
-<p>void main()<br />
-{<br />
-    printf(&ldquo;Hello, Markdown.&rdquo;);<br />
+<p>void main() <br>
+{ <br>
+printf(&ldquo;Hello, Markdown.&quot;); <br>
 }</p>
-
 <p>代码区块：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></pre></td>
-<td class="lntd">
-<pre class="chroma">void main()
+<pre><code>void main()
 {
-    printf(&#34;Hello, Markdown.&#34;);
-}</pre></td></tr></table>
-</div>
-</div>
+    printf(&quot;Hello, Markdown.&quot;);
+}
+</code></pre>
 <p><strong>注意</strong>:需要和普通段落之间存在空行。</p>
-
-<h4 id="2-5-强调">2.5 强调</h4>
-
+<h4 id="25-强调">2.5 强调</h4>
 <p>在强调内容两侧分别加上<code>*</code>或者<code>_</code>，如：</p>
-
 <blockquote>
-<p>*斜体*，_斜体_<br />
+<p>*斜体*，_斜体_ <br>
 **粗体**，__粗体__</p>
 </blockquote>
-
 <p>效果：</p>
-
 <blockquote>
-<p><em>斜体</em> ，<em>斜体</em><br />
+<p><em>斜体</em> ，<em>斜体</em> <br>
 <strong>粗体</strong>，<strong>粗体</strong></p>
 </blockquote>
-
-<h4 id="2-6-列表">2.6 列表</h4>
-
+<h4 id="26-列表">2.6 列表</h4>
 <p>使用<code>·</code>、<code>+</code>、或<code>-</code>标记无序列表，如：</p>
-
 <blockquote>
-<p>-（+*） 第一项<br />
--（+*） 第二项<br />
+<p>-（+*） 第一项<br>
+-（+*） 第二项<br>
 -（+*） 第三项</p>
 </blockquote>
-
-<p><strong>注意</strong>：标记后面最少有一个<em>空格</em> 或 <em>制表符</em> 。若不在引用区块中，必须和前方段落之间存在空行。</p>
-
+<p><strong>注意</strong>：标记后面最少有一个_空格_ 或 _制表符_ 。若不在引用区块中，必须和前方段落之间存在空行。</p>
 <p>效果：</p>
-
 <blockquote>
 <ul>
 <li>第一项</li>
@@ -287,17 +229,13 @@
 <li>第三项</li>
 </ul>
 </blockquote>
-
 <p>有序列表的标记方式是将上述的符号换成数字,并辅以<code>.</code>，如：</p>
-
 <blockquote>
-<p>1 . 第一项<br />
-2 . 第二项<br />
+<p>1 . 第一项<br>
+2 . 第二项 <br>
 3 . 第三项</p>
 </blockquote>
-
 <p>效果：</p>
-
 <blockquote>
 <ol>
 <li>第一项</li>
@@ -305,67 +243,46 @@
 <li>第三项</li>
 </ol>
 </blockquote>
-
-<h4 id="2-7-分割线">2.7 分割线</h4>
-
+<h4 id="27-分割线">2.7 分割线</h4>
 <p>分割线最常使用就是三个或以上<code>*</code>，还可以使用<code>-</code>和<code>_</code>。</p>
-
-<h4 id="2-8-链接">2.8 链接</h4>
-
+<h4 id="28-链接">2.8 链接</h4>
 <p>链接可以由两种形式生成：<strong>行内式</strong>和<strong>参考式</strong>。
 <strong>行内式</strong>：</p>
-
 <blockquote>
 <p>[younghz 的 Markdown 库](https:://github.com/younghz/Markdown &ldquo;Markdown&rdquo;)。</p>
 </blockquote>
-
 <p>效果：</p>
-
 <blockquote>
 <p><a href="https:://github.com/younghz/Markdown" title="Markdown">younghz 的 Markdown 库</a>。</p>
 </blockquote>
-
 <p><strong>参考式</strong>：</p>
-
 <blockquote>
-<p>[younghz 的 Markdown 库 1][1]<br />
-[younghz 的 Markdown 库 2][2]<br />
-[1]:https:://github.com/younghz/Markdown &ldquo;Markdown&rdquo;<br />
+<p>[younghz 的 Markdown 库 1][1] <br>
+[younghz 的 Markdown 库 2][2] <br>
+[1]:https:://github.com/younghz/Markdown &ldquo;Markdown&rdquo; <br>
 [2]:https:://github.com/younghz/Markdown &ldquo;Markdown&rdquo;</p>
 </blockquote>
-
 <p>效果：</p>
-
 <blockquote>
-<p><a href="https:://github.com/younghz/Markdown" title="Markdown">younghz 的 Markdown 库 1</a><br />
+<p><a href="https:://github.com/younghz/Markdown" title="Markdown">younghz 的 Markdown 库 1</a> <br>
 <a href="https:://github.com/younghz/Markdown" title="Markdown">younghz 的 Markdown 库 2</a></p>
 </blockquote>
-
 <p><strong>注意</strong>：上述的<code>[1]:https:://github.com/younghz/Markdown &quot;Markdown&quot;</code>不出现在区块中。</p>
-
-<h4 id="2-9-图片">2.9 图片</h4>
-
+<h4 id="29-图片">2.9 图片</h4>
 <p>添加图片的形式和链接相似，只需在链接的基础上前方加一个<code>！</code>。</p>
-
-<h4 id="2-10-反斜杠">2.10 反斜杠<code>\</code></h4>
-
+<h4 id="210-反斜杠">2.10 反斜杠<code>\</code></h4>
 <p>相当于<strong>反转义</strong>作用。使符号成为普通符号。</p>
-
-<h4 id="2-11-符号">2.11 符号&rsquo;`&rsquo;</h4>
-
-<p>起到标记作用。如：
-&gt;`ctrl+a`</p>
-
+<h4 id="211-符号">2.11 符号'`&rsquo;</h4>
+<p>起到标记作用。如：</p>
+<blockquote>
+<p>`ctrl+a`</p>
+</blockquote>
 <p>效果：</p>
-
 <blockquote>
 <p><code>ctrl+a</code></p>
 </blockquote>
-
-<h4 id="2-12-表格">2.12 表格</h4>
-
+<h4 id="212-表格">2.12 表格</h4>
 <p>用<code>|</code>表示表格纵向边界，表头和表内容用<code>-</code>隔开，并可用<code>:</code>进行对齐设置，两边都有<code>:</code>则表示居中，若不加<code>:</code>则默认左对齐。</p>
-
 <table>
 <thead>
 <tr>
@@ -373,13 +290,11 @@
 <th>链接</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>MarkDown</td>
 <td><a href="https://github.com/younghz/Markdown" title="Markdown">https://github.com/younghz/Markdown</a></td>
 </tr>
-
 <tr>
 <td>MarkDownCopy</td>
 <td><a href="https://github.com/younghz/Markdown" title="Markdown">https://github.com/younghz/Markdown</a></td>
@@ -388,7 +303,8 @@
 </table>
     </div>
 
-    <footer class="post-footer">
+    
+<footer class="post-footer">
       <div class="post-tags">
           <a href="/tags/markdown/">markdown</a>
           </div>
@@ -408,6 +324,10 @@
   </article>
         </div>
         
+
+  
+
+  
 
       </div>
     </main>
@@ -434,7 +354,7 @@
   <span class="copyright-year">
     &copy; 
     2016 - 
-    2019
+    2020
     <span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>

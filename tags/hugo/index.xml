@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on Notes</title>
@@ -18,14 +18,13 @@
       
       <guid>https://oxlyn.cn/post/hugo-usage/</guid>
       <description>&lt;h3 id=&#34;1-目录结构&#34;&gt;1. 目录结构&lt;/h3&gt;
-
 &lt;ol&gt;
-&lt;li&gt;安装 &lt;a href=&#34;https://github.com/gohugoio/hugo&#34;&gt;Hugo&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;安装 &lt;a href=&#34;https://github.com/gohugoio/hugo&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;生成站点：&lt;code&gt;hugo new site blog&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
@@ -34,9 +33,9 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;blog
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;blog
 ├── archetypes
 ├── config.toml
 ├── content
@@ -44,10 +43,10 @@
 ├── layouts
 ├── static
 ├── themes
-└── public&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+└── public
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;ul&gt;
+&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;archetypes 模板目录&lt;/li&gt;
 &lt;li&gt;config.&lt;a href=&#34;https://github.com/toml-lang/toml&#34;&gt;toml&lt;/a&gt; 全局配置文件&lt;/li&gt;
 &lt;li&gt;content 文章存放目录&lt;/li&gt;

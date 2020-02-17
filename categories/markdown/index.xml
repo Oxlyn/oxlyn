@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>markdown on Notes</title>
@@ -18,30 +18,22 @@
       
       <guid>https://oxlyn.cn/post/markdown-syntax/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;原文地址：&lt;a href=&#34;https://github.com/younghz/Markdown&#34;&gt;https://github.com/younghz/Markdown&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;原文地址：https://github.com/younghz/Markdown&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;h3 id=&#34;1-markdown-是什么&#34;&gt;1. Markdown &lt;em&gt;是什么&lt;/em&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; 是一种轻量级&lt;strong&gt;标记语言&lt;/strong&gt;，它以纯文本形式(&lt;em&gt;易读、易写、易更改&lt;/em&gt;)编写文档，并最终以HTML格式发布。&lt;br /&gt;
+&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; 是一种轻量级&lt;strong&gt;标记语言&lt;/strong&gt;，它以纯文本形式(&lt;em&gt;易读、易写、易更改&lt;/em&gt;)编写文档，并最终以HTML格式发布。 &lt;br&gt;
 &lt;strong&gt;Markdown&lt;/strong&gt; 也可以理解为将以 MARKDOWN 语法编写的语言转换成 HTML 内容的工具。&lt;/p&gt;
-
 &lt;h3 id=&#34;2-怎么-使用&#34;&gt;2. &lt;em&gt;怎么&lt;/em&gt; 使用？&lt;/h3&gt;
-
 &lt;p&gt;如果不算&lt;strong&gt;扩展&lt;/strong&gt;，Markdown 的语法绝对&lt;strong&gt;简单&lt;/strong&gt;到让你爱不释手。&lt;/p&gt;
-
 &lt;p&gt;Markdown 语法主要分为如下几大部分：
-&lt;strong&gt;标题&lt;/strong&gt;，&lt;strong&gt;段落&lt;/strong&gt;，&lt;strong&gt;区块引用&lt;/strong&gt;，&lt;strong&gt;代码区块&lt;/strong&gt;，&lt;strong&gt;强调&lt;/strong&gt;，&lt;strong&gt;列表&lt;/strong&gt;，&lt;strong&gt;分割线&lt;/strong&gt;，&lt;strong&gt;链接&lt;/strong&gt;，&lt;strong&gt;图片&lt;/strong&gt;，&lt;strong&gt;反斜杠 &lt;code&gt;\&lt;/code&gt;&lt;/strong&gt;，&lt;strong&gt;反引号 &amp;lsquo;`&amp;lsquo;&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;h4 id=&#34;2-1-标题&#34;&gt;2.1 标题&lt;/h4&gt;
-
-&lt;p&gt;两种形式：&lt;br /&gt;
+&lt;strong&gt;标题&lt;/strong&gt;，&lt;strong&gt;段落&lt;/strong&gt;，&lt;strong&gt;区块引用&lt;/strong&gt;，&lt;strong&gt;代码区块&lt;/strong&gt;，&lt;strong&gt;强调&lt;/strong&gt;，&lt;strong&gt;列表&lt;/strong&gt;，&lt;strong&gt;分割线&lt;/strong&gt;，&lt;strong&gt;链接&lt;/strong&gt;，&lt;strong&gt;图片&lt;/strong&gt;，&lt;strong&gt;反斜杠 &lt;code&gt;\&lt;/code&gt;&lt;/strong&gt;，&lt;strong&gt;反引号 &amp;lsquo;`&amp;rsquo;&lt;/strong&gt;。&lt;/p&gt;
+&lt;h4 id=&#34;21-标题&#34;&gt;2.1 标题&lt;/h4&gt;
+&lt;p&gt;两种形式：&lt;br&gt;
 1）使用&lt;code&gt;=&lt;/code&gt;和&lt;code&gt;-&lt;/code&gt;标记一级和二级标题。&lt;/p&gt;
-
 &lt;blockquote&gt;
-&lt;p&gt;一级标题&lt;br /&gt;
-&lt;code&gt;=========&lt;/code&gt;&lt;br /&gt;
-二级标题&lt;br /&gt;
+&lt;p&gt;一级标题&lt;br&gt;
+&lt;code&gt;=========&lt;/code&gt;&lt;br&gt;
+二级标题&lt;br&gt;
 &lt;code&gt;---------&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>

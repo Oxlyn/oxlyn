@@ -1,9 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <?xml-stylesheet type="text/xsl" href="https://oxlyn.cn/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
     <loc>https://oxlyn.cn/post/windows-commands/</loc>
+    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxlyn.cn/categories/</loc>
+    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxlyn.cn/</loc>
+    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxlyn.cn/post/</loc>
+    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxlyn.cn/tags/</loc>
+    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxlyn.cn/tags/windows/</loc>
+    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxlyn.cn/categories/windows/</loc>
     <lastmod>2019-01-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -17,8 +58,43 @@
   </url>
   
   <url>
+    <loc>https://oxlyn.cn/tags/markdown/</loc>
+    <lastmod>2019-01-06T11:27:27-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxlyn.cn/categories/markdown/</loc>
+    <lastmod>2019-01-06T11:27:27-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxlyn.cn/tags/git/</loc>
+    <lastmod>2019-01-04T08:33:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://oxlyn.cn/post/git-usage/</loc>
     <lastmod>2019-01-04T08:33:23+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxlyn.cn/tags/even/</loc>
+    <lastmod>2019-01-04T15:16:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxlyn.cn/tags/hugo/</loc>
+    <lastmod>2019-01-04T15:16:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -38,8 +114,36 @@
   </url>
   
   <url>
+    <loc>https://oxlyn.cn/tags/java/</loc>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://oxlyn.cn/post/java-tools/</loc>
     <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxlyn.cn/tags/jmap/</loc>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxlyn.cn/tags/jstat/</loc>
+    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://oxlyn.cn/tags/eclipse/</loc>
+    <lastmod>2016-11-07T20:52:04+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -73,6 +177,13 @@
   </url>
   
   <url>
+    <loc>https://oxlyn.cn/tags/hexo/</loc>
+    <lastmod>2016-04-21T20:12:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://oxlyn.cn/post/hexo-usage/</loc>
     <lastmod>2016-04-21T20:12:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -84,124 +195,6 @@
     <lastmod>2016-04-21T18:12:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxlyn.cn/categories/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxlyn.cn/tags/java/</loc>
-    <lastmod>2016-06-03T20:33:23+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxlyn.cn/</loc>
-    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxlyn.cn/post/</loc>
-    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxlyn.cn/tags/</loc>
-    <lastmod>2016-06-03T20:33:23+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxlyn.cn/categories/windows/</loc>
-    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxlyn.cn/tags/windows/</loc>
-    <lastmod>2019-01-07T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxlyn.cn/tags/eclipse/</loc>
-    <lastmod>2016-11-07T20:52:04+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxlyn.cn/tags/even/</loc>
-    <lastmod>2019-01-04T15:16:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxlyn.cn/tags/git/</loc>
-    <lastmod>2019-01-04T08:33:23+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxlyn.cn/tags/hexo/</loc>
-    <lastmod>2016-04-21T20:12:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxlyn.cn/tags/hugo/</loc>
-    <lastmod>2019-01-04T15:16:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxlyn.cn/tags/java/</loc>
-    <lastmod>2016-06-03T20:33:23+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxlyn.cn/tags/jmap/</loc>
-    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxlyn.cn/tags/jstat/</loc>
-    <lastmod>2019-01-02T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxlyn.cn/categories/markdown/</loc>
-    <lastmod>2019-01-06T11:27:27-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://oxlyn.cn/tags/markdown/</loc>
-    <lastmod>2019-01-06T11:27:27-04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0</priority>
   </url>
   
 </urlset>
